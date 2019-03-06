@@ -1,0 +1,34 @@
+@import '../../../../../../assets/css/base.scss';
+.capture_time{
+  .ant-radio-group{
+    .ant-radio-wrapper{
+      margin-right: 0px;
+    }
+  }
+  .time_picker{
+    width: 200px;
+    .ant-time-picker-input{
+      border-color: #B5BBC7;
+    }
+    &:hover{
+      .ant-time-picker-input{
+        border-color: $c-main-orange;
+      }
+    }
+  }
+  .ant-time-picker{
+    float: left;
+    .ant-time-picker-icon{
+      .anticon{
+        color: $icon-font-color;
+      }
+    }
+  }
+  .basic-line{
+    width: 10px;
+    margin: 0 7px;
+    text-align: center;
+    float: left;
+    line-height: 32px;
+  }
+}

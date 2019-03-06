@@ -1,0 +1,111 @@
+@import '../../../../assets/css/base.scss';
+.residence_time{
+  height: calc(100% - 600px);
+  width: calc(100% - 78px - 98px);
+  overflow: auto;
+  .has-not-data-box {
+    padding-top: 20px;
+  }
+  .time_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 0 8px;
+    .ant-select{
+      .ant-select-selection{
+        height: 28px;
+        .ant-select-selection__rendered{
+          line-height: 28px;
+        }
+      }
+    }
+    .time_header_text{
+      font-family: PingFang-SC-Regular;
+      font-size: 12px;
+      color: #666666;
+      text-align: right;
+      margin-bottom: 0;
+      .header_text_value{
+        font-family: PingFang-SC-Bold;
+        color: $c-main-orange;
+      }
+    }
+  }
+    .time_content_two{
+      display: flex;
+      height: 100%;
+      flex-wrap: nowrap;
+      overflow: auto;
+      padding-bottom: 6px;
+      &::-webkit-scrollbar{
+        width: 4px;
+      }
+      .box_img_box{
+        flex: 1;
+        width: 164px;
+        height: 256px;
+        padding: 4px;
+        margin-right: 16px;
+        border-radius: 3px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        // &:hover{
+        //   border: 1px solid $all-active-orange;
+        //   .box_message{
+        //     transform: translateY(-84px);
+        //   }
+        // }
+        &.active_index{
+          border: 1px solid $all-active-orange;
+        //   .box_message{
+        //     transform: translateY(-84px);
+        //   }
+        }
+        // &.box_img_box_active{
+        //   border: 1px solid $all-active-orange;
+        //   .box_message{
+        //     transform: translateY(-84px);
+        //   }
+        // }
+        .box_item{
+          width: 100%;
+          height: 192px;
+          border-radius: 3px;
+          overflow: hidden;
+          .box_img{
+            display: block;
+            margin: 0 auto;
+            width: auto;
+            height: 100%;
+            border-radius: 3px;
+          }
+        }
+        .box_message{
+          width: 100%;
+          height: 56px;
+          padding: 6px;
+          background: rgba(255,255,255,0.80);
+          transition: .5s;
+          .anticon {
+            position: relative;
+            top: 2px;
+            color: $icon-font-color;
+            margin-right: 4px;
+          }
+          .message_name{
+            font-family: PingFang-SC-Regular;
+            font-size: 12px;
+            color: #333333;
+            margin-bottom: 4px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          .meaage_time{
+            color: #666666;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+}

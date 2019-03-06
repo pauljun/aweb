@@ -1,0 +1,55 @@
+.bg-sence-path {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	&.error-img {
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		padding:0 0 16px 0;
+		margin:0 !important;
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.water-mark-span {
+		position: absolute;
+		z-index: 12;
+		font-size: 12px;
+		max-width: 100px;
+		text-align: center;
+		color: hsla(0, 0%, 100%, .2);
+		text-shadow: 1px 1px rgba(0, 0, 0, .3);
+		pointer-events: none;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		&.rt {
+			left: calc(100% - 20%);
+			top: 20%;
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+		&.lb {
+			bottom: 20%;
+			left: 25%;
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+		&.ct {
+			transform: translate(-50%, -50%) rotate(45deg);
+			left: 50%;
+			top: 50%;
+			max-width: 100%;
+		}
+	}
+	.img-span {
+		background-size: contain;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		display: block;
+		height: 100%;
+	}
+}

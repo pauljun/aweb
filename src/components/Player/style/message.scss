@@ -1,0 +1,49 @@
+.video-message-layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #bbb;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  animation: messageAnimate 0.3s;
+  flex-direction: column;
+  &.video-noMark-layout {
+    background: transparent;
+  }
+  &.video-error-layout {
+    cursor: pointer;
+  }
+
+  &.video-reconent-layout{
+    span{
+      padding-top:20px;
+      color:#fff;
+    }
+  }
+
+  .no-data-icon,
+  .icon-tools,
+  .error-icon,
+  .loading-icon {
+    font-size: 60px;
+  }
+  .play-icon{
+    color:#fff;
+    cursor: pointer;
+  }
+}
+
+@keyframes messageAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

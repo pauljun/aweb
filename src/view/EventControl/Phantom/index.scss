@@ -1,0 +1,31 @@
+// 最外层公用样式
+@import '../../../assets/css/base';
+.event_control{
+  .monitee-container-outer{
+    height: 100%;
+    .monitee-header{
+      height: 48px;
+      background: #F3F6F9;     
+      .monitee-title{
+        height: 100%;
+        width: 280px;
+        background: #D8DCE3;
+        font-size: 18px;
+        color:  $c-333;
+        font-weight: 600;
+        border-bottom: 1px solid #B5BBC7;
+        padding-left: 16px;
+        line-height: 47px;
+        float: left;
+      }
+      .ant-menu{
+        height: 100%;
+        background: #F3F6F9;
+        border-bottom: 1px solid #D8DCE3 !important; 
+      }
+    }
+    .monitee-content{
+      height: calc(100% - 48px);
+    }
+  }
+}

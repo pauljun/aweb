@@ -1,0 +1,363 @@
+@import '../../../assets/css/base.scss';
+.current_alarm_box {
+  @include setFlex();
+  height: 100%;
+  .alarm_left_total {
+    height: 100%;
+    width: 300px;
+    transition: all 0.5s;
+    background: #eaedf1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .alarm-real-just {
+      height: calc(100% - 48px);
+      width: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      .alarm_all_total_num {
+        margin-top: 11px;
+        .title {
+          height: 45px;
+          width: 262px;
+          margin: 0 auto;
+        }
+        .content {
+          height: 257px;
+          margin-top: -16px;
+          .chartAnother {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+      .alarm_type_total_num {
+        position: relative;
+        margin-top: -46px;
+        .title {
+          height: 45px;
+          width: 262px;
+          margin: 0 auto;
+        }
+        .content {
+          height: 246px;
+          margin-top: -9px;
+          .chartAnother {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+      .alarm_change_total_num {
+        margin-top: 22px;
+        min-height: 305px;
+        height: calc(100% - 570px);
+        .title {
+          height: 45px;
+          width: 262px;
+          margin: 0 auto;
+        }
+        .content {
+          height: calc(100% - 45px);
+          min-height: 266px;
+          .chartAnother {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+    .alarm-title-real {
+      font-family: PingFang-SC-Bold;
+      height: 48px;
+      font-size: 18px;
+      color: #333333;
+      background: #d8dce3;
+      line-height: 48px;
+      padding-left: 16px;
+      border-bottom: 1px solid #c9c5c5;
+    }
+    .alarm_all_total_num {
+      position: relative;
+      .title {
+        background: url('../../../assets/img/monitees/realalarm/DataName_1.svg')
+          no-repeat 50%;
+      }
+      .circle-word {
+        height: 70%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 12px;
+        .circle-word-count {
+          div {
+            text-align: center;
+          }
+          div:nth-child(2) {
+            font-size: 24px;
+            font-weight: 'bold';
+            color: #151515;
+            margin-top: 0px;
+          }
+        }
+        .circle-nohandle-count {
+          margin-top: 8px;
+          div {
+            text-align: center;
+          }
+          div:nth-child(2) {
+            font-size: 24px;
+            font-weight: 'bold';
+            color: #ffaa00;
+          }
+        }
+      }
+    }
+    .alarm_type_total_num {
+      .title {
+        background: url('../../../assets/img/monitees/realalarm/DataName_2.svg')
+          no-repeat 50%;
+      }
+    }
+    .alarm_change_total_num {
+      .title {
+        background: url('../../../assets/img/monitees/realalarm/DataName_3.svg')
+          no-repeat 50%;
+      }
+    }
+    &.collapse {
+      margin-left: -300px;
+      > div {
+        .title {
+          width: 0;
+        }
+      }
+      .collapse-btn {
+        .anticon {
+          color: $c-fff;
+          transform: rotate(90deg);
+        }
+      }
+    }
+    .collapse-btn {
+      position: absolute;
+      height: 45px;
+      line-height: 28px;
+      width: 0;
+      background: transparent;
+      right: -14px;
+      top: 50%;
+      z-index: 10;
+      cursor: pointer;
+      border-top: 10px solid transparent;
+      border-right: none;
+      border-bottom: 10px solid transparent;
+      border-left: 14px solid #1c253f;
+      .anticon {
+        color: $c-fff;
+        transition: all 0.5s;
+        transform: rotate(-90deg);
+        position: absolute;
+        left: -15px;
+        top: 4.5px;
+      }
+    }
+  }
+  .alarm_right_container {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    .ant-popover-get {
+      .ant-popover-inner-content {
+        padding: 2px 9px;
+      }
+    }
+    .alarm-scroll-height {
+      position: absolute;
+      bottom: 15px;
+      right: 35px;
+      width: 40px;
+      height: 40px;
+      z-index: 10;
+      cursor: pointer;
+      border-radius: 50%;
+      background: url('../../../assets/img/monitees/realalarm/toTop_Main.svg')
+        $all-active-orange no-repeat center center;
+      &:hover {
+        background: url('../../../assets/img/monitees/realalarm/toTop_Main.svg')
+          $c-main-orange no-repeat center center;
+      }
+    }
+    .alarm-just-button {
+      position: absolute;
+      right: 24px;
+      z-index: 10;
+      top: 8px;
+
+      .ant-btn {
+        color: #ffaa00;
+        border-color: #ffaa00;
+        &:hover {
+          color: #fff;
+          border-color: #ffaa00;
+          background: #ffaa00;
+        }
+        &:focus {
+          color: #fff;
+          border-color: #ffaa00 !important;
+          background: #ffaa00;
+        }
+      }
+    }
+    .ant-tabs {
+      height: 100%;
+      .ant-tabs-content {
+        height: calc(100% - 48px);
+        .ant-tabs-tabpane {
+          height: 100%;
+          .alarm-tabs-tabscreate {
+            height: 100%;
+            padding: 24px 55px 20px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: auto;
+            justify-content: center;
+            align-content: space-between;
+            .real-alarm-height {
+              height: 70px;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              .ant-btn {
+                &:hover {
+                  color: #ff8800;
+                  border-color: #ff8800;
+                }
+              }
+              div {
+                color: #ffaa00;
+                border: 1px solid;
+              }
+            }
+          }
+          .other {
+            padding: 24px 20px 20px 10px;
+          }
+        }
+      }
+      .ant-tabs-bar {
+        height: 48px;
+        background: #f3f6f9;
+        margin: 0;
+        .ant-tabs-tab-active {
+          color: #ffaa00;
+        }
+        .ant-tabs-nav-container {
+          height: 48px;
+          border-bottom: 1px solid #e8e8e8;
+          .ant-tabs-nav-wrap {
+            .ant-tabs-nav-scroll {
+              background: #f3f6f9;
+              .ant-tabs-nav {
+                margin-left: 15px;
+                .ant-tabs-ink-bar {
+                  background-color: #ffaa00;
+                  height: 3px;
+                }
+                .ant-tabs-tab {
+                  background: #f3f6f9;
+                }
+                div {
+                  /* height: 48px; */
+                  .ant-tabs-tab {
+                    border: 0;
+                    text-align: center;
+                    padding: 5px 16px;
+                    margin-right: 15px;
+                    &:hover {
+                      color: #ffaa00;
+                      //color:transparent;
+                      //background: url('../../../assets/img/monitees/realalarm/New_1_Main.svg') no-repeat left;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-ink-bar {
+      visibility: inherit;
+    }
+    .alram_right_header {
+      height: 50px;
+      line-height: 50px;
+      margin-bottom: 16px;
+      background: #f3f6f9;
+      position: relative;
+      .refresh_btn {
+        position: absolute;
+        top: 8px;
+        right: 24px;
+        color: #ffaa00;
+        font-size: 14px;
+        border-color: #ffaa00;
+        float: right;
+        width: 90px;
+        height: 32px;
+
+        > span {
+          margin-left: 2px;
+        }
+      }
+    }
+    .alart_list_item {
+      height: calc(100% - 50px);
+      //background: skyblue;
+      padding: 0 108px;
+    }
+  }
+}
+.icon-tab-sp {
+  background: url('../../../assets/img/monitees/realalarm/New_1_Dark.svg')
+    no-repeat left;
+  &:hover {
+    background: url('../../../assets/img/monitees/realalarm/New_1_Main.svg')
+      no-repeat left;
+  }
+  img {
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 11px;
+  }
+  span {
+    padding-left: 24px;
+  }
+}
+.light {
+  background: url('../../../assets/img/monitees/realalarm/New_1_Main.svg')
+    no-repeat left;
+}
+.name-real-alarm-none {
+  width: 360px;
+  height: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.name-real-alarm-none-il {
+  width: 188px;
+  height: 0px;
+  margin-left: 24px;
+}
+.real-alarm-spin-bufferPosition {
+  position: absolute;
+  z-index: 10;
+  top: 45%;
+  left: 50%;
+}

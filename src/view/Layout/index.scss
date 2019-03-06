@@ -1,0 +1,42 @@
+@import 'src/assets/css/base.scss';
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+@import 'src/assets/theme/themeModule/layout.scss';
+.layout-spin-wrapper{
+  .ant-spin.layout-spin-content{
+    max-height: none;
+    background: rgba(0,0,0,0.2);
+    user-select: none;
+    z-index: 1001;
+  }
+}
+.content-container {
+  height: 100%;
+  position: relative;
+  @import './style/left-menu.scss';
+  .content-wrapper{
+    position: relative;
+    padding-left: 48px;
+    height: 100%;
+    background: #fff;
+    @import './style/top-header.scss';
+    @import './style/top-tab.scss';
+  }
+}
+
+.edit-user-logo{
+  .ant-upload-drag-container{
+    img{
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+}
+
+body{
+  .ant-select-selection,.ant-input{
+    border-radius: 3px;
+  }
+  .ant-menu-submenu-popup ,.ant-menu-inline-collapsed-tooltip{
+    display: none;
+  }
+}

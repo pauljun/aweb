@@ -1,0 +1,136 @@
+.device-list-check-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid #d8dce3;
+  overflow: hidden;
+  background: #fff;
+  cursor: auto;
+  .icon-del {
+    font-size: 16px;
+    margin-right: 2px;
+    vertical-align: -3px;
+    // color: #8899bb;
+  }
+  .title-part {
+    font-size: 12px;
+    color: #333333;
+    height: 40px;
+    line-height: 40px;
+    background: #f3f6f9;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    span {
+      &:last-child {
+        cursor: pointer;
+      }
+    }
+  }
+  .list-layout {
+    width: calc(100% - 5px);
+    height: calc(100% - 40px);
+
+    margin-right: 5px;
+  }
+  .device-item {
+    cursor: pointer;
+    height: 30px;
+    padding: 0 16px;
+    line-height: 30px;
+    color: #333;
+    font-size: 12px;
+    &:hover {
+      & > label {
+        background: #eaedf1;
+        border-radius: 3px;
+      }
+      .delete-item {
+        display: block;
+      }
+    }
+    & > label {
+      padding:0 4px;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+    }
+    .item-info {
+      flex: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      font-size: 12px;
+      .user-icon-cla {
+        color: #8899bb;
+      }
+      > i {
+        font-size: 16px;
+        margin: 0 4px;
+        position: relative;
+        top: 2px;
+      }
+      img {
+        width: 28px;
+        height: 16px;
+      }
+    }
+    .delete-item {
+      // color: #108ee9;
+      display: none;
+      height: 14px;
+      margin-top:7px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 16px;
+    }
+  }
+  .new-marker{
+    &::before{
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #FFAA00;
+      left: 10px;
+      top: 13px;
+      content: ' '
+    }
+  }
+}
+.right-select-eqiu{
+  width:300px;
+  height: calc(100% - 14px);
+  position: absolute;
+  top: 7px;
+  right: 16px;
+  .title-part{
+    background:#fff !important;
+    padding:0 20px !important;
+  }
+  .ant-input-affix-wrapper{
+    width: 268px !important;
+    margin-left: 16px !important;
+    margin-bottom: 8px !important;
+  }
+  .list-layout{
+    height: calc(100% - 76px)
+  }
+}
+.equip-assign{
+ // right:390px !important;
+  width: 300px !important;
+  .title-part{
+    background:#fff !important;
+    padding:0 20px !important;
+  }
+  .ant-input-affix-wrapper{
+    width: 268px !important;
+    margin-left: 16px !important;
+    margin-bottom: 5px ;
+  }
+  .list-layout{
+    height: calc(100% - 76px)
+  }
+}

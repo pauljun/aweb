@@ -1,0 +1,38 @@
+@import 'src/assets/css/base.scss';
+.after-search {
+  color: #999999;
+  input.ant-input {
+    border-radius: 3px;
+    border: 1px solid #D8DCE3;
+    padding-left: 30px !important;
+    &:not(:disabled):hover {
+      border: 1px solid $c-main;
+    }
+  }
+  .ant-input-suffix {
+    cursor: pointer;
+    .anticon{
+      transition: .5s;
+      color: rgba(0,0,0,.5);
+    }
+    &:hover {
+      .anticon{
+        color: $all-active-orange;
+      }
+    }
+  }
+  &.after-search-12 {
+    input {
+      height: 28px;
+      font-size: 12px;
+      padding: 7px 11px;
+    }
+  }
+  &.after-search-14 {
+    input {
+      height: 32px;
+      font-size: 14px;
+      padding: 8px 13px;
+    }
+  }
+}

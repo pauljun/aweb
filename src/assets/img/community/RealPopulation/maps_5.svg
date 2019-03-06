@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>28/maps_5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#35B2FF" offset="0%"></stop>
+            <stop stop-color="#3594FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="28/maps_5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval-3" fill="url(#linearGradient-1)" cx="14" cy="14" r="14"></circle>
+            <path d="M7.41176471,9 L16.5882353,9 C17.3679314,9 18,9.63959321 18,10.4285714 L18,17.5714286 C18,18.3604068 17.3679314,19 16.5882353,19 L7.41176471,19 C6.63206859,19 6,18.3604068 6,17.5714286 L6,10.4285714 C6,9.63959321 6.63206859,9 7.41176471,9 Z M9,16.8571429 C8.44771525,16.8571429 8,16.3774479 8,15.7857143 C8,15.1939806 8.44771525,14.7142857 9,14.7142857 C9.55228475,14.7142857 10,15.1939806 10,15.7857143 C10,16.3774479 9.55228475,16.8571429 9,16.8571429 Z M19,11.8571429 L21.1771656,10.8203973 C21.4848357,10.6738878 21.834018,10.852042 21.957086,11.2183159 C21.9854349,11.3026875 22,11.392724 22,11.483595 L22,16.516405 C22,16.9108941 21.7313708,17.2306907 21.4,17.2306907 C21.3236683,17.2306907 21.2480378,17.2133513 21.1771656,17.1796027 L19,16.1428571 L19,11.8571429 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

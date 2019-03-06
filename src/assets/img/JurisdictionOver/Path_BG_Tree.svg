@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="16px" viewBox="0 0 80 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Path_BG_Tree</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1_辖区总览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_1920×1080_2_Edit" transform="translate(-920.000000, -400.000000)" fill="#FFFFFF">
+            <g id="List" transform="translate(0.000000, 50.000000)">
+                <path d="M952,318 C952,339.333333 968,338 968,351.333333 C968,364.666667 968,351.333333 968,364.666667 C968,378 952,376.666667 952,398 C952,396.666667 952,319.333333 952,318 Z" id="Path_BG_Tree" transform="translate(960.000000, 358.000000) rotate(-270.000000) translate(-960.000000, -358.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

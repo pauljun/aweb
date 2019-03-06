@@ -1,0 +1,41 @@
+.centerVillage-wrapper {
+  height: calc(100% - 48px);
+  .centerVillage-container {
+    height: calc(100% - 80px);
+  }
+  
+}
+.assign-village-modal{
+  .assign-village{
+    .ant-transfer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .ant-transfer-list{
+        width: 240px;
+        height: 360px;
+      }
+    }
+    padding-bottom:20px;
+  }
+  .ant-modal-body{
+ 
+    padding: 0;
+    padding-top:20px;
+  }
+}
+
+body .viliage-device-change{
+  .ant-modal-body{
+    padding:0;
+    height: 600px;
+  }
+  .no-org-select-device-wrapper {
+    padding:20px;
+    height: calc(100% - 48px);
+    .device-search-wrapper{
+      top:26px;
+      left:106px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>60/sdm/1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-11.7%" y="-8.3%" width="123.3%" height="123.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.577888258   0 0 0 0 0.828647709   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#35B2FF" offset="0%"></stop>
+            <stop stop-color="#3594FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="30" cy="30" r="30"></circle>
+        <linearGradient x1="44.1431496%" y1="37.4326462%" x2="41.25%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#A2D0FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M30,43.8888889 C35.5228475,43.8888889 40,39.3239491 40,33.6928105 C40,29.938718 36.6666667,23.7077812 30,15 C23.3333333,23.7077812 20,29.938718 20,33.6928105 C20,39.3239491 24.4771525,43.8888889 30,43.8888889 Z" id="path-6"></path>
+        <filter x="-15.0%" y="-10.4%" width="130.0%" height="120.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100401947 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="41.25%" y1="32.7634734%" x2="41.25%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CEE9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="60/sdm/1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" filter="url(#filter-1)">
+            <g id="Path-4">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+            <g id="Oval-4">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+            <path d="M31.5000022,16.9935536 C37.1666674,24.6652898 40,30.2317087 40,33.6928105 C40,38.8041427 36.3112631,43.0370312 31.5,43.7749473 C26.6887369,43.0370312 23,38.8041427 23,33.6928105 C23,30.2317083 25.8333333,24.6652883 31.5,16.9935507 Z" id="Combined-Shape" fill="url(#linearGradient-8)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="24px" viewBox="0 0 141 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>DownLoad_Hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#276B89" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#403B85" stop-opacity="0.8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="24.3432111%" y1="100%" x2="100%" y2="45.2801236%" id="linearGradient-2">
+            <stop stop-color="#992E26" offset="0%"></stop>
+            <stop stop-color="#C44A3B" offset="24.390354%"></stop>
+            <stop stop-color="#DE5347" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#DBA42A" offset="0%"></stop>
+            <stop stop-color="#FEC941" offset="24.390354%"></stop>
+            <stop stop-color="#FFCD41" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="53.5314351%" x2="11.2688781%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#117F48" offset="0%"></stop>
+            <stop stop-color="#15A05D" offset="24.390354%"></stop>
+            <stop stop-color="#23A567" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="0%" id="linearGradient-7">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="0_Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_登陆" transform="translate(-1288.000000, -1038.000000)">
+            <g id="Down" transform="translate(715.000000, 988.000000)">
+                <g id="DownLoad_Hover" transform="translate(573.000000, 50.000000)">
+                    <rect id="Rectangle-3" fill="url(#linearGradient-1)" opacity="0.6" x="1" y="1" width="140" height="22" rx="11"></rect>
+                    <text id="下载Chrome浏览器" font-family="PingFang-SC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#7792B0">
+                        <tspan x="28" y="16">下载Chrome浏览器</tspan>
+                    </text>
+                    <g id="Chrome">
+                        <path d="M6.41006829,11.943961 C6.41006829,8.92347317 8.85416585,6.46200976 11.8055805,6.41244878 L11.8055805,6.41010732 L22.5786537,6.41010732 C20.5628488,2.53635122 16.5782634,0.000156097561 11.9901659,0.000156097561 C7.75075122,0.000156097561 4.02821463,2.17908293 1.89611707,5.49966829 L6.86548293,14.0994732 C6.58723902,13.439961 6.41006829,12.7037659 6.41006829,11.943961" id="Fill-1" fill="url(#linearGradient-2)"></path>
+                        <path d="M22.5786927,6.41012683 L11.8056195,6.41012683 L11.8056195,6.41246829 C11.9900098,6.41188293 11.9131317,6.41012683 11.943961,6.41012683 C14.995278,6.41012683 17.5010341,8.89266341 17.5010341,11.9439805 C17.5010341,13.1906146 17.0977171,14.3418341 16.3995707,15.268078 L11.4106927,23.9193951 C11.6007415,23.9283707 11.7946927,23.9342244 11.987278,23.9342244 C18.6091317,23.9342244 23.9786927,18.6118829 23.9786927,11.9900293 C23.9786927,9.95646829 23.4721561,8.07022439 22.5786927,6.41012683" id="Fill-3" fill="url(#linearGradient-3)"></path>
+                        <path d="M11.9900878,17.4777756 C9.69857561,17.4777756 7.7278439,16.0775805 6.88842927,14.087922 L1.89623415,5.47660488 C0.697795122,7.34294634 3.90243902e-05,9.5612878 3.90243902e-05,11.943922 C3.90243902e-05,18.3735805 5.06091707,23.6200195 11.4164293,23.9195317 L16.411161,15.2682146 C15.4004293,16.6090927 13.7949659,17.4777756 11.9900878,17.4777756" id="Fill-6" fill="url(#linearGradient-4)"></path>
+                        <path d="M1.92550244,5.45547317 C1.91574634,5.47030244 1.9056,5.48474146 1.89623415,5.49976585 L6.86540488,14.0995707 C6.5873561,13.4398634 6.40999024,12.7036683 6.40999024,11.9438634 C6.40999024,11.5403512 6.45506341,11.1471805 6.53779512,10.7678634 L1.92550244,5.45547317 Z" id="Fill-8" fill="url(#linearGradient-5)"></path>
+                        <path d="M11.3170732,23.8669268 C11.3352195,23.8679024 11.3531707,23.8700488 11.3713171,23.8708293 L16.3662439,15.2195122 C15.6007805,16.2347317 14.4940488,16.9785366 13.2183415,17.2801951 L11.3170732,23.8669268 Z" id="Fill-10" fill="url(#linearGradient-6)"></path>
+                        <path d="M15.9796098,8.15059512 L22.632878,6.51449756 C22.6147317,6.47976585 22.5971707,6.4446439 22.5786341,6.41010732 L11.9439024,6.41010732 C13.5280976,6.41010732 14.964,7.0801561 15.9796098,8.15059512" id="Fill-12" fill="url(#linearGradient-7)"></path>
+                        <path d="M11.9893268,17.5238829 C8.92513171,17.5238829 6.43244878,15.0312 6.43244878,11.9670049 C6.43244878,8.90280976 8.92513171,6.41012683 11.9893268,6.41012683 C15.053522,6.41012683 17.5462049,8.90280976 17.5462049,11.9670049 C17.5462049,15.0312 15.053522,17.5238829 11.9893268,17.5238829" id="Fill-14" fill="#FFFFFF"></path>
+                        <path d="M11.9893268,16.5785756 C9.44649756,16.5785756 7.37781463,14.5098927 7.37781463,11.9670634 C7.37781463,9.42423415 9.44649756,7.3553561 11.9893268,7.3553561 C14.5321561,7.3553561 16.6010341,9.42423415 16.6010341,11.9670634 C16.6010341,14.5098927 14.5321561,16.5785756 11.9893268,16.5785756" id="Fill-16" fill="#4B8BF4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,170 @@
+@import 'src/assets/css/base.scss';
+$up-bg: #1E2742;
+
+.setting-operation-center-eidt{
+  .ant-form-item{
+    margin-bottom: 5px;
+    .ant-form-item-label,.ant-form-item-control-wrapper{
+      min-height:40px;
+      line-height: 40px;
+      label{
+        font-size: 12px;
+        color: $c-999;
+      }
+      .ant-form-item-children{
+        input{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .setting-map-center{
+    width: 220px;
+    margin-right: 22px;
+  }
+  .opt-action-btn{
+    padding:0 30px;
+    margin-right: 20px;
+  }
+  .formUpload{
+    margin-bottom: 10px;
+  }
+  .map-dia-disable{
+    &:after{
+      content: "";
+      width: 0;
+    }
+  }
+  .orange-btn{
+    float: right;
+  }
+}
+
+.opt-edit-teil{
+  width: 800px;
+  >span{
+    font-size: 12px
+  }
+  input{
+    width: 125px;
+    font-size: 12px;
+    height: 28px;
+    margin: 0 10px 0 0;
+  }
+  button{
+    margin-top: 0;
+  }
+  span.notice{
+    color: #FF4343;
+    margin-left: 20px;
+  }
+}
+.cologo-hidden{
+  opacity: 0;
+  height: 0;
+  // width: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.system-logo-item{
+  .system-logo-form{
+    .ant-upload-drag{
+      width: 64px;
+      height: 64px;
+      img{
+        max-width: 64px;
+        max-height: 64px;
+      }
+    }
+  }
+}
+.system-logo-wrapper{
+  width: 800px;
+  .system-logo-form{
+    float: left;
+    .formUpload{
+      margin-bottom: 0;
+    }
+    .ant-upload-drag{
+      background: $up-bg;
+      border: 0 none;
+      .anticon{
+        font-size: 32px;
+        color: #8899bb;
+      }
+      .ant-upload{
+        padding: 0;
+        border-radius: 3px;
+        overflow: hidden;
+      }
+    }
+    .upload-content{
+      height: 100%;
+      background: $up-bg;
+      padding-top: 16px;
+    }
+  }
+}
+
+.notice-item{
+  p{
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: $c-333;
+  }
+}
+
+.system-cologo-wrapper{
+  .system-logo-form{
+    .ant-upload-drag{
+      min-width: 140px;
+      height: 44px;
+      width: auto;
+      line-height: 44px;
+    }
+    .ant-upload{
+      padding: 0;
+    }
+    .upload-content{
+      padding-top: 5px;
+
+    }
+    .ant-upload-drag{
+      img{
+        max-width: 300px;
+        max-height: 40px;
+      }
+    }
+  }
+}
+
+.system-popover{
+  .ant-popover-inner-content{
+    padding: 5px 10px;
+  }
+}
+
+.notice-example{
+  float: left;
+  margin-left: 24px;
+  label{
+    float: left;
+  }
+  span{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background: $up-bg;
+    border-radius: 3px;
+    vertical-align: top;
+    margin-left: 5px;
+  }
+  span.co{
+    width: 140px;
+    height: 44px;
+  }
+}

@@ -1,0 +1,18 @@
+.no-org-select-device-wrapper{
+  position: relative;
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  .device-search-wrapper{
+    position: absolute;
+    width: 200px;
+    left:86px;
+    top:6px;
+  }
+  .device-list-check-wrapper{
+    width: 49%;
+    display: inline-block;
+    height: 100%;;
+  }
+}

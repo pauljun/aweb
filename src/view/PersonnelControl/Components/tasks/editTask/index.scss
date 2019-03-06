@@ -1,0 +1,323 @@
+@import '../../../../../assets/css/base';
+.library-view.library-edit{
+	width: 1000px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	margin-top: 17px;
+	.task-top-title{
+		font-size: 18px;
+		font-weight: 800;
+		max-width: 350px;
+		line-height: 25px;
+		@include ellip();
+		color: $c-main-orange;
+		padding: 24px 0 16px;
+	}
+	.task-container-box{
+		// antd自带样式修改
+		.ant-collapse-item{
+			border: none;
+			.ant-collapse-header{
+				height: 37px;
+				border: none;
+				padding: 0;
+				border-bottom: 1px solid #B5BBC7;
+				i.anticon-right{
+					display: none;
+				}
+				.colla-header{
+					height: 100%;
+					.left_title{
+						cursor: auto;
+						height: 100%;
+						width: 950px;
+						float: left;
+						padding: 8px 0;
+						line-height: 20px;
+						.colla-left{
+							float: left;
+							padding-left: 14px;
+							font-size: 14px;
+							color: $c-333;
+							font-weight: 700;
+						}
+						.colla-right{
+							float: right;
+							color: #666;
+							font-size: 12px;
+							cursor: pointer;
+							i{
+								font-size: 16px;
+							}
+							span{
+								margin-left: 4px;
+							}
+							opacity: 0;
+							transition: all 0.5s;
+							&:hover{
+								opacity: 1;
+								color: $c-main-orange;
+							}
+						}
+				}
+					}
+					.right_icon{
+						float: right;
+						line-height: 20px;
+						border: 1px solid #B5BBC7;
+						width: 20px;
+						height: 20px;
+						margin-right: 10px;
+						margin-top: 8px;
+						text-align: center;
+						line-height: 18px;
+						border-radius: 3px;
+						&:hover{
+							border-color: $all-active-orange;
+							i{
+								color: $all-active-orange;
+							}
+						}
+						i{
+							font-size: 18px;
+							opacity: 0.8;
+						}
+					}
+			}
+			.ant-collapse-content-box{
+				padding: 0;
+			}
+		}
+	}
+	.info_view{
+		font-size: 12px;
+		padding: 14px 0px 16px 0px;
+		.ant-row{
+			.ant-col-24{
+				display: flex;
+				margin-bottom: 4px;
+			}
+		}
+		.label{
+			color: $c-999;
+			text-align: right;
+			width: 124px;
+			padding-right: 4px;
+		}
+		.content{
+			color: $c-333;
+			flex: 1;
+			// word-wrap: break-word;
+			word-break: break-all;
+		}
+	}
+	// 布控库样式
+	.libs_list_view{
+		padding-bottom: 0px;
+		.content.alarm{
+			height: 20px;
+			line-height: 20px;
+			font-size: 14px;
+		}
+		.content{
+			overflow: hidden;
+			.libs_item{
+				margin-bottom: 10px;
+			}
+			span{
+				padding: 1px 24px;
+				padding-left: 0px;
+				// max-width: 240px;
+				width: 25%;
+				font-size: 14px;
+				// margin-right: 8px;
+				margin-bottom: 0px;
+				border-radius: 14px;
+				display: inline-block;
+				font-size: 12px;
+				i{
+					margin-right: 4px;
+					color: #8899bb;
+					font-size: 16px;
+				}
+				@include ellip();
+			}
+		}
+	}
+	// 任务范围样式
+	.tasks_scope_view{
+		.change_type{
+			text-align: center;
+			margin-bottom: 16px;
+			.btn{
+				width: 104px;
+				height: 28px;
+				border-radius: 3px;
+				span{
+					font-size: 14px;
+					margin-left: 4px;
+				}
+				i{
+					color: #8899bb;
+					transition: all .3s;
+				}
+				&:not(.active):hover{
+					border-color: $all-active-orange;
+					i{
+						color: $all-active-orange;
+					}
+				}
+				&.active{
+					background: $all-active-orange;
+					border: 1px solid $c-main-orange;
+					color: #fff;
+					i{
+						color: #fff;
+					}
+				}
+			}
+			button:nth-child(2){
+				margin-left: 8px;
+			}
+		}
+		.content{
+			padding: 0 24px;
+			.map_show{
+				height: 540px;
+				width: 952px;
+				margin: 0 auto;
+				border: 1px solid #D8DCE3;
+				border-radius: 3px;
+			}
+			.device_list{
+				.list{
+					width: 100%;
+					max-height: 360px;
+					overflow: auto;
+					span{
+						width: 25%;
+						height: 24px;
+						line-height: 24px;
+						float: left;
+						display: block;
+						padding-right: 20px;
+						i{
+							margin-right: 4px;
+						}
+						@include ellip();
+					}
+				}
+				.device_pagination{
+					margin-top: 24px;
+					li.ant-pagination-options{
+						width: 240px;
+					}
+					li.ant-select-dropdown-menu-item{
+						width: 117px;
+					}
+					.ant-pagination-options-size-changer{
+						width: 49% !important;
+					}
+				}
+			}
+		}
+	}
+	// 任务接收样式
+	.tasks_receive_view{
+		.content{
+			height: 18px;
+			line-height: 18px;
+			span{
+				padding: 0px 18px;
+				// max-width: 240px;
+				// width: 120px;
+				width: 13.28%;
+				font-size: 12px;
+				line-height: 18px;
+				margin-right: 8px;
+				padding-left: 0px;
+				display: inline-block;
+				@include ellip();
+			}
+		}
+		.alarm-receive-user{
+			.content{
+				height: auto;
+				span{
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+	// form表单提交按钮样式
+	.form-btn-list{
+		text-align: center;
+		margin-top: 24px;
+		.btn{
+			width: 80px;
+			height: 32px;
+			&.btn-sure{
+				margin-left: 8px;
+				background-color: $c-main-orange;
+				color: #fff;
+			}
+		}
+	}
+}
+// 由分部编辑的改为统一编辑的代码
+.taks-full-top{
+	border-bottom: 1px solid #D8DCE3;
+	height: 49px;
+	.task-top{
+		width: 1000px;
+		margin: 0 auto;
+		line-height: 48px;
+		height: 100%;
+		>span{
+			font-size: 18px;
+			font-weight: 800;
+			max-width: 350px;
+			@include ellip();
+			color: $c-main-orange;
+			display: inline-block;
+		}
+		button{
+			float: right;
+			margin-top: 10px;
+			width: 80px;
+			height: 28px;
+			font-size: 14px;
+			color: $c-main-orange;
+			border-color: $all-active-orange;
+			i{
+				font-size: 16px;
+				vertical-align: -3px;
+				color: $all-active-orange;
+			}
+			span{
+				margin-left: 4px;
+			}
+		}
+	}
+}
+//布控任务取消编辑弹框样式修改
+.tasks-edit-model{
+	width: 320px !important;
+	.ant-modal-body{
+		.edit-model{
+			.icon-img{
+				width: 64px;
+				height: 64px;
+				margin: 0 auto;
+				background: url('../../../../../assets/img/monitees/Caveat.svg') no-repeat;
+				margin-bottom: 5px;
+			}
+			.title-name{
+				text-align: center;
+				span{
+					color: $c-main-orange;
+				}
+			}
+		}
+	}
+}

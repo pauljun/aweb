@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>64/Notice/Caveat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="94.4629018%" id="linearGradient-1">
+            <stop stop-color="#FFBF2F" offset="0%"></stop>
+            <stop stop-color="#FFA82D" offset="99.9458092%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="64/Notice/Caveat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,56 C18.745166,56 8,45.254834 8,32 C8,18.745166 18.745166,8 32,8 C45.254834,8 56,18.745166 56,32 C56,45.254834 45.254834,56 32,56 Z M32,21 C31.9335972,21 31.8672155,21.0023678 31.8009815,21.0070988 C30.2621732,21.1170136 29.1038263,22.4535678 29.2137411,23.9923761 L29.867321,33.1424941 C29.9420789,34.1891049 30.8129611,35 31.8622384,35 L32.1377616,35 C33.1870389,35 34.0579211,34.1891049 34.132679,33.1424941 L34.7862589,23.9923761 C34.7909899,23.9261421 34.7933576,23.8597604 34.7933576,23.7933576 C34.7933576,22.2506288 33.5427288,21 32,21 Z M32,41 C33.1045695,41 34,40.1045695 34,39 C34,37.8954305 33.1045695,37 32,37 C30.8954305,37 30,37.8954305 30,39 C30,40.1045695 30.8954305,41 32,41 Z" id="Oval-7" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

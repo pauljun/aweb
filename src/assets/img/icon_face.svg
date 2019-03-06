@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16x16/框选 copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14,14 L14,12 L16,12 L16,16 L14,16 L12,16 L12,14 L14,14 Z M0,14 L0,12 L2,12 L2,14 L4,14 L4,16 L0,16 L0,14 Z M14,0 L16,0 L16,4 L14,4 L14,2 L12,2 L12,0 L14,0 Z M2,2 L2,4 L0,4 L0,2 L0,0 L4,0 L4,2 L2,2 Z M8,13 C5.23857625,13 3,10.7614237 3,8 C3,5.23857625 5.23857625,3 8,3 C10.7614237,3 13,5.23857625 13,8 C13,10.7614237 10.7614237,13 8,13 Z M6,8 C6.55228475,8 7,7.55228475 7,7 C7,6.44771525 6.55228475,6 6,6 C5.44771525,6 5,6.44771525 5,7 C5,7.55228475 5.44771525,8 6,8 Z M10,8 C10.5522847,8 11,7.55228475 11,7 C11,6.44771525 10.5522847,6 10,6 C9.44771525,6 9,6.44771525 9,7 C9,7.55228475 9.44771525,8 10,8 Z M6,9 C6,10.3333333 6.66666667,11 8,11 C9.33333333,11 10,10.3333333 10,9 L6,9 Z" id="path-1"></path>
+    </defs>
+    <g id="布控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.1-布控-云眼地图" transform="translate(-1737.000000, -314.000000)">
+            <g id="select" transform="translate(1476.000000, 70.000000)">
+                <g id="下啦" transform="translate(229.000000, 47.000000)">
+                    <g id="icons/16x16/人脸识别-active" transform="translate(32.000000, 197.000000)">
+                        <g id="color/icon-blue">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#107EFF" xlink:href="#path-1"></use>
+                            <g mask="url(#mask-2)" fill="#107EFF" id="Rectangle-35-Copy">
+                                <g transform="translate(-2.000000, -2.000000)">
+                                    <rect x="0" y="0" width="20" height="20"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

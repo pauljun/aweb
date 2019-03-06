@@ -1,0 +1,43 @@
+.map-search-layer {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 300px;
+  z-index: 2;
+  .cc-search.c-search-12 input{
+    height:34px;
+  }
+  .poisList {
+    border-radius: 4px;
+    background: #fff;
+    max-height: 300px;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .poiItem {
+    padding: 0 10px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    &:last-child {
+      border-bottom: none;
+    }
+    &:hover {
+      background: #f4f4f4;
+      cursor: pointer;
+    }
+    .name {
+      padding-left: 5px;
+    }
+    .selectPoi {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  }
+}

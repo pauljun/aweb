@@ -1,0 +1,349 @@
+@import '../../../../../assets/css/base';
+.list-left{
+	&.tasks_nav{
+		width: 280px;
+		height: 100%;
+		background: #EAEDF1;
+		// display: flex;
+		// flex-direction: column;
+		@include setFlex(stretch, flex-start,column);
+		//复选框样式修改
+		.ant-checkbox-wrapper{
+			.ant-checkbox-inner{
+					width: 18px;
+					height: 18px;
+			}
+			.ant-checkbox.ant-checkbox-checked{
+				.ant-checkbox-inner{
+					background-color: transparent;
+					background-image: url('../../../../../assets/img/monitees/checkall.svg');
+					// width: 100%;
+					// height: 100%;
+					background-size: 16px 16px;
+					border: 1px solid $c-main-orange !important;
+					&::after{
+						display: none;
+					}
+				}
+			}
+		}
+		.ant-checkbox-group{
+			//flex: 1;
+			//display: flex;
+			@include setFlex(stretch, flex-start);
+			@include flexNum(1);
+		}
+		.list-total{
+			font-size: 14px;
+			color: #333333;
+			font-weight: 800;
+			padding-left: 16px;
+			padding-bottom: 8px;
+			border-bottom: 1px solid #D8DCE3;
+			.ant-checkbox.ant-checkbox-indeterminate{
+				.ant-checkbox-inner{
+					border: 1px solid $c-main-orange;
+					background-color: #fff;
+					&::after{
+						border: 1px solid $c-main-orange;
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%,-50%);
+					}
+				}
+			}
+			.ant-checkbox.ant-checkbox-checked{
+				.ant-checkbox-inner{
+					background-image: url('../../../../../assets/img/monitees/checkall.svg');
+					//background-color: $c-main-orange;
+				}
+			}
+			.ant-checkbox-inner{
+				border: 1px solid #D8DCE3;
+			}
+		}
+		.title-tasks{
+			height: 64px;
+			background: #D8DCE3;
+			font-size: 18px;
+			color: #333333;
+			padding-left: 16px;
+			font-weight: 600;
+			line-height: 64px;
+		}
+		.create-new-tasks{
+			text-align: center;
+			margin-top: 16px;
+			button{
+				width: 118px;
+				height: 32px;
+				// width: 160px;
+				background-image: linear-gradient(-180deg, #FFAA00 0%, #FF8800 100%);
+				border-radius: 3px;
+				color: #FFFFFF;
+				// padding: 0px;
+				border: none;
+				i{
+					color: #fff;
+					font-size: 16px;
+				}
+				span{
+					margin-left: 4px;
+				}
+				&:hover{
+					background-image: linear-gradient(-180deg, #FF8800 0%, #FF6600 100%);
+				}
+			}
+		}
+		.change-class{
+			text-align: center;
+			margin-bottom: 15px;
+			button{
+				width: 80px;
+				height: 29px;
+				padding: 0px;
+				background-color: #EAEDF1;
+				// border: 1px solid #B5BBC7;
+			}
+			button.active{
+				background: $c-main-orange;
+				color: #FFFFFF;
+				border: 1px solid transparent;
+			}
+			button:nth-child(2){
+				margin: 0 4px;
+			}
+		}
+		.search-group{
+			// height: 28px;
+			padding: 0 16px;
+			border-bottom: none;
+			margin: 16px 0 15px;
+		}
+		.task-state{
+			margin-top: 16px;
+			padding-bottom: 16px;
+			font-size: 12px;
+			color: #333333;
+			text-align: center;
+			border-bottom: 1px solid #D8DCE3;
+			span{
+				&:before{
+					content: '';
+					display: inline-block;
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+					margin-right: 4px;
+				}
+			}
+			span:nth-child(1){
+				&:before{
+					background: #3EBF83;
+					border: 1px solid #2FA970;
+				}
+			}
+			span:nth-child(2){
+				margin: 0 16px;
+				&:before{
+					background: #FF9933;
+					border: 1px solid #FF8822;
+				}
+			}
+			span:nth-child(3){
+				&:before{
+					background: #B5BBC7;
+					border: 1px solid #8D96A9;
+				}
+			}
+		}
+		.list{
+			// height: calc(100% - 140px);
+			//flex: 1;
+			@include flexNum(1);
+			padding: 0 0 10px 0;
+			overflow-y: auto;
+			height: auto;
+			position: relative;
+			&.task-list{
+				border-top: 1px solid #D8DCE3;
+			}
+			&::-webkit-scrollbar-track{
+				background-color:#EAEDF1; 
+			}
+			&::-webkit-scrollbar {
+				width: 5px;
+			}
+			.ant-list-item{
+				margin: 0px;
+				padding: 0px;
+				border: none;
+				.ant-list-item-content{
+					box-shadow: none;
+				}
+			}
+			.item{
+				padding: 11px 16px;
+				height: 68px;
+				border-bottom: 1px solid #D8DCE3;
+				width: 100%;
+				cursor: pointer;
+				&.active{
+					background: #FFFFFF;
+					border-bottom: 1px solid $c-main-orange;
+					border-left: none;
+					.title-name{
+						span:nth-child(1){
+							color: $c-main-orange;
+						}
+					}
+				}
+				.title-name{
+					height: 20px;
+					line-height: 20px;
+					font-size: 14px;
+					.title-tl{
+						max-width: 245px;
+						display: inline-block;
+						@include ellip();
+						vertical-align: top;
+					}
+					span:nth-child(2){
+						font-size: 14px;
+					}
+					.num{
+						float: right;
+						height: 18px;
+						min-width: 26px;
+						line-height: 16px;
+						text-align: center;
+						background: #B5BBC7;
+						border: 1px solid #8D96A9;
+						border-radius: 9px;
+						margin-top: 1px;
+						font-size: 12px;
+						color: #FFFFFF;
+						padding: 0 5px;
+					}
+				}
+				.btn_message{
+					font-size: 12px;
+					color: #666666;
+					position: relative;
+					height: 17px;
+					line-height: 17px;
+					margin-top: 9px;
+					i{
+						color: $icon-font-color;
+						&:hover{
+							color: $c-main-orange;
+						}
+					}
+					.del_task{
+						opacity: 0.8;
+						margin-left: 16px;
+						float: right;
+						font-size: 16px;
+						opacity: 0.8;
+					}
+					.stop_or_play_icon{
+						float: right;
+						font-size: 16px;
+						opacity: 0.8;
+					}
+					.state{
+						display: inline-block;
+						width: 10px;
+						height: 10px;
+						border-radius: 50%;
+						background: #FF9933;
+						border: 1px solid #FF8822;
+						margin-right: 6px;
+						&.out-of-date{
+							background: #B5BBC7;
+							border: 1px solid #8D96A9;
+						}
+						&.be-running{
+							background: #3EBF83;
+							border: 1px solid #2FA970;
+						}
+						&.be-paused{
+							background: #FF9933;
+							border: 1px solid #FF8822;
+						}
+					}
+					span{
+						i{
+							color: #989A9C !important;
+						}
+					}
+					span:nth-child(2){
+						margin-right: 0px;
+					}
+					
+					.icon-span{
+						position: static;
+						float: right;
+						transform: translateY(0);
+						//margin-left: 8px;]
+						font-size: 16px;
+						margin-right: 5px;
+					}
+				}
+			}
+			// 布控告警列表下样式
+			&.alarm-list{
+				.item:hover{
+					background: #FFFFFF;
+					border-bottom: 1px solid $c-main-orange;
+					border-left: none;
+					.title-name{
+						span:nth-child(1){
+							color: $c-main-orange;
+						}
+						.num{
+							background: #FF4466;
+							border: 1px solid #FF2244;
+						}
+					}
+				}
+				.item{
+					position: relative;
+					padding-left: 42px;
+					.ant-checkbox-wrapper{
+						position: absolute;
+						top: 50%;
+						left: 16px;
+						transform: translateY(-50%);
+						width: 18px;
+						height: 18px;
+						.ant-checkbox-inner{
+							border: 1px solid #B5BBC7;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+//布控任务删除弹框样式修改
+.tasks-del-model{
+	width: 320px !important;
+	.ant-modal-body{
+		.del-model{
+			.icon-img{
+				width: 64px;
+				height: 64px;
+				margin: 0 auto;
+				background: url('../../../../../assets/img/monitees/delModel.svg') no-repeat;
+				margin-bottom: 5px;
+			}
+			.title-name{
+				text-align: center;
+				span{
+					color: $c-main-orange;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.face-contrast {
+  height: 100%;
+  .face-contrast-content {
+    display: flex;
+    height: calc(100% - 120px);
+    .face-tracking {
+      flex: 1;
+    }
+  }
+}

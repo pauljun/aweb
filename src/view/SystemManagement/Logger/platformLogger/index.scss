@@ -1,0 +1,95 @@
+.logger-platform-view{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  .logger-container{
+    height:calc(100% - 48px);
+    width:1150px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    .logger-search-form{
+      width:1150px;
+      margin-top: 25px;
+      margin-bottom: 32px;
+      .log-search{
+        text-align: center;
+        margin-top: 16px;
+        button {
+          margin-left: 10px;
+        }
+      }
+      .ant-form-item.rangeTime{
+        width:calc(50% - 16px);
+        .range-picker-wrapper {
+          display:flex;
+          .date-picker-wrapper{
+            flex:1;
+            margin-left: 0;
+            .ant-calendar-picker{
+              width:100%!important;
+            }
+          }
+          .date-picker-divider{
+            margin-left: 0;
+            width: 4%;
+            text-align: center;
+          }
+        }
+      }
+      // .ant-form-item.log-describe{
+      //   width:calc(50% - 16px)
+      // }
+      .ant-form-item {
+        width: calc(25% - 16px);
+        padding-bottom: 0px;
+        display: inline-block;
+        margin-right:16px;
+        margin-bottom:8px;
+      }
+      .ant-form-item-label {
+        text-align: left;
+      }
+      .ant-form-item-control-wrapper {
+        display: block;
+        width: 100%;
+        padding-left: 10;
+      }
+    } 
+    .platform-content{
+      flex:1;
+      overflow-y: auto;
+      .logger-table-container{
+        height:100%;
+        .setting-table{
+          height:calc(100% - 80px);
+          .logger-table {
+            .log-column-index{
+              text-align: center;
+            }
+            .ant-table-thead tr th{
+              // padding:0 0;
+            }
+            .log-description {
+              width: 240px;
+              white-space:nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+            }
+          }
+        }
+        .ant-pagination{
+          height:80px;
+          padding-top:20px;
+        }
+      }
+    }
+  }
+}
+.log-description-tooltip {
+  pointer-events: unset;
+}
+
+.log-org-select-tree {
+  width: 250px;
+}

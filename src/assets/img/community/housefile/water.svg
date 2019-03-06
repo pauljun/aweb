@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>60/水电煤/1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+    </defs>
+    <g id="60/水电煤/1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1">
+            <g id="Path-4">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" stroke="#6293FF" opacity="0.100000001" xlink:href="#path-1"></use>
+                <path d="M-8,32 C-8,32 7,29 21,35 C35,41 44,38 50,32 C56,26 64,26.4444444 70,30 C76,33.5555556 60,71 58,71 C56,71 -11,73 -11,71 C-11,69 -8,32 -8,32 Z" fill="#6293FF" opacity="0.049999997" mask="url(#mask-2)"></path>
+                <path d="M-7,30 C-1,36 5.66666667,38.3333333 13,37 C24,35 31,26 42,34 C49.3333333,39.3333333 60.6666667,39.3333333 76,34 L61,72 L9,74 C-0.333333333,52.6666667 -5,41.3333333 -5,40 C-5,38.6666667 -5.66666667,35.3333333 -7,30 Z" id="Path-5" fill="#6293FF" opacity="0.099999994" mask="url(#mask-2)"></path>
+                <path d="M-2,37 C11.3333333,29 22,26.3333333 30,29 C42,33 60,34 64,29 C66.6666667,25.6666667 67.3333333,37.3333333 66,64 L23,68 L1,52 L-2,37 Z" id="Path-6" fill="#6293FF" opacity="0.119999997" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M30,43.8888889 C35.5228475,43.8888889 40,39.3239491 40,33.6928105 C40,29.938718 36.6666667,23.7077812 30,15 C23.3333333,23.7077812 20,29.938718 20,33.6928105 C20,39.3239491 24.4771525,43.8888889 30,43.8888889 Z" id="Oval-4" fill="#6293FF"></path>
+        </g>
+    </g>
+</svg>

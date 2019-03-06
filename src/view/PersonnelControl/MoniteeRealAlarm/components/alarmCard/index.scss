@@ -1,0 +1,142 @@
+@import '../../../../../assets/css/base.scss';
+
+.alarm-card-out {
+  width: 360px;
+  height: 350px;
+  position: relative;
+  margin-left: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s;
+  padding: 10px;
+  margin-bottom: 20px;
+  &:hover {
+    border: 1px solid #ffaa00;
+  }
+  .alarm-card-top {
+    height: 240px; 
+    width: 100%;
+    //border:1px solid red;
+    @include setFlex();    
+    .item-pic{
+      border-radius: 3px;
+      height: 190px;
+    }
+    .alarm-img-flex {
+      position: relative;
+      @include flexNum(1);
+      height: 100%;
+      padding: 5px;
+      background: url('../../../../../assets/img/monitees/realalarm/Face_Black_BG.svg')
+        no-repeat;
+      .alarm-img-text{
+        font-size: 12px;
+        padding: 3px 0 0 5px;
+      }
+      &:last-child{
+        background: url('../../../../../assets/img/monitees/realalarm/Face_BG_Right.svg')
+        no-repeat;
+        margin-left: 10px;
+        .alarm-img-text{
+          float: right;
+        }
+      }
+      .bg-sence-path{
+        .img-span{
+          // background-size: 100% 100%;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+  .alarm-progress {
+    width: 35%;
+    position: absolute;
+    top: 209px;
+    left: 140px;
+    .alarm-simi {
+      position: absolute;
+      margin-left: -50px;
+      margin-top: 2px;
+    }
+  }
+  .alarm-bottom-word {
+    position: relative;
+    margin-top: -13px;
+    p {
+      line-height: 10px;
+      padding-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      img {
+        margin-top: -3px;
+        opacity: 0.6;
+      }
+    }
+    .fs12{
+      font-size: 12px;
+    }
+    .alarm-Handle{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: 0px;
+      right: 3px;
+      .handle{
+        width: 60px;
+        height: 24px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 22px;
+        font-family: PingFang-SC-Regular;
+        cursor: pointer;
+        .anticon {
+					font-size: 16px;
+					vertical-align: -3px;
+					color: #8899bb;
+					margin-right: 2px;
+				}
+      }
+			.handle-yes {
+				margin-right: 10px;
+				&:hover {
+					color: #fff;
+          background-image: linear-gradient(-180deg, #ffbb22 0%, #ffaa00 100%);
+          border: none;
+					.anticon {
+						color: #fff;
+					}
+				}
+			}
+			.handle-no {
+				margin-right: 10px;
+				&:hover {
+					color: #fff;
+          background-image: linear-gradient(-180deg, #25dc9b 0%, #0fc484 95%);
+          border: none;
+					.anticon {
+						color: #fff;
+					}
+				}
+			}
+    }
+  }
+  .alam-rotate{
+    position: absolute;
+    bottom: 4px;
+    right: 6px;
+    width: 140px;
+    height: 100px;
+    transform: rotate(-30deg);
+  }
+  .alarm-rotate-yes{
+    background: url('../../../../../assets/img/monitees/alarmHistory/Big_Yes.svg') no-repeat
+  }
+  .alarm-rotate-no{
+    background: url('../../../../../assets/img/monitees/alarmHistory/Big_No.svg') no-repeat
+  }
+}

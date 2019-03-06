@@ -1,0 +1,137 @@
+@import '../../../../../assets/css/base.scss';
+.alarm_header_filter{
+  display: flex;
+  align-items: center;
+  .header_filter_time_select{
+    .ant-select-selection:hover,.ant-select-selection:active, .ant-select-selection:focus{
+      border-color: $c-main-orange;
+      box-shadow: none;
+    }
+    margin-right: 8px;
+    .filter_select_time_1{
+      display: inline-block;
+      min-width: 16px;
+      height: 16px;
+      margin-right: 2px;
+      vertical-align: -3px;
+    }
+  }
+  .header_filter_type_select{
+    margin-right: 8px;
+    .ant-select-selection:hover,.ant-select-selection:active, .ant-select-selection:focus{
+      border-color: $c-main-orange;
+      box-shadow: none;
+    }
+    .filter_select_type_1{
+      display: inline-block;
+      min-width: 16px;
+      height: 16px;
+      margin-right: 2px;
+      vertical-align: -3px;
+    }
+  }
+  .header_filter_home_select{
+    margin-right: 8px;
+    .ant-select-selection.ant-select-selection--multiple{
+      overflow: hidden;
+      height: 30px!important;
+      .ant-select-selection__rendered{
+        &::-webkit-scrollbar{
+          width: 4px;
+        }
+        .ant-select-selection__placeholder{
+          top: 25%;
+        }
+        margin-right: 0px;
+        ul{
+          height: 30px;
+          overflow: auto;
+        }
+      }
+    }
+  }
+  .header_filter_radio{
+    .ant-radio-wrapper:hover{
+      .ant-radio-inner{
+        border-color: $c-main-orange; 
+      }
+    }
+    .ant-radio-wrapper-checked{
+      .ant-radio-inner{
+        border-color: $c-main-orange; 
+        &::after{
+          background-color: $c-main-orange;
+        }
+      }
+    }
+  }
+  .range-picker-wrapper{
+    display: inline-block;
+  }
+}
+.header_filter_select_time_downwrap{
+  .anticon{
+    font-size: 16px;
+    color: #8899BB;
+    vertical-align: -3px;
+  }
+  .ant-select-dropdown-menu-item:hover{
+    color: $c-main-orange;
+    background: #fff;
+    .anticon{
+      color: $c-main-orange;
+    }
+  }
+}
+.header_filter_select_type_downwrap{
+  .anticon{
+    font-size: 16px;
+    color: #8899BB;
+    vertical-align: -3px;
+  }
+  .ant-select-dropdown-menu-item:hover{
+    color: $c-main-orange;
+    background: #fff;
+    .anticon{
+      color: $c-main-orange;
+    }
+  }
+  .filter_select_type_1{
+    display: inline-block;
+    min-width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    vertical-align: -4px;
+  }
+}
+.radio_poppver{
+
+  .ant-popover-inner-content{
+    height: 140px;
+    // padding: 8px 16px;
+    &>div{
+      width: 195px;
+    }
+    .ant-calendar-picker{
+      &:hover,&:focus,&:active{
+        .ant-calendar-picker-input:not(.ant-input-disabled){
+          border-color: $all-active-orange;
+        }
+      }
+    }
+    .range-picker-wrapper{
+      width: 195px;
+      height: auto;
+      margin: 0 auto;
+      zoom: normal;
+      .date-picker-wrapper{
+        width: 195px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+      }
+      .date-picker-divider{
+        display: none;
+      }
+    }
+  }
+}

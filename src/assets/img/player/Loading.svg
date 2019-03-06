@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>64/Photo/Loading</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="64/Photo/Loading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-4" stroke="#FFFFFF" stroke-width="4" opacity="0.2" cx="32" cy="32" r="20"></circle>
+        <path d="M32,52 C43.045695,52 52,43.045695 52,32 C52,20.954305 43.045695,12 32,12 C20.954305,12 12,20.954305 12,32" id="Oval-4" stroke="#FFFFFF" stroke-width="4" opacity="0.8"></path>
+    </g>
+</svg>

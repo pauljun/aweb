@@ -1,0 +1,51 @@
+.viewDevices{
+  width: 1200px;
+  margin: 20px auto;
+  .ant-col-8{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .ant-select{
+    flex:1;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  .ant-col-8:nth-of-type(3) .ant-select{
+    margin-right: 0;
+  }
+}
+.ant-table-header {
+  background: #d8dce3;
+  height: 37px;
+  margin: 0 !important;
+  overflow: hidden !important;
+  padding-right: 8px;
+  .ant-table-thead {
+    height: 37px;
+    overflow: hidden;
+    tr {
+      th {
+        background: #d8dce3;
+        font-weight: bold;
+        padding: 0 16px;
+        height: 37px;
+      }
+    }
+  }
+}
+.ant-table-tbody {
+  tr {
+    &:nth-child(even) {
+      background: #f3f6f9;
+    }
+    &:hover {
+      td {
+        background: #fff9ee;
+        border-bottom: 1px solid #ff8800;
+      }
+    }
+    td {
+      font-size: 12px;
+    }
+  }
+}

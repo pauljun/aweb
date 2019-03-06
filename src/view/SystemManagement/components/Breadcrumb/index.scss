@@ -1,0 +1,19 @@
+.setting-breadcrumb-container {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .search-group {
+    width: 290px;
+    .ant-btn-primary {
+      background-image: linear-gradient(
+        -180deg,
+        #ffaa00 0%,
+        #ff8800 100%
+      ) !important;
+      .anticon {
+        color: #fff;
+      }
+    }
+  }
+}

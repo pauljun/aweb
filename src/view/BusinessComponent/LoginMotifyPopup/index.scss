@@ -1,0 +1,20 @@
+.user-popup-layout {
+  .user-popup-title {
+    padding: 0 20px;
+    background-image: linear-gradient(-180deg, #ffffff 0%, #f6f8f9 95%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-radius:4px 4px 0 0;
+  }
+  .user-popup-body{
+    background: #F6F8FB ;
+    padding:40px 24px;
+    .ant-form-item{
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

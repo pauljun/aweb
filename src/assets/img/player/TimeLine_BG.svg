@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="807px" height="46px" viewBox="0 0 807 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2_云烟监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.8">
+        <g id="Video_History" transform="translate(-557.000000, -1020.000000)">
+            <g id="TimeLine" transform="translate(557.000000, 1020.000000)">
+                <g id="BG">
+                    <polygon id="Rectangle-3" fill="#36C6FF" points="0 26 22 0 787 0 807 26 784 46 804 26 784 6 24 6 4 26 24 46"></polygon>
+                    <polygon fill="#3594FF" points="4 26 24 6 784 6 804 26 784 46 24 46"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

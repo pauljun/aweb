@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="230px" viewBox="0 0 230 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>NEWS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.83824061%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0AACFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#1B2771" stop-opacity="0.4" offset="45.6895773%"></stop>
+            <stop stop-color="#0C334E" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#36C6FF" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#36C6FF" stop-opacity="0.4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#55C8FF" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#6E81FF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#89D9FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#162271" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-5">
+            <stop stop-color="#89D9FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#162271" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#89D9FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#162271" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2_云烟监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Video_Now_1" transform="translate(-51.000000, -799.000000)">
+            <g id="Cloud" transform="translate(51.000000, 799.000000)">
+                <g id="NEWS">
+                    <g id="BG">
+                        <circle fill="url(#linearGradient-1)" cx="115" cy="115" r="110"></circle>
+                        <circle stroke-opacity="0.4" stroke="#36C6FF" cx="115" cy="115" r="114.5"></circle>
+                        <g id="Line_1" opacity="0.6" transform="translate(4.000000, 6.000000)" stroke="#36C6FF" stroke-linecap="round">
+                            <path d="M199,44 C181.234963,20.0725103 154.075912,3.5814061 123,0" id="Stroke-152"></path>
+                            <path d="M98,0 C66.9240881,3.5814061 39.7650369,20.0734346 22,44" id="Stroke-154"></path>
+                            <path d="M212,152 C217.78663,138.662887 221,123.957349 221,108.5 C221,93.042651 217.78663,78.3361998 212,65" id="Stroke-156"></path>
+                            <path d="M22,175 C39.7650369,198.92749 66.9240881,215.418594 98,219" id="Stroke-158"></path>
+                            <path d="M9,65 C3.21336996,78.3371133 0,93.042651 0,108.5 C0,123.957349 3.21336996,138.6638 9,152" id="Stroke-160"></path>
+                            <path d="M123,219 C154.075912,215.418594 181.234963,198.926565 199,175" id="Stroke-162"></path>
+                        </g>
+                        <g id="Line_2" opacity="0.4" transform="translate(8.000000, 8.000000)" stroke="#36C6FF" stroke-linecap="round">
+                            <path d="M152,10 C138.067029,3.59148112 122.469519,0 105.999543,0 C89.5304807,0 73.9329712,3.59148112 60,10" id="Stroke-165"></path>
+                            <path d="M46,19 C20.1865639,36.8583143 2.57586111,65.8083447 0,99" id="Stroke-167"></path>
+                            <path d="M213,99 C210.425053,65.8074272 192.813436,36.8583143 167,19" id="Stroke-169"></path>
+                            <path d="M0,115 C2.57494736,148.192573 20.1865639,177.141686 46,195" id="Stroke-171"></path>
+                            <path d="M60,204 C73.9329712,210.408519 89.5304807,214 106.000457,214 C122.469519,214 138.067029,210.408519 152,204" id="Stroke-173"></path>
+                            <path d="M167,195 C192.813436,177.141686 210.424139,148.191655 213,115" id="Stroke-175"></path>
+                        </g>
+                        <path d="M125.7031,208.4697 L124.3991,211.4917 C121.1981,211.8107 117.9521,211.9767 114.6661,211.9767 C111.3821,211.9767 108.1351,211.8107 104.9341,211.4917 L103.6301,208.4697 C60.4441,203.4107 26.0891,169.0557 21.0301,125.8697 L18.0081,124.5657 C17.6891,121.3647 17.5241,118.1177 17.5241,114.8327 C17.5241,111.5477 17.6891,108.3017 18.0081,105.1007 L21.0301,103.7967 C26.0891,60.6117 60.4441,26.2557 103.6301,21.1977 L104.9341,18.1737 C108.1351,17.8557 111.3821,17.6907 114.6661,17.6907 C117.9521,17.6907 121.1981,17.8557 124.3991,18.1737 L125.7031,21.1977 C168.8891,26.2557 203.2451,60.6117 208.3031,103.7967 L211.3261,105.1007 C211.6441,108.3017 211.8091,111.5477 211.8091,114.8327 C211.8091,118.1177 211.6441,121.3647 211.3261,124.5657 L208.3031,125.8697 C203.2451,169.0557 168.8891,203.4107 125.7031,208.4697 M114.6661,14.8327 C59.4381,14.8327 14.6661,59.6047 14.6661,114.8327 C14.6661,170.0617 59.4381,214.8327 114.6661,214.8327 C169.8951,214.8327 214.6661,170.0617 214.6661,114.8327 C214.6661,59.6047 169.8951,14.8327 114.6661,14.8327" id="Coin" fill="url(#linearGradient-2)"></path>
+                        <g id="Line_3" opacity="0.4" transform="translate(29.000000, 29.000000)" stroke="#00C9FF" stroke-linecap="round" stroke-width="2">
+                            <path d="M85.6665,9.833 L85.6665,0.5" id="Stroke-4"></path>
+                            <path d="M85.6665,171.167 L85.6665,161.833" id="Stroke-6"></path>
+                            <path d="M72.4692,10.9883 L70.8482,1.7973" id="Stroke-8"></path>
+                            <path d="M100.4849,169.8701 L98.8639,160.6791" id="Stroke-10"></path>
+                            <path d="M59.6733,14.417 L56.4813,5.646" id="Stroke-12"></path>
+                            <path d="M114.8525,166.0205 L111.6605,157.2495" id="Stroke-14"></path>
+                            <path d="M47.6665,20.0156 L42.9995,11.9326" id="Stroke-16"></path>
+                            <path d="M128.3335,159.7344 L123.6665,151.6514" id="Stroke-18"></path>
+                            <path d="M36.8149,27.6143 L30.8149,20.4643" id="Stroke-20"></path>
+                            <path d="M140.5181,151.2021 L134.5181,144.0531" id="Stroke-22"></path>
+                            <path d="M27.4473,36.9814 L20.2973,30.9824" id="Stroke-24"></path>
+                            <path d="M151.0356,140.6846 L143.8866,134.6856" id="Stroke-26"></path>
+                            <path d="M19.8486,47.833 L11.7656,43.167" id="Stroke-28"></path>
+                            <path d="M159.5674,128.5 L151.4844,123.833" id="Stroke-30"></path>
+                            <path d="M14.25,59.8398 L5.479,56.6478" id="Stroke-32"></path>
+                            <path d="M165.854,115.0195 L157.083,111.8275" id="Stroke-34"></path>
+                            <path d="M10.8213,72.6357 L1.6303,71.0157" id="Stroke-36"></path>
+                            <path d="M169.7036,100.6514 L160.5126,99.0304" id="Stroke-38"></path>
+                            <path d="M9.6665,85.833 L0.3335,85.833" id="Stroke-40"></path>
+                            <path d="M171,85.833 L161.667,85.833" id="Stroke-42"></path>
+                            <path d="M10.8213,99.0303 L1.6303,100.6513" id="Stroke-44"></path>
+                            <path d="M169.7036,71.0156 L160.5126,72.6356" id="Stroke-46"></path>
+                            <path d="M14.25,111.8271 L5.479,115.0191" id="Stroke-48"></path>
+                            <path d="M165.854,56.6475 L157.083,59.8395" id="Stroke-50"></path>
+                            <path d="M19.8486,123.833 L11.7656,128.5" id="Stroke-52"></path>
+                            <path d="M159.5674,43.167 L151.4844,47.833" id="Stroke-54"></path>
+                            <path d="M27.4473,134.6855 L20.2973,140.6845" id="Stroke-56"></path>
+                            <path d="M151.0356,30.9824 L143.8866,36.9814" id="Stroke-58"></path>
+                            <path d="M36.8149,144.0527 L30.8149,151.2017" id="Stroke-60"></path>
+                            <path d="M140.5181,20.4639 L134.5181,27.6139" id="Stroke-62"></path>
+                            <path d="M47.6665,151.6514 L42.9995,159.7344" id="Stroke-64"></path>
+                            <path d="M128.3335,11.9326 L123.6665,20.0156" id="Stroke-66"></path>
+                            <path d="M59.6733,157.25 L56.4813,166.021" id="Stroke-68"></path>
+                            <path d="M114.8525,5.6465 L111.6605,14.4175" id="Stroke-70"></path>
+                            <path d="M72.4692,160.6787 L70.8482,169.8697" id="Stroke-72"></path>
+                            <path d="M100.4849,1.7969 L98.8639,10.9879" id="Stroke-74"></path>
+                        </g>
+                        <g id="Line_4" opacity="0.3" transform="translate(24.000000, 24.000000)" stroke="#00C9FF" stroke-linecap="round">
+                            <path d="M84.1753,16.6348 L82.7923,0.8328" id="Stroke-77"></path>
+                            <path d="M98.5405,180.833 L97.1585,165.032" id="Stroke-79"></path>
+                            <path d="M71.3892,18.8896 L67.2842,3.5686" id="Stroke-81"></path>
+                            <path d="M114.0493,178.0986 L109.9443,162.7776" id="Stroke-83"></path>
+                            <path d="M59.1895,23.3301 L52.4855,8.9541" id="Stroke-85"></path>
+                            <path d="M128.8477,172.7129 L122.1437,158.3369" id="Stroke-87"></path>
+                            <path d="M47.9458,29.8213 L38.8478,16.8283" id="Stroke-89"></path>
+                            <path d="M142.4858,164.8389 L133.3878,151.8459" id="Stroke-91"></path>
+                            <path d="M38,38.167 L26.784,26.95" id="Stroke-93"></path>
+                            <path d="M154.5493,154.7158 L143.3333,143.4998" id="Stroke-95"></path>
+                            <path d="M29.6548,48.1123 L16.6608,39.0143" id="Stroke-97"></path>
+                            <path d="M164.6719,142.6523 L151.6789,133.5543" id="Stroke-99"></path>
+                            <path d="M23.1631,59.3555 L8.7881,52.6525" id="Stroke-101"></path>
+                            <path d="M172.5459,129.0146 L158.1709,122.3106" id="Stroke-103"></path>
+                            <path d="M18.7227,71.5557 L3.4017,67.4507" id="Stroke-105"></path>
+                            <path d="M177.9321,114.2158 L162.6111,110.1108" id="Stroke-107"></path>
+                            <path d="M16.4683,84.3418 L0.6663,82.9588" id="Stroke-109"></path>
+                            <path d="M180.6665,98.707 L164.8655,97.325" id="Stroke-111"></path>
+                            <path d="M16.4683,97.3252 L0.6663,98.7072" id="Stroke-113"></path>
+                            <path d="M180.6665,82.959 L164.8655,84.342" id="Stroke-115"></path>
+                            <path d="M18.7227,110.1104 L3.4017,114.2154" id="Stroke-117"></path>
+                            <path d="M177.9321,67.4502 L162.6111,71.5552" id="Stroke-119"></path>
+                            <path d="M23.1631,122.3105 L8.7881,129.0145" id="Stroke-121"></path>
+                            <path d="M172.5459,52.6523 L158.1709,59.3553" id="Stroke-123"></path>
+                            <path d="M29.6548,133.5547 L16.6608,142.6527" id="Stroke-125"></path>
+                            <path d="M164.6719,39.0146 L151.6789,48.1126" id="Stroke-127"></path>
+                            <path d="M38,143.5 L26.784,154.716" id="Stroke-129"></path>
+                            <path d="M154.5493,26.9502 L143.3333,38.1672" id="Stroke-131"></path>
+                            <path d="M47.9458,151.8457 L38.8478,164.8387" id="Stroke-133"></path>
+                            <path d="M142.4858,16.8281 L133.3878,29.8211" id="Stroke-135"></path>
+                            <path d="M59.1895,158.3369 L52.4855,172.7129" id="Stroke-137"></path>
+                            <path d="M128.8477,8.9541 L122.1437,23.3301" id="Stroke-139"></path>
+                            <path d="M71.3892,162.7773 L67.2842,178.0983" id="Stroke-141"></path>
+                            <path d="M114.0493,3.5684 L109.9443,18.8894" id="Stroke-143"></path>
+                            <path d="M84.1753,165.0322 L82.7923,180.8332" id="Stroke-145"></path>
+                            <path d="M98.5405,0.833 L97.1585,16.635" id="Stroke-147"></path>
+                        </g>
+                    </g>
+                    <g id="BG" transform="translate(45.000000, 45.000000)">
+                        <path d="M70,140 C31.3400675,140 0,108.659932 0,70 C0,31.3400675 31.3400675,0 70,0 C108.659932,0 140,31.3400675 140,70 C140,108.659932 108.659932,140 70,140 Z M70.0008461,104.001481 C88.7788781,104.001481 104.001481,88.7788781 104.001481,70.0008461 C104.001481,51.2228142 88.7788781,36.0002115 70.0008461,36.0002115 C51.2228142,36.0002115 36.0002115,51.2228142 36.0002115,70.0008461 C36.0002115,88.7788781 51.2228142,104.001481 70.0008461,104.001481 Z M70,97 C55.0883118,97 43,84.9116882 43,70 C43,55.0883118 55.0883118,43 70,43 C84.9116882,43 97,55.0883118 97,70 C97,84.9116882 84.9116882,97 70,97 Z" id="Oval" fill="url(#linearGradient-3)"></path>
+                        <g id="Line" transform="translate(4.000000, 4.000000)" fill="#112C4F" fill-opacity="0.2">
+                            <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(22.500000) translate(-66.000000, -66.000000) "></path>
+                            <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(67.500000) translate(-66.000000, -66.000000) "></path>
+                            <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(112.500000) translate(-66.000000, -66.000000) "></path>
+                            <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(157.500000) translate(-66.000000, -66.000000) "></path>
+                        </g>
+                        <circle id="Oval-3" stroke="url(#linearGradient-4)" cx="70" cy="70" r="69.5"></circle>
+                        <circle id="Oval-4" stroke="url(#linearGradient-5)" cx="70" cy="70" r="34.5"></circle>
+                        <circle id="Oval-3" stroke="url(#linearGradient-6)" cx="70" cy="70" r="26.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

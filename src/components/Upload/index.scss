@@ -1,0 +1,40 @@
+/*云眼图库图片上传搜索*/
+.baselib-upload {
+  width: 240px;
+  height: 240px;
+  margin: 16px auto;
+  background: #f2f2f2;
+  border-radius: 4px;
+  color: #999999;
+  .ant-upload.ant-upload-drag{
+    border: 0 none;
+    padding: 0;
+  }
+  .icon-file .anticon {
+    font-size: 48px;
+  }
+  img{
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .watermask{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left:50%;
+    color: rgba(255,255,255,0.2);
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+    font-size: 8px;
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+}
+.textUpload{
+  float: right;
+  padding: 0 12px;
+  i{
+    font-size: 22px;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+  }  
+}

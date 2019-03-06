@@ -1,0 +1,27 @@
+.modal-org-select {
+  width: 400;
+  height: 650px;
+  .ant-modal-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0 0;
+  }
+  .ant-modal-header {
+    padding: 10px 24px;
+  }
+  .ant-modal-body {
+    width: 100%;
+    height: calc(100% - 43px);
+    padding: 0;
+  }
+  .modal-layout-content{
+    height: 100%;
+    overflow: auto;
+    padding:20px;
+  }  
+  .ant-modal-close-x{
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+  }
+}

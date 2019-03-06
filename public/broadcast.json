@@ -1,0 +1,6 @@
+{
+  "broadcast": {
+    "name": "智慧广播",
+    "path": "paclient:{eventId:open}"
+  }
+}

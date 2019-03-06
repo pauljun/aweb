@@ -1,0 +1,20 @@
+.soldier-container {
+  height:100%;
+  width: 100%;
+  .soldier-content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: calc(100% - 48px);
+    display: flex;
+    flex-direction: column;
+    .form-btn-group{
+      display:flex;
+      .icon-span{
+        position: relative;
+        top:5px;
+        padding-right:3px;
+      }
+    }
+  }
+}
+

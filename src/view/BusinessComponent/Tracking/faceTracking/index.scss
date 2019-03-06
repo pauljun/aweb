@@ -1,0 +1,54 @@
+@import '../../../../assets/css/base.scss';
+
+.face-tracking {
+  height: 100%;
+  .face-tracking-header {
+    .face-tracking-upload {
+      .ant-upload-drag {
+        width: 100px;
+        height: 100px;
+        .ant-upload-drag-container {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .face-tracking-content {
+    display: flex;
+    justify-content: center;
+    .footer-type {
+      display: flex;
+      border-radius: 3px;
+      border: 1px solid $all-active-orange;
+      .type-btn {
+        width: 120px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        transition: .5s all;
+        cursor: pointer;
+        &.type-btn-active {
+          background: $c-main-orange;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .face-tracking-footer {
+    height: 600px;
+    .photo {
+      position: relative;
+      transition: all .5s;
+      .rect {
+        position: absolute;
+        border: 2px solid #ccc;
+      }
+    }
+    .photo-dis {
+      display: none;
+    }
+  }
+}

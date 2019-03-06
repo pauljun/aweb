@@ -1,0 +1,400 @@
+// 视图资源库搜索条件样式#a3b0ca
+@import '../../assets/css/base.scss';
+.data-repository-search{
+  overflow: auto;
+  width: 280px;
+  background: #EAEDF1;
+  .upload-or-search{
+    // height: 57px;
+    padding: 0 16px;
+    // padding-top: 16px;
+    >.sw-upload-wrapper, >.ant-input-search{
+      margin: 16px auto 8px;
+    }
+    .ant-input{
+      border: none;
+    }
+    .ant-input-suffix{
+      .ant-btn{
+        padding: 0px;
+        width: 40px;
+        text-align: center;
+        box-shadow: none;
+        &:focus{
+          box-shadow: none;
+        }
+        .anticon.anticon-search{
+          font-size: 20px;
+        }
+      }
+    }
+    .sw-upload-wrapper{
+      width: 100%;
+      text-align: center;
+    }
+    .search-btn-data-repository{
+      background-image: linear-gradient(-180deg, #FFAA00 0%, #FF8800 100%);
+      border-radius: 3px;
+      color: #fff;
+      width: 118px;
+      height: 32px;
+      border: none;
+      &.ant-btn:not([disabled]):hover, &.ant-btn:not([disabled]):focus{
+        color: #fff;
+      }
+      &:hover{
+        background-image: linear-gradient(-180deg, #FF8800 0%, #FF6600 100%);
+        color: #fff;
+      }
+      i{
+        font-size: 16px;
+      }
+      span{
+        margin-left: 4px;
+      }
+    }
+  }
+  .search-title{
+    height: 36px;
+    padding-left: 16px;
+    font-size: 14px;
+    color: $c-666;
+    font-weight: 600;
+    line-height: 36px;
+    .reset-btn{
+      position: absolute;
+      left: 184px;
+      top: 8px;
+      width: 80px;
+      height: 32px;
+      font-size: 14px;
+      color: #333333;
+      background: #FFFFFF;
+      border: 1px solid #B5BBC7;
+      border-radius: 3px;
+      &:focus{
+        color: #333333;
+        border: 1px solid #B5BBC7;
+      }
+      &:hover{
+        background: #FFAA00;
+        border: 1px solid #FF8800;
+        color: #fff;
+      }
+    }
+  }
+  .data-repository-search-form{
+    .ant-checkbox-wrapper{
+      .ant-checkbox-inner{
+        border-color:  #a3b0ca;
+      }
+      .ant-checkbox-indeterminate{
+        .ant-checkbox-inner{
+          border-color:  $c-main-orange;
+        }
+      }
+    }
+    .label-data-repository{
+      padding-left: 16px;
+      font-size: 12px;
+      color: $c-666;
+      background: #F3F6F9;
+      height: 28px;
+      line-height: 28px;
+      position: relative;
+      .data-repository-icon{
+        color: #8899bb;
+        font-size: 16px;
+        margin-right: 4px;
+        vertical-align: -3px;
+      }
+      .ant-checkbox-wrapper{
+        float: right;
+        display: block;
+        width: calc(( 100% - 36px ) * 0.34);
+        color: $c-333;
+        margin-right: 16px;
+        span:nth-child(2){
+          font-size: 12px;
+          padding-left: 4px;
+          padding-right: 0px;
+          color: $c-333;
+        }
+      }
+    }
+    .item-content{
+      padding: 8px 16px 6px 36px;
+      &.color-select-tlzj{
+        // position: relative;
+        margin-bottom: 10px;
+        overflow: hidden;
+      }
+      // 车辆样式
+      .car-search{
+        width: 228px;
+        height: 28px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+      }
+      &.vehicle-color-select{
+        .ant-radio-wrapper{
+          .icon-other-color{
+            font-size: 16px;
+            opacity: 0.8;
+            margin-right: 4px;
+            // transition: all .5s;
+            // &:hover{
+            //   transform: scale(1.3);
+            // }
+          }
+          .color-all{
+            //background-image: radial-gradient(0% 49%, #FF0000 0%, #FF9B00 16%, #FFFF00 32%, #00FF9B 50%, #009BFF 66%, #C800FF 83%, #FF0000 97%);
+            background: url(./vehicleLibrary/img/Color-all.png) no-repeat center center;
+          }
+          span:nth-child(2){
+            span{
+              vertical-align: -2px;
+              margin: 0 4px 0 2px;
+              // transition: all .5s;
+              // &:hover{
+              //   transform: scale(1.3);
+              // }
+              border-radius: 3px;
+            }
+          }
+        }
+      }
+      &.plate-color-select{
+        img{
+          vertical-align: -4px;
+        }
+      }
+      // 滑动条
+      &.slider-select {
+        @include setFlex();
+        .ant-slider {
+          flex: 1;
+        }
+        .ant-slider-rail{
+          background: $c-main;
+        }
+        .ant-slider-handle {
+          border-color: $c-main;
+        }
+        .ant-slider-track {
+          background: #999;
+        }
+      }
+      // 公共rangePicker组件
+      .rangepicker-select {
+        height: auto;
+        .date-picker-wrapper{
+          display: block;
+          margin-left: 0;
+          width: 100%;
+          .date-picker-label {
+            font-size: $fs-12;
+            color: #666;
+          }
+          .ant-calendar-picker-input {
+            height: 28px;
+          }
+        }
+      }
+      // 时间选择#D8DCE3
+      .ant-radio-group{
+        width: 100%;
+      }
+      .ant-radio-wrapper{
+        margin-bottom: 8px;
+        margin-right: 0px;
+        .ant-radio:not(.ant-radio-checked){
+          .ant-radio-inner{
+            border-color: #a3b0ca;
+          }
+        }
+        span:nth-child(2){
+          font-size: 12px;
+          padding-left: 4px;
+          padding-right: 0px;
+          color: $c-333;
+        }
+        // &:nth-child(3n - 1){
+        //   margin-left: 36px;
+        // }
+        float: left;
+        width: 33%;
+      }
+      .ant-calendar-picker:nth-child(1){
+        margin-bottom: 4px;
+      }
+      // 点位选择
+      .scope-type{
+        overflow: hidden;
+        .btn{
+          // width: 108px;
+          width: 104px;
+          height: 28px;
+          font-size: 12px;
+          background: #FFFFFF;
+          border: 1px solid #B5BBC7;
+          border-radius: 3px;
+          color: $c-333;
+          float: left;
+          i{
+            color: #8899bb;
+            font-size: 16px;
+          }
+          &:nth-child(2){
+            // margin-left: 2px;
+            float: right;
+          }
+        }
+        margin-bottom: 8px;
+      }
+      .grap-point-content{
+        background: #FFFFFF;
+        border: 1px solid #B5BBC7;
+        border-radius: 3px;
+        overflow-y: auto;
+        width: 100%;
+        max-height: 270px;
+        padding-bottom: 29px;
+        position: relative;
+        .camera-selected{
+          padding: 0 16px;
+          height: 238px;
+          overflow-y: auto;
+          .li{
+            height: 24px;
+            font-size: 12px;
+            line-height: 24px;
+            margin-bottom: 1px;
+            width: 100%;
+            @include ellip();
+            i{
+              margin-right: 4px;
+            }
+          }
+        }
+        .clear{
+          position: absolute;
+          height: 27px;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          text-align: center;
+          border-top: 1px solid  #B5BBC7;
+          line-height: 26px;
+          cursor: pointer;
+          i{
+            margin-right: 4px;
+            font-size: 16px;
+            opacity: 0.8;
+          }
+        }
+      }
+      // checkbox 多选
+      .ant-checkbox-group{
+        width: 100%;
+        .ant-checkbox-wrapper{
+          margin-bottom: 8px;
+          float: left;
+          width: 33%;
+          margin-left: 0px;
+          @include ellip();
+          span:nth-child(2){
+            font-size: 12px;
+            padding-left: 4px;
+            padding-right: 0px;
+            color: $c-333;
+          }
+        }
+      }
+      // 颜色选择
+      .color-select{
+        // width: 108px;
+        width: 104px;
+        float: left;
+        .ant-select-selection{
+          height: 28px;
+          border: 1px solid #B5BBC7;
+          border-radius: 3px;
+          box-shadow: none;
+        }
+        .ant-select-selection__rendered{
+          line-height: 26px;
+          .ant-select-selection-selected-value{
+            font-size: 12px;
+            .color-bg{
+              display: none !important;
+            }
+            .span-all{
+              display: none;
+            }
+            .icon-all-color{
+              display: none;
+            }
+            &::before{
+              display: inline;
+              content: '上衣:';
+              font-size: 12px;
+              margin-right: 3px;
+            }
+          }
+        }
+        &:nth-child(2){
+          // margin-left: 2px;
+          float: right;
+          .ant-select-selection__rendered{
+            .ant-select-selection-selected-value{
+              &::before{
+                content: '下衣:';
+              }
+            }
+          }
+        }
+      }
+      .ant-select-dropdown{
+        width: 210px !important;
+      }
+      .ant-select-dropdown-menu{
+        padding: 12px 16px 1px;
+        padding-right: 0px;
+        li{
+          float: left;
+          width: 33%;
+          padding: 0px;
+          font-size: 12px;
+          margin-bottom: 11px;
+          .icon-all-color{
+            font-size: 16px;
+            vertical-align: -2px;
+            color: #8899bb;
+          }
+          span{
+            margin-right: 8px;
+            vertical-align: -2px;
+            &.bg-border-white{
+              border: 1px solid #B5BBC7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.org-select-model{
+  .ant-modal-content{
+    .ant-modal-body{
+      padding: 0px 24px 24px 24px !important;
+      .org-select-device-wrapper {
+        padding-top: 20px;
+        >.cc-search{
+          top: 26px;
+        }
+      }
+    }
+  }
+}

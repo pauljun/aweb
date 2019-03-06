@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="112px" viewBox="0 0 170 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="3.061617e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EBEFF3" offset="0%"></stop>
+            <stop stop-color="#E3E8ED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#E1E7EC" offset="0%"></stop>
+            <stop stop-color="#D6DDE3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="智慧云眼" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud_Open" transform="translate(-191.000000, -922.000000)" fill="url(#linearGradient-1)" stroke="url(#linearGradient-2)">
+            <g id="Cloud" transform="translate(66.000000, 851.000000)">
+                <g id="Zoom" transform="translate(125.000000, 71.000000)">
+                    <g id="BG">
+                        <path d="M0.504473574,107.202469 C0.610358605,109.593788 2.58256942,111.5 5,111.5 L165,111.5 C167.485281,111.5 169.5,109.485281 169.5,107 L169.5,5 C169.5,2.51471863 167.485281,0.5 165,0.5 L5,0.5 C2.58256942,0.5 0.610358605,2.40621242 0.504473574,4.79753124 C15.0286756,17.7140218 23.5,36.1730136 23.5,56 C23.5,75.8269864 15.0286756,94.2859782 0.504473574,107.202469 Z" id="Rectangle-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

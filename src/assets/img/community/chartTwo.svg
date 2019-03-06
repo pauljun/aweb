@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>24/sb_icon/2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="24/sb_icon/2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 4.000000)" fill="#FFFFFF">
+            <rect id="Rectangle-36" x="2" y="11" width="3" height="5"></rect>
+            <rect id="Rectangle-36" x="8" y="9" width="3" height="7"></rect>
+            <rect id="Rectangle-36" x="14" y="7" width="3" height="9"></rect>
+            <path d="M16.2525764,1 L14.0634766,1 C13.7873342,1 13.5634766,0.776142375 13.5634766,0.5 C13.5634766,0.223857625 13.7873342,0 14.0634766,0 L18,0 L18,4 C18,4.27614237 17.7761424,4.5 17.5,4.5 C17.2238576,4.5 17,4.27614237 17,4 L17,1.6726812 L12.191868,6 L6.15761112,6 L1.28673117,9.40961596 C1.06050652,9.56797321 0.748741293,9.51295582 0.59038404,9.28673117 C0.432026786,9.06050652 0.48704418,8.74874129 0.713268828,8.59038404 L5.84238888,5 L11.808132,5 L16.2525764,1 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

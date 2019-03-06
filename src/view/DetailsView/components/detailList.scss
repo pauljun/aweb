@@ -1,0 +1,55 @@
+@import '../../../assets/css/base.scss';
+
+.detail_list_view{
+  display: flex;
+  height: 294px;
+  justify-content: center;
+  align-items: center;
+  .list_view_left{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+    &:hover{
+      border-color: $all-active-orange;
+      .anticon{
+        color: $all-active-orange;
+      }
+    }
+    .anticon{
+      font-size: 24px;
+      color: #8899BB;
+    }
+  }
+  .list_view_left_null{
+    width: 40px;
+    height: 0;
+  }
+  .list_view_content{
+    position: relative;
+    width: 976px;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin: 0 20px;
+    &::-webkit-scrollbar{
+      height: 8px;
+    }
+    .list_box{
+      position: absolute;
+      left : 0;
+      display: flex;
+      flex-flow: nowrap;
+      transition: .5s;
+      .list_card{
+        flex: 0 1 auto;
+      }
+    }
+
+  }
+}

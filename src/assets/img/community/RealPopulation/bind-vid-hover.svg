@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>24/search_icon/5 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="24/search_icon/5-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Combined-Shape" fill="#44aaff" cx="12" cy="12" r="12"></circle>
+        <path d="M10.8,14.4 L10.8,16.8 L9.6,16.8 C6.9490332,16.8 4.8,14.6509668 4.8,12 C4.8,9.3490332 6.9490332,7.2 9.6,7.2 L10.8,7.2 L10.8,9.6 L9.6,9.6 C8.2745166,9.6 7.2,10.6745166 7.2,12 C7.2,13.3254834 8.2745166,14.4 9.6,14.4 L10.8,14.4 Z M13.2,14.4 L14.4,14.4 C15.7254834,14.4 16.8,13.3254834 16.8,12 C16.8,10.6745166 15.7254834,9.6 14.4,9.6 L13.2,9.6 L13.2,7.2 L14.4,7.2 C17.0509668,7.2 19.2,9.3490332 19.2,12 C19.2,14.6509668 17.0509668,16.8 14.4,16.8 L13.2,16.8 L13.2,14.4 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <rect id="Rectangle-54" fill="#FFFFFF" x="9.6" y="11" width="4.8" height="2" rx="1"></rect>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+@import 'src/assets/css/base.scss';
+.ant-menu-horizontal.menu-tab-style{
+  .ant-menu-item{
+    .anticon{
+      font-size: 16px;
+    }
+    &.ant-menu-item-selected{
+      border-bottom-color: $c-main-orange;
+      color: $c-main-orange;
+      i{
+        color: $c-main-orange;
+      }
+    }
+    &:hover{
+      border-bottom-color: $c-main-orange;
+      color: $c-main-orange;
+    }
+    &:focus{
+      border-bottom-color: $c-main-orange;
+      color: $c-main-orange;
+    }
+  }
+}

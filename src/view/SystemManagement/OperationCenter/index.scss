@@ -1,0 +1,162 @@
+@import 'src/assets/css/base.scss';
+
+.optCenter-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .optCenter-title {
+    height: 80px;
+    font-size: 16px;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    .optCenter-table-search {
+      display: flex;
+      align-items: center;
+      .ant-input-search {
+        padding-right: 20px;
+        margin-left: 20px;
+      }
+    }
+  }
+  .optCenter-container,.setting-operation-center-eidt {
+    height: calc(100% - 80px);
+    flex: 1;
+  }
+  .setting-operation-center-eidt{
+    overflow: auto;
+  }
+
+  #coLogoDefault{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .view-info-part{
+    display: flex;
+    padding-bottom:10px;
+    font-size: 12px;
+    .label{
+      width: 110px;
+      text-align: right;
+      padding-right:5px;
+      color: $c-999;
+    }
+    .item-value{
+      color: $c-333;
+    }
+  }
+  .device-table-name {
+    .anticon {
+      font-size: 18px;
+      position: relative;
+      top: 2px;
+      padding-right: 4px;
+    }
+  }
+}
+
+.operation-center-nav{
+  height: 50px;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  button{
+    height: 28px;
+    width: 80px;
+    border: 1px solid $all-active-orange;
+    color: $all-active-orange;
+    font-size: 12px;
+    .anticon{
+      font-size: 16px;
+      float: left;
+      margin-top: 2px;
+    }
+  }
+}
+
+.map-init-wrapper{
+  width: 900px;
+  height: 506px;
+  position: relative;
+  border: 1px solid #D8DCE3;
+  &:after{
+    display: block;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    top: 0;
+  }
+  .map-info{
+    display: none;
+  }
+  .Map-view{
+    height: 100%;
+  }
+}
+
+.login-view-look{
+  margin-top: -4px;
+  >span{
+    margin-right: 20px;
+  }
+}
+body{
+  .login-url-copy{
+    width: 78px;
+    height: 28px;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    .anticon{
+      margin-right: 2px;
+      font-size: 16px;
+      color: #8899bb;
+      vertical-align: -0.2em;
+    }
+    .anticon + span{
+      margin-left: 2px;
+    }
+  }
+}
+
+
+.optCenter-container-main{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.system-logo-view, .system-cologo-view{
+  background: #1E2742;
+  border-radius: 3px;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  img{
+    max-height: 100%;
+  }
+}
+.system-logo-view{
+  width: 64px;
+  height: 64px;
+  img{
+    max-width: 100%;
+  }
+}
+.system-cologo-view{
+  min-width: 140px;
+  height: 44px;
+}
+
+.optCenter-content{
+  height: 100%;
+  overflow-y: auto;
+}

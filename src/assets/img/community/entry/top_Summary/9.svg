@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>32/sq/top_menu/9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000161558218 0.870449156 21.2255 0.870449156 21.2255 26 0.000161558218 26"></polygon>
+        <linearGradient x1="72.1742126%" y1="97.2069184%" x2="72.1742126%" y2="4.93919549%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="32/sq/top_menu/9" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(6.000000, 0.000000)">
+            <path d="M16,2.99952206 C16,4.65604588 14.6567878,6 12.999044,6 C11.3422562,6 10,4.65604588 10,2.99952206 C10,1.34299825 11.3422562,0 12.999044,0 C14.6567878,0 16,1.34299825 16,2.99952206" id="Fill-1" fill-opacity="0.8" fill="#FFFFFF"></path>
+            <g id="Group-5" transform="translate(0.000000, 6.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M13.591,1.708512 C13.347,1.454752 13.047,1.297712 12.73,1.235312 L9.887,0.890032 C9.453,0.822432 8.995,0.928512 8.623,1.229072 L0.64,7.684352 C-0.081,8.267792 -0.213,9.360832 0.348,10.111712 C0.91,10.861552 1.96,10.998832 2.681,10.415392 L7.262,6.709872 L6.03,13.753792 L5.091,17.738032 L0.134,23.075312 C0.134,23.075312 -0.517,24.580192 0.64,25.406992 C1.796,26.233792 2.737,25.406992 2.737,25.406992 L7.838,19.617312 L9.5168457,15.0874023 L12.405,19.152432 L14.3439707,25.406992 C14.3439707,25.406992 15.3089707,26.008112 16.3449707,25.632672 C17.3809707,25.257232 17.3089707,23.752352 17.3089707,23.752352 L15.429,17.662112 L12.102,13.226512 L13.907,6.927232 L18.389,11.590592 C19.036,12.262432 20.095,12.262432 20.741,11.590592 C21.387,10.917712 21.387,9.816352 20.741,9.144512 L13.591,1.708512 Z" id="Fill-3" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

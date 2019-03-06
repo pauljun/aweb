@@ -1,0 +1,86 @@
+@import 'src/assets/css/base';
+.monitee-form-people-info-wrapper {
+  padding-right: 10px;
+  height: 100%;
+  .ant-row {
+    // 图片列表样式
+    .img-list-wrapper {
+      margin-bottom: 12px;
+      .img-list {
+        // max-height: 200px;
+        overflow-y: auto;
+        .img-wrapper {
+          &:hover .img-btn-wrapper {
+            @include setFlex();
+          }
+          @include setWH(128px, 128px);
+          border-radius: 3px;
+          overflow: hidden;
+          position: relative;
+          margin-right: 16px;
+          margin-bottom: 16px;
+          img {
+            @include setWH();
+          }
+          .img-btn-wrapper {
+            @include setWH();
+            display: none;
+            position: absolute;
+            top: 0;
+            background: rgba(0, 0, 0, 0.5);
+            .anticon {
+              color: $c-fff;
+              font-size: 32px;
+              margin: 0 5px;
+              cursor: pointer;
+            }
+          }
+          .img-err{
+            position: absolute;
+            bottom: -24px;
+            color: red;
+            left: 0;
+          }
+        }
+      }
+    }
+    .upload-div-wrapper {
+      position: relative;
+      text-align: center;
+      background: $c-fff;
+      .sw-upload-wrapper{
+        width: 100%;
+      }
+      .upload-btn-wrapper {
+        width: 128px;
+        height: 128px;
+        border-radius: 3px;
+      }
+      .ant-upload-text {
+        height: 40px;
+        font-size: 12px;
+        color: #999999;
+      }
+      .uploader-tip {
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        pointer-events: none;
+      }
+    }
+  }
+  //ui调整 为一行显示
+  .ant-form-item{
+    display: flex;
+    margin-bottom: 4px;
+    .ant-form-item-label{
+      width: 80px;
+      label{
+        color: $c-999;
+      }
+    }
+    .ant-form-item-control-wrapper{
+      flex: 1;
+    }
+  }
+}

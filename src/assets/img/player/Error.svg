@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>64/Photo/Error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="64/Photo/Error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.4">
+        <path d="M31.5,18 L44,18 C45.1045695,18 46,18.8954305 46,20 L46,27 L56.4452998,20.0364668 C56.9048285,19.7301143 57.5256978,19.8542882 57.8320503,20.3138169 C57.941562,20.4780844 58,20.6710921 58,20.8685171 L58,43.1314829 C58,43.6837677 57.5522847,44.1314829 57,44.1314829 C56.802575,44.1314829 56.6095673,44.0730449 56.4452998,43.9635332 L46,37 L46,44 C46,45.1045695 45.1045695,46 44,46 L24.5,46 L31.5,18 Z M27.5,18 L20.5,46 L8,46 C6.8954305,46 6,45.1045695 6,44 L6,20 C6,18.8954305 6.8954305,18 8,18 L27.5,18 Z M29,16 L31,16 L23,48 L21,48 L29,16 Z" id="Rectangle-26" fill="#FFFFFF"></path>
+    </g>
+</svg>

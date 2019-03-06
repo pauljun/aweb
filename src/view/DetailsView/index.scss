@@ -1,0 +1,90 @@
+@import '../../assets/css/base.scss';
+.detail_view{
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  background: #f3f6f9;
+  .detail_detailed_meiying .footer_search{
+    display: none!important;
+  }
+  .history_alarm_detail_view {
+    height: 100%;
+    padding-bottom: 50px;
+    overflow: auto;
+    .detail_header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 976px;
+      // height: 72px;
+      margin: 20px auto 8px;
+      transition: .5s all;
+      &.detail_header_hidden{
+        display: none;
+      }
+      .detail_header_button {
+        margin-left: 20px;
+        width: 200px;
+        .header_btn {
+          width: 92px;
+          height: 32px;
+          color: #fff;
+          transition: .5s all;
+          border: none;
+          .anticon{
+            font-size: 16px;
+          }
+          &:first-child {
+            margin-right: 16px;
+            background-image: linear-gradient(-180deg, #25DC9B 0%, #0FC484 95%);
+            &:active,
+            &:hover,
+            &:focus {
+              background-image: linear-gradient(-180deg, #0FC484 0%, #0AAC72 100%);
+            }
+          }
+          &:last-child {
+            background-image: linear-gradient(-180deg, #FFBB22 0%, #FFAA00 100%);
+            &:active,
+            &:hover,
+            &:focus {
+              background-image: linear-gradient(-180deg, #FFAA00 0%, #FF8800 100%);
+            }
+  
+          }
+        }
+      }
+    }
+    .details_text {
+      display: block;
+      flex: 1;
+      // width: 700px;
+      border-radius: 3px;
+      .details_span{
+        word-wrap:break-word;
+        font-size: 14px;
+        color: #333333;
+      }
+    }
+    .details_text_handled{
+      width: 976px;
+      min-height: 32px;
+      padding: 2px 14px;
+      font-size: 14px;
+      line-height: 32px;
+      margin: 20px auto 8px;
+      border: 1px solid #ccc;
+      background: #fff;
+      border-radius: 4px;
+      word-wrap:break-word;
+    }
+    .detail_imm{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .detail_list_view {
+      margin-top: 8px;
+    }
+  }
+}

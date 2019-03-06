@@ -1,0 +1,188 @@
+@import 'src/assets/css/base';
+.lm-player {
+  &.lm-player-hide-bar {
+    .camera-control-layer {
+      opacity: 0;
+      z-index: -2;
+    }
+  }
+  .camera-control-layer {
+    cursor: default;
+    @include setWH(230px, 102px);
+    position: absolute;
+    bottom: 38px;
+    left: 4px;
+    opacity: 1;
+    z-index: 10;
+    transition: all 0.3s;
+
+    .layout-content {
+      cursor: default;
+      @include setWH(230px, 102px);
+      background: url('../../../assets/img/player/LD_BG.svg') no-repeat
+        center/cover;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    // 云台控制按钮
+    .ptz-btn {
+      position: absolute;
+      @include setWH(40px, 39px);
+      bottom: 0;
+      left: 0;
+      cursor: pointer;
+      background: url('../../../assets/img/player/LD_BG_Close.svg') no-repeat
+        center/cover;
+      .ptz-status-icon {
+        @include setWH(16px, 16px);
+        position: absolute;
+        top: 14px;
+        left: 10px;
+        z-index: 9;
+        background: url('../../../assets/img/player/Open_White.svg') no-repeat
+          center;
+      }
+      &.open {
+        background: transparent;
+        .ptz-status-icon {
+          background-image: url('../../../assets/img/player/Hide_White.svg');
+        }
+      }
+    }
+    // 焦距控制
+    .box-focal {
+      position: absolute;
+      @include setWH(52px, 52px);
+      bottom: 15px;
+      left: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        cursor: pointer;
+        position: absolute;
+        color: $c-fff;
+        @include setWH(16px, 16px);
+        text-align: center;
+        line-height: 30px;
+        .anticon {
+          pointer-events: none;
+          display: block;
+          font-size: $fs-14;
+        }
+      }
+      .zoomin {
+        top: 18%;
+        left: 14%;
+      }
+      .zoomout {
+        bottom: 12%;
+        right: 14%;
+      }
+    }
+    // 云台速度控制
+    .box-speed {
+      width: 122px;
+      height: 20px;
+      position: absolute;
+      bottom: 0px;
+      left: 72px;
+      @include setFlex(center, flex-start);
+      .ant-slider {
+        margin: 0 4px;
+        width: 100px;
+        top: 1px;
+        .ant-slider-rail {
+          height: 2px;
+          border-radius: 2px;
+          background: rgba(255, 255, 255, 0.4);
+        }
+        .ant-slider-track {
+          height: 2px;
+          border-radius: 2px;
+          background: rgba(255, 255, 255, 1);
+        }
+        .ant-slider-handle {
+          top: 5px;
+          @include setWH(10px, 10px);
+          background: #3594ff;
+          border: 2px solid #ffffff;
+        }
+      }
+      & > .box-speed-icon {
+        width: 16px;
+        height: 16px;
+        margin: 0 4px;
+        margin-right: 8px;
+        background: url('../../../assets/img/player/Speed.svg') no-repeat
+          center/cover;
+      }
+    }
+    // 方向控制
+    .camera-control-wrapper {
+      background: url('../../../assets/img/player/Cloud_BG_Small.svg') no-repeat
+        center/cover;
+      overflow: hidden;
+      @include absCenter();
+      bottom: 100%;
+      left: -28px;
+      @include setWH(128px, 128px);
+      border-radius: 50%;
+      li {
+        position: absolute;
+        font-size: 15px;
+        @include setWH(56px, 40px);
+        transform-origin: 100% 100%;
+        overflow: hidden;
+        left: 50%;
+        top: 50%;
+        margin-left: -44%;
+        margin-top: -32%;
+        @for $i from 1 to 9 {
+          &:nth-child(#{$i}) {
+            transform: rotate(#{45 * $i + 22.5}deg) skew(45deg);
+          }
+        }
+        .control-item {
+          display: block;
+          font-size: 18px;
+          @include setWH(32px, 32px);
+          text-align: center;
+          line-height: 32px;
+          position: absolute;
+          bottom: 1px;
+          right: 8px;
+          transform: skew(-45deg) rotate(-67deg);
+          &:hover {
+            background: url('../../../assets/img/player/Now_Light.svg')
+              no-repeat center/80%;
+          }
+          span {
+            pointer-events: none;
+            @include setWH(14px, 14px);
+            display: inline-block;
+            background: url('../../../assets/img/player/Grey_Arrow.svg')
+              no-repeat center/cover;
+            background-size: 12px;
+          }
+        }
+        &.active {
+          .control-item {
+            span {
+              background: url('../../../assets/img/player/Grey_Blue.svg')
+                no-repeat center/cover;
+            }
+          }
+        }
+      }
+      .center-layer {
+        @include setWH(42px, 42px);
+        @include absCenter();
+        border-radius: 50%;
+        background: url('../../../assets/img/player/icon-cloud.svg') no-repeat
+          center/70% 70%;
+      }
+    }
+  }
+}

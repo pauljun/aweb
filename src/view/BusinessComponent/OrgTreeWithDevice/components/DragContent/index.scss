@@ -1,0 +1,28 @@
+.dragContent{
+    transition: all 0.2s linear;
+    position: relative;
+    user-select: none;
+    overflow: hidden;
+    .alarm-tree-wrapper{
+        height:auto !important;
+        box-shadow: none !important;
+    }
+    .toggle{
+        position: absolute;
+        right:16px;
+        top:0;
+        width: 20px;
+        margin-left:-4px;
+        height: 28px;
+        border-radius: 2px;
+        cursor: ns-resize;
+        padding:3px 11px;
+        &.disable{
+            cursor: not-allowed;
+        }
+        .anticon{
+            font-size: 16px;
+            color:#fff;
+        }
+      }
+}

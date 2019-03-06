@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>56/mb/icon-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="22.9003906%" y1="99.566474%" x2="22.9003906%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="56/mb/icon-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M28,48 L30,48 L30,22 L51,22 L51,48 L53,48 L53,50 L3,50 L3,48 L5,48 L5,11.9459459 L28,6 L28,48 Z M10,18 L10,23 L14,23 L14,18 L10,18 Z M19,18 L19,23 L23,23 L23,18 L19,18 Z M10,27 L10,32 L14,32 L14,27 L10,27 Z M19,27 L19,32 L23,32 L23,27 L19,27 Z M10,36 L10,41 L14,41 L14,36 L10,36 Z M19,36 L19,41 L23,41 L23,36 L19,36 Z M34,27 L34,32 L38,32 L38,27 L34,27 Z M43,27 L43,32 L47,32 L47,27 L43,27 Z M34,36 L34,41 L38,41 L38,36 L34,36 Z M43,36 L43,41 L47,41 L47,36 L43,36 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

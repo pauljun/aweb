@@ -1,0 +1,47 @@
+@import '../../../../../../assets/css/base';
+.detail-list-foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 266px;
+  margin-top: 24px;
+  .btn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover{
+      border-color: $c-main-orange;
+      i{
+        color: $c-main-orange;
+      }
+    }
+    i{
+      transition: all .5s;
+      font-size: 16px;
+      color: #8899bb;
+    }
+    &.left-btn{
+      margin-right: 20px;
+    }
+    &.right-btn{
+      margin-left: 20px;
+    }
+  }
+  .list-container{
+    width: 976px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    &.list-less-container{
+      justify-content: flex-start;
+      .pic-item{
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.tools-split-screen {
+  transition: all 0.3s;
+  &.active {
+    color: #FF8800;
+    .anticon{
+      color: #FF8800 !important;
+    }
+  }
+}
+
+.select-screen {
+  width: 100px;
+  user-select: none;
+  font-size: 12px;
+  padding: 5px;
+  box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  .screen-item {
+    padding: 4px 10px;
+    cursor: pointer;
+    .anticon {
+      font-size: 16px;
+      padding-right: 5px;
+      position: relative;
+      top:2px;
+      color:#8899BB;
+    }
+    &.active {
+      color: #FF8800;
+      .anticon{
+        color: #FF8800;
+      }
+    }
+  }
+}

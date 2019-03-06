@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="262px" height="54px" viewBox="0 0 262 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>DataName_ssjq_3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4370AD" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#455290" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#44AAFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#44AAFF" stop-opacity="0.2" offset="50.7835079%"></stop>
+            <stop stop-color="#2299FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#5C7FDB" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#49C9FF" stop-opacity="0.5" offset="51.5354046%"></stop>
+            <stop stop-color="#5C7FDB" stop-opacity="0.4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12.5730895,-7.10542736e-14 L227.426911,-4.88498131e-14 C229.041666,-4.91464389e-14 230.55702,0.77982842 231.495578,2.09380903 L239.068667,12.6961343 C239.674384,13.5441381 240,14.5602104 240,15.6023253 L240,16.3976747 C240,17.4397896 239.674384,18.4558619 239.068667,19.3038657 L231.495578,29.906191 C230.55702,31.2201716 229.041666,32 227.426911,32 L12.5730895,32 C10.958334,32 9.4429797,31.2201716 8.50442212,29.906191 L0.931332644,19.3038657 C0.325615671,18.4558619 1.16739417e-14,17.4397896 1.15463195e-14,16.3976747 L1.33226763e-14,15.6023253 C1.3657846e-14,14.5602104 0.325615671,13.5441381 0.931332644,12.6961343 L8.50442212,2.09380903 C9.4429797,0.77982842 10.958334,-6.72049341e-14 12.5730895,-6.75015599e-14 Z" id="path-4"></path>
+        <filter x="-7.3%" y="-45.3%" width="114.6%" height="209.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-2.5%" y="-21.4%" width="105.1%" height="142.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="2 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-7" font-family="PingFang-SC-Bold, PingFang SC" font-size="14" font-weight="bold" fill="#FFFFFF">
+            <tspan x="20" y="15">近七日告警增量变化趋势</tspan>
+        </text>
+        <filter x="-3.9%" y="-30.0%" width="107.8%" height="160.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.266666667   0 0 0 0 0.666666667   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="5_人员布控_1_实时警情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_警情列表_1" transform="translate(-49.000000, -611.000000)">
+            <g id="Data" transform="translate(40.000000, 50.000000)">
+                <g id="DataName_ssjq_3" transform="translate(20.000000, 569.000000)">
+                    <g id="BG">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <path stroke="url(#linearGradient-3)" stroke-width="1" d="M12.5730895,-0.5 L227.426911,-0.5 C229.203142,-0.5 230.870031,0.357811262 231.902445,1.80318993 L239.475534,12.4055152 C240.141823,13.3383193 240.5,14.4559989 240.5,15.6023253 L240.5,16.3976747 C240.5,17.5440011 240.141823,18.6616807 239.475534,19.5944848 L231.902445,30.1968101 C230.870031,31.6421887 229.203142,32.5 227.426911,32.5 L12.5730895,32.5 C10.7968584,32.5 9.12996872,31.6421887 8.09755538,30.1968101 L0.524465908,19.5944848 C-0.141822762,18.6616807 -0.5,17.5440011 -0.5,16.3976747 L-0.5,15.6023253 C-0.5,14.4559989 -0.141822762,13.3383193 0.524465908,12.4055152 L8.09755538,1.80318993 C9.12996872,0.357811262 10.7968584,-0.5 12.5730895,-0.5 Z" fill="url(#linearGradient-2)" fill-rule="evenodd"></path>
+                    </g>
+                    <path d="M10,2 L230,2 L230,3 L10,3 L10,2 Z M8,5 L232,5 L232,6 L8,6 L8,5 Z M6,8 L234,8 L234,9 L6,9 L6,8 Z M4,11 L236,11 L236,12 L4,12 L4,11 Z M2,14 L238,14 L238,15 L2,15 L2,14 Z M2,17 L238,17 L238,18 L2,18 L2,17 Z M4,20 L236,20 L236,21 L4,21 L4,20 Z M6,23 L234,23 L234,24 L6,24 L6,23 Z M8,26 L232,26 L232,27 L8,27 L8,26 Z M10,29 L230,29 L230,30 L10,30 L10,29 Z" id="Line" fill-opacity="0.1" fill="#44AAFF" filter="url(#filter-6)"></path>
+                    <g id="Name" transform="translate(33.000000, 6.000000)" fill="#FFFFFF">
+                        <g id="近七日告警增量变化趋势" fill-opacity="1">
+                            <use filter="url(#filter-8)" xlink:href="#text-7"></use>
+                            <use xlink:href="#text-7"></use>
+                        </g>
+                        <g id="16/Bar/ColumnChart_Light" transform="translate(0.000000, 2.000000)">
+                            <path d="M7.5,4 L8.5,4 C9.05228475,4 9.5,4.44771525 9.5,5 L9.5,12 C9.5,12.5522847 9.05228475,13 8.5,13 L7.5,13 C6.94771525,13 6.5,12.5522847 6.5,12 L6.5,5 C6.5,4.44771525 6.94771525,4 7.5,4 Z M12,2 L13,2 C13.5522847,2 14,2.44771525 14,3 L14,12 C14,12.5522847 13.5522847,13 13,13 L12,13 C11.4477153,13 11,12.5522847 11,12 L11,3 C11,2.44771525 11.4477153,2 12,2 Z M3,6 L4,6 C4.55228475,6 5,6.44771525 5,7 L5,12 C5,12.5522847 4.55228475,13 4,13 L3,13 C2.44771525,13 2,12.5522847 2,12 L2,7 C2,6.44771525 2.44771525,6 3,6 Z" id="Rectangle-52"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

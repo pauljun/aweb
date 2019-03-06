@@ -1,0 +1,29 @@
+.lm-player{
+  width: 100%;
+  height:100%;
+  user-select: none;
+  position: relative;
+  .player-marke{
+    pointer-events: none;
+  }
+  .html5-player-container{
+    background: #000;
+  }
+  .html5-player-button-container{
+    display: none !important;
+  }
+  // .html5-player-error-message-view,.html5-player-loading-view{
+  //   display: none !important;
+  // }
+  // .html5-player-end-view{
+  //   display: none !important;
+  // }
+  .drag-layout{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    left:0;
+    top:0;
+  }
+}

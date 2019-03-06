@@ -1,0 +1,222 @@
+@import 'src/assets/css/base.scss';
+.community_long_lived_alarm_box{
+	@include setFlex();
+	height: 100%;
+  .community_left_total{
+		height: 100%;
+		width: 280px;
+		transition: all .5s;
+		background: #EAEDF1;
+		position: relative;
+		.community-title-real {
+      font-family: PingFang-SC-Bold;
+      height: 48px;
+      font-size: 18px;
+      color: #333333;
+      background: #d8dce3;
+      line-height: 48px;
+      padding: 0 16px 0 16px;
+			border-bottom: 1px solid #c9c5c5;
+			display: flex;
+			justify-content: space-between;
+			.community-checkbox{
+				font-size: 12px;
+        color: #333333;
+			}
+		}
+		.community-input{
+			margin-top:16px;
+			margin-left: 16px;
+			width:100%;
+			.ant-input-affix-wrapper{
+				width: 248px;
+				height: 32px;
+			}
+		}
+		.community-exp{
+			height: calc(100% - 108px );
+			width: 100%;
+			margin-top: 12px;
+		 overflow-y: auto;
+		 overflow-x: hidden;
+		}
+		::-webkit-scrollbar{
+			width:4px;
+		}
+	}
+	.community_right_container{
+		//flex: 1;
+		width: calc(100% - 280px);
+		height: 100%;
+		position:relative; 
+		.alarm-container-header-search{
+			top: 8px;
+			z-index: 10;
+			width:auto;
+			right: 16px;
+			.header-text{
+				font-size: 12px;
+			}
+		}
+		.ant-tabs{
+			height: 100%;
+			.ant-tabs-content{
+				height: calc(100% - 48px);
+				.ant-tabs-tabpane-active{
+					overflow: hidden;
+				}
+				.ant-tabs-tabpane{
+					height:100%;
+					.float-communty-tab-scroll{
+						height: calc(100% - 58px);
+						overflow-y: auto;
+						position: relative;
+						.ant-spin-nested-loading{
+							height: 100%;
+							.ant-spin-container{
+								height: 100%;
+								.back-top-register{
+									display: flex;
+									flex-wrap: wrap;
+									overflow-y: auto;
+									justify-content: center;
+									align-content: space-between;
+									min-height: 100%;
+								}
+							}
+						}
+					}
+				}
+			}
+      .ant-tabs-bar{
+				height: 48px;
+				background: #F3F6F9;
+				margin: 0;
+				.ant-tabs-tab-active{
+					color:#FFAA00;
+				}
+        .ant-tabs-nav-container{
+					height: 48px;
+					border-bottom:1px solid #e8e8e8;
+          .ant-tabs-nav-wrap{
+           .ant-tabs-nav-scroll{
+             background:#F3F6F9;
+             .ant-tabs-nav{
+							 margin-left: 15px;
+							 .ant-tabs-ink-bar{
+								background-color:#FFAA00;
+								height: 2px;
+								visibility: inherit;
+							}
+							 .ant-tabs-tab{
+								background: #f3f6f9;
+							 }
+                 div{
+                   .ant-tabs-tab{
+										 border:0;
+										 text-align: center;
+										 padding:5px 16px;
+									   margin-right: 15px;
+										 &:hover{
+											color:#FFAA00;
+										}
+							   }	  
+						   } 
+             }
+           } 
+          }
+        }
+      }
+		}
+		.community_list_item{
+			width: 100%;
+			height: 48px;
+			background: #F3F6F9;
+			display:flex;
+			.alarm-container-header-search{
+				top: 58px;
+				.header-text{
+					font-size: 14px;
+				}
+			}
+		}
+		.community-top-bottom{
+			width: 98%;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 23px;
+		}
+	}
+}
+.float-community{
+	display: flex;
+	justify-content: space-between;
+	padding: 9px 20px 0px 20px;
+	height: 58px;
+	.float-input-search{
+		width: 300px;
+	}
+}
+.float-communty-tab-scroll{
+/* 	height: 770px;
+	overflow-y: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 40px 0 40px; */
+	 .community-footer-page{
+		height:100px;
+				padding-top:45px;
+				width: 100%;
+				//border-top: 1px solid #D8DCE3; 
+			//	margin-left: 50px;
+	} 
+}
+/* @media screen and (max-width: 1366px) {
+	.float-communty-tab-scroll{
+		height:480px !important;
+		.community-footer-page{
+			height:70px !important;
+					margin-top:20px !important;
+					margin-left: 200px !important;
+		}
+	}
+}
+@media screen and (width: 1600px) {
+	.float-communty-tab-scroll{
+		height:610px !important;
+		.community-footer-page{
+			height:70px !important;
+					margin-top:20px !important;
+					margin-left: 300px !important;
+		}
+	}
+} */
+.checkbox-span-pop-community{
+	.ant-popover-inner-content{
+		padding: 2px 4px;
+	}
+}
+.ant-select{
+  .ant-select-arrow{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    transition: .5s all;
+    background: url('../../../../assets/img/monitees/alarmHistory/Arrow_Small_Down_Mai.svg');
+    .anticon{
+      display: none;
+    }
+  }
+}
+.ant-select-open{
+  .ant-select-arrow{
+    transform: rotate(180deg);
+  }
+}
+.ant-select-selection{
+	border: 1px solid #B5BBC7;
+}
+.ant-input{
+	border: 1px solid #B5BBC7;
+}

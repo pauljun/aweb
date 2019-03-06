@@ -1,0 +1,122 @@
+.tools-resource-layer {
+  user-select: none;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  cursor: pointer;
+  flex: 1;
+  font-size: 12px;
+  text-align: center;
+  align-self: center;
+  .anticon {
+    color: #8899bb;
+
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+    &:first-child {
+      padding-right: 5px;
+    }
+  }
+  &:hover {
+    .anticon {
+      color: #8899bb;
+    }
+    &:hover {
+      color: #ffaa00;
+      .anticon {
+        color: #ffaa00;
+      }
+    }
+  }
+}
+
+.resource-popup-layout {
+  .ant-popover-inner-content {
+    padding: 0;
+  }
+  .map-type-popup-layout {
+    width: 296px;
+    user-select: none;
+    font-size: 12px;
+    padding: 12px;
+    box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.2);
+    .type-part {
+      margin: 10px 0;
+      &:first-child {
+        margin-top: 0;
+      }
+      .type-name {
+        padding: 5px 0;
+        border-bottom: 1px solid #eaedf1;
+      }
+      .type-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        .type-item {
+          width: 68px;
+          padding: 0 10px 10px;
+          text-align: center;
+          cursor: pointer;
+          .lable-text {
+            color: #666;
+            padding-top: 4px;
+            display: block;
+            text-align: center;
+          }
+          .icon {
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+            border-radius: 50%;
+            border-width: 1px;
+            border-style: solid;
+            overflow: hidden;
+            color: #fff;
+            background: #ddd;
+            border-color: #ccc;
+            .anticon {
+              font-size: 16px;
+              color: #fff;
+              top:0;
+              padding-right: 0;
+            }
+          }
+          &.active {
+            .icon {
+              color: #fff;
+              background: #ffaa00;
+              border-color: #ff8800;
+              .anticon {
+                color: #fff;
+              }
+            }
+            .lable-text {
+              color: #ffaa00;
+            }
+          }
+          
+        }
+      }
+      &:last-child {
+        .type-content {
+          .type-item {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

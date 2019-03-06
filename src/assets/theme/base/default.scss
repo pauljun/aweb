@@ -1,0 +1,12 @@
+body .default-theme {
+  .orange-btn:not(:disabled),
+  .orange-btn.ant-btn.ant-btn-primary:not(:disabled) {
+    background-image: linear-gradient(0deg, #ff8800 0%, #ffaa00 100%);
+    border: none;
+    color: #fff;
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+}

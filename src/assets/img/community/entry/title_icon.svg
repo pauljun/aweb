@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>title_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="19.0241117%" y1="-5.19685563%" x2="74.4029018%" y2="92.0591518%" id="linearGradient-1">
+            <stop stop-color="#805ADB" offset="0%"></stop>
+            <stop stop-color="#3B2B81" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="44" cy="44" r="35"></circle>
+        <filter x="-16.4%" y="-13.6%" width="132.9%" height="132.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="title_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-18">
+            <circle id="Oval-16" stroke-opacity="0.1" stroke="#FFFFFF" fill-opacity="0.0947973279" fill="#000000" cx="44" cy="44" r="43.5"></circle>
+            <g id="Oval-16">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-29" transform="translate(26.000000, 25.000000)">
+                <g id="Group-20">
+                    <path d="M1.95068359,32 C1.39839884,32 0.950683594,31.5522847 0.950683594,31 C0.950683594,30.4477153 1.39839884,30 1.95068359,30 L37.0288086,30 C37.5810933,30 38.0288086,30.4477153 38.0288086,31 C38.0288086,31.5522847 37.5810933,32 37.0288086,32 L1.95068359,32 Z" id="Line-8" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M35,30 L33,32 L33,30 L35,30 Z M33,12 L26,12 L26,10 L33,10 C34.1045695,10 35,10.8954305 35,12 L35,32 L22,32 L22.3636364,30 L33,30 L33,12 Z M35,30 L33,32 L33,30 L35,30 Z M33,12 L26,12 L26,10 L33,10 C34.1045695,10 35,10.8954305 35,12 L35,32 L22,32 L22.3636364,30 L33,30 L33,12 Z" id="Rectangle-5" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group-28" transform="translate(4.000000, 0.000000)">
+                        <path d="M2,30 L18,30 L18,2 L2,2 L2,30 Z M2,0 L18,0 C19.1045695,-2.02906125e-16 20,0.8954305 20,2 L20,32 L0,32 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-17" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M6.18261719,22 L14.0908203,22" id="Line-5" stroke="#FFFFFF" stroke-width="2" opacity="0.65" stroke-linecap="square"></path>
+                        <path d="M6.18261719,15 L14.0908203,15" id="Line-5" stroke="#FFFFFF" stroke-width="2" opacity="0.65" stroke-linecap="square"></path>
+                        <path d="M23.1826172,16 L26.0908203,16" id="Line-5" stroke="#FFFFFF" stroke-width="2" opacity="0.65" stroke-linecap="square"></path>
+                        <path d="M23.1826172,21 L26.0908203,21" id="Line-5" stroke="#FFFFFF" stroke-width="2" opacity="0.65" stroke-linecap="square"></path>
+                        <path d="M6.18261719,8 L14.0908203,8" id="Line-5" stroke="#FFFFFF" stroke-width="2" opacity="0.65" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

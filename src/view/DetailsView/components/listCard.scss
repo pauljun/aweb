@@ -1,0 +1,99 @@
+@import '../../../assets/css/base.scss';
+
+.list_card{
+  position: relative;
+  width: 146px;
+  height: 278px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+  border-radius: 4px;
+  padding: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  &:last-child {
+    margin-right: 0;
+  }
+  .card_checkbox{
+    z-index: 10;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    &.card_checkbox_null{
+      display: none;
+    }
+  }
+      .ant-checkbox-checked{
+    .ant-checkbox-inner{
+    background-color: $all-active-orange;
+    border-color: $all-active-orange;
+    }
+    }
+  .lis_card_img_box{
+    display: block;
+    width: 130px;
+    height: 160px;
+    border-radius: 3px;
+    overflow: hidden;
+    .list_card_img{
+      display: block;
+      width: auto;
+      height: 160px;
+      border-radius: 3px;
+    }
+  }
+
+
+  .card_content{
+    padding-top: 4px;
+    .card_text{
+      display: flex;
+      margin-bottom: 6px;
+      .content_p{
+        flex: 1;
+        font-size: 12px;
+        color: #333333; 
+        margin-bottom: 2px;
+        @include ellip();
+        .content_span {
+          color: $c-main-orange;
+          font-weight: 600;
+        }
+      }
+      .content_i{
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-top: 2px;
+        margin-right: 4px;
+      }
+      .anticon{
+        font-size: 16px;
+        color: #8899BB;
+        margin-top: 2px;
+        margin-right: 4px;
+      }
+      .content_cir{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 5px 5px 0 3px;
+        border-radius: 50%;
+        border: 1px solid #FF4343;
+      }
+      .red{
+        background: #FF5F57;
+      }
+      .iconYellow {
+        color: $all-active-orange;
+      }
+      .iconRed {
+        color: #25DC9B;
+      }
+    }
+  }
+}
+.active_card{
+  border-color: $all-active-orange;
+}

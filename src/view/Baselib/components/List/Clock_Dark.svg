@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>16/Bar/Clock_Dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="16/Bar/Clock_Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9,8 L9,4 C9,3.44771525 8.55228475,3 8,3 C7.44771525,3 7,3.44771525 7,4 L7,9 C7,9.55228475 7.44771525,10 8,10 L11,10 C11.5522847,10 12,9.55228475 12,9 C12,8.44771525 11.5522847,8 11,8 L9,8 Z M8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 Z" id="Oval-8" fill="#8899BB"></path>
+    </g>
+</svg>

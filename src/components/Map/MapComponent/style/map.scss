@@ -1,0 +1,126 @@
+.ibs-amap-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .amap-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  object {
+    visibility: hidden !important;
+  }
+}
+
+.amap-toolbar {
+  right: 30px !important;
+  bottom: 120px !important;
+}
+
+/*摄像头名称显示样式*/
+body .amap-marker-label {
+  top: -56px !important;
+  background: #00a1f2;
+  color: #fff;
+  border: 0;
+  transform: translate(-50%, 0);
+  margin-left: 16px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    margin-left: -5px;
+    border-style: solid;
+    border-color: #00a1f2 transparent transparent transparent;
+  }
+}
+
+body .amap-marker-content {
+  white-space: normal !important;
+}
+/**
+ * 地图图标
+*/
+
+body .map-icon-content {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  .bd {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    z-index: 1;
+  }
+  .circle {
+    width: 0;
+    height: 0;
+    border-radius: 15px;
+    border-width: 15px;
+    border-style: solid;
+    overflow: hidden; // opacity: 0.5;
+  }
+  &.map-text-content {
+    .bd {
+      display: flex;
+      color: #fff;
+      align-items: center;
+      font-size: 12px;
+      justify-content: center;
+    }
+  }
+}
+
+.amap-logo {
+  display: none !important;
+}
+.amap-copyright {
+  display: none !important;
+}
+
+body .amap-ui-smp-ifwn-content-body {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+body .amap-ui-smp-ifwn-def-tr-close {
+  display: none;
+}
+body .amap-ui-smp-ifwn-info-title {
+  display: none;
+}
+body .amap-ui-smp-ifwn-combo-sharp {
+  background: #fff;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg) translateX(-50%);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: block;
+  border-color: transparent;
+  border-style: solid;
+  margin-left: -4px;
+  display: none;
+}
+body .amap-icon img {
+  width: 100%;
+  height: 100%;
+}

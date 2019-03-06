@@ -1,0 +1,201 @@
+@import '../../../../assets/css/base.scss';
+.roleEdit-contanier{
+  height: calc(100% - 120px);
+  overflow: auto;
+}
+.noTreeTitle {
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px solid #d8dce3;
+  background: #f3f6f9;
+  padding-left: calc(50% - 600px);
+  font-size: 18px;
+  color: #333333;
+  font-weight: 700;
+}
+.setting-edit-btns.role-btn{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-top: 1px solid #d8dce3;
+    .ant-btn {
+      margin: 0 4px;
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: $c-main-orange;
+      }
+    }
+    .ant-btn-primary {
+      background-color: $c-main-orange;
+      border-color: $c-main-orange;
+      &:hover,
+      &:active,
+      &:focus {
+        color: #fff;
+        border-color: $c-main-orange;
+      }
+  }
+}
+.roleEdit{
+  width: 1200px;
+  margin: 0 auto;
+  .titleLayer{
+    .basetitle{
+      margin: 20px 0px 0 0px;
+    }
+    .titleText{
+      height: 40px;
+      padding: 0 20px;
+      line-height: 40px;
+      font-size: 14px;
+      font-weight: 700;
+      border-bottom: 1px solid #B5BBC7;
+    }
+  }
+  .roleDescs{
+    padding: 0 24px 0 32px;
+    label{
+      font-size: 12px;
+      color: #666;
+    }
+    .ant-form-item-control{
+      width: 100%!important;
+    }
+    input{
+      width: 100%;
+    }
+    textarea{
+      width: 100%;
+    }
+  }
+  .roleNames{
+    padding: 0 24px;
+    .ant-form-item-control{
+      width: 100%!important;
+      padding-left: 8px;
+    }
+    input{
+      width: 100%;
+    }
+    textarea{
+      width: 100%;
+    }
+  }
+  .father{
+    display: block;
+    color:#fff;
+    >label{
+      display: block;
+      font-size: 16px;
+      line-height: 48px;
+      padding-left: 20px;
+      background: #f5f8fa;
+      border-bottom: 1px solid #eee;
+    }
+  }
+  span.firSon{
+    display: block;
+    color:#fff;
+    padding: 0!important;
+    >label{
+      display: block;
+      line-height: 48px;
+      padding-left: 20px;
+      span{
+        color: #2299FF;
+      }
+    }
+    
+    
+  }
+  span.secSon{
+    padding: 0!important;
+    >label{
+      display: inline-block;
+      line-height: 48px;
+      padding-left: 110px;
+    }
+    
+    
+  }
+  .editRoleContent{
+    padding: 12px 0px 0;
+    .role-info{
+      h2{
+        font-size: 16px;
+      }
+      .baseInfo{
+        padding-bottom: 12px;
+        .ant-form-horizontal{
+          .ant-form-item{
+            margin-bottom: 6px;
+            .ant-form-item-label{
+              .ant-form-item-required{
+                font-size: 12px;
+                color: #666666;
+              }
+            }
+            .ant-form-item-control-wrapper{
+              .ant-form-item-control{
+                  width: 350px;
+              }
+            }
+            &:first-child{
+              .ant-form-item-control-wrapper{
+                margin-top: -6px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .pid-info{
+      h2{
+        font-size: 16px;
+      }
+      .check-all{
+        padding-bottom: 4px;
+        .ant-checkbox-wrapper{
+          font-weight: 700;
+        }
+      }
+      .checkbox-group{
+        // padding: 0 8px;
+        .check-card{
+          .check-module{
+            height: 48px;
+            line-height: 48px;
+            background: #f5f8fa;
+            border-bottom: 1px solid #eee;
+          }
+          .check-lv1{
+            height: 48px;
+            padding: 0 60px;
+            line-height: 48px; 
+            border-bottom: 1px solid #eee;
+          }
+          .check-lv2-3{
+            height: 48px;
+            padding: 0 120px;
+            line-height: 48px; 
+            border-bottom: 1px solid #eee;
+          }
+        }
+      }
+      .ant-checkbox{
+        margin-right: 4px;
+      }
+      .ant-checkbox-checked .ant-checkbox-inner{
+        background-color: $c-main-orange;
+        border-color: $c-main-orange;
+      }
+    }
+  }
+}

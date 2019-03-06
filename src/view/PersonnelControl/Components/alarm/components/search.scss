@@ -1,0 +1,23 @@
+@import '../../../../../assets/css/base.scss';
+.baselib-search{
+  .container{
+    .alarm-history-tlt{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 32px;
+      line-height: 32px;
+      border-bottom: 1px solid #e1e1e1;
+      color: #333;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: PingFang-SC-Bold;
+      padding: 0 16px;
+      .anticon{
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+  }
+}

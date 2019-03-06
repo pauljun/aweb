@@ -1,0 +1,380 @@
+@import 'src/assets/css/base';
+
+// 小图卡片
+$smWidth: 164px;
+
+// 中图卡片
+$mdWidth: 188px;
+
+// 大图卡片
+$bigWidth: 240px;
+
+// 计算列表容器的宽度
+// $width： 卡片宽度
+// $size：每一行展示的个数
+// $margin：margin-right值
+@function getWrapperWidth($width, $size, $marginRight) {
+  @return $width * $size + $marginRight * ($size - 1);
+}
+
+.baselib-list-wrapper{
+  @include setWH();
+  display: block;
+  overflow-y: auto;
+  .pagination-wrapper {
+    height: 32px;
+    margin: 0px auto 80px;
+    text-align: center;
+    padding-right: 20px;
+    span {
+      margin: 0 4px; 
+    }
+    .ant-pagination {
+      .ant-select-arrow {
+        margin-top: -6px;
+      }
+    }
+  }
+  .baselib-list-container {
+    min-height: calc(100vh - 254px);
+    margin: 24px auto;
+    margin-bottom: 20px;
+  }
+  .baselib-list-item { 
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    .item-img-wrapper {
+      position: relative;
+      //flex: 1;
+      height: 200px;
+      overflow: hidden;
+      border: 1px solid #B5BBC7;
+      border-radius: 3px;
+      padding: 4px;
+      .item-check {
+        position: absolute;
+        z-index: 9;
+        top: 4px;
+        right: 8px;
+      }
+      &>div {
+        @include setWH();
+      }
+      .related-icon {
+        @include setWH(24px, 24px);
+        @include setFlex();
+        font-size: 18px;
+        color: #fff;
+        position: absolute;
+        z-index: 9;
+        top: 6px;
+        left: 6px;
+        border-radius: 3px;
+        background: $c-main;  
+      }
+      .baselib-watermark-container {
+        border-radius: 3px;
+        overflow: hidden;
+      }
+    }
+    .item-info-wrapper {
+      position: relative;
+      flex: 1;
+      >div{
+        padding-top: 10px;
+      }
+      .item-info-container {
+        //min-height: 48px;
+        >div{
+          height: 17px;
+          line-height: 17px;
+          &.info-plate-number{
+            height: 20px;
+            line-height: 20px;
+            margin-bottom: 5px;
+            .info-value{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .info-plate-number{
+        .info-value{
+          color: $c-main-orange !important;
+          font-weight: 600;
+        }
+      }
+      .item-info {
+        margin-bottom: 7px;
+        @include setFlex();
+        &.info-score{
+          .info-value{
+            .slide-box{
+              display: inline-block;
+              width: 44px;
+              height: 4px;
+              border-radius: 2px;
+              background-color: #D8DCE3;
+              overflow: hidden;
+              position: relative;
+              margin-left: 4px;
+              margin-right: 13px;
+              vertical-align: 2px;
+              >span{
+                display: inline-block;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                background-image: linear-gradient(to left, #FFAA00 , #FF8800);
+              }
+            }
+            .highlight{
+              font-size: 14px;
+            }
+          }
+        }
+        >i{
+          margin-right: 4px;
+          opacity: 0.6;
+        }
+        .info-label {
+          @include setWH(16px, 16px);
+          margin-right: 4px;
+          opacity: 0.6;
+        }
+        .ant-progress{
+          height: 16px;
+          margin-top: -8px;
+          margin-right: 4px;
+          .ant-progress-circle-path{
+            stroke: $c-main-orange;
+          }
+        }
+        .info-value {
+          @include ellip();
+          flex: 1;
+          font-size: 12px;
+          color: #333;
+        }
+      }
+      .info-capture-time {
+        margin-bottom: 0;
+      }
+    }
+    .item-opera-container {
+      width: 100%;
+      display:none;
+      height: 100%;
+      background: rgba(255,255,255,0.9);
+      position: absolute;
+      bottom: 0;
+      .anticon {
+        margin:auto 12px;
+        //margin-bottom: 4px;
+        @include setWH(32px, 32px);
+        @include setFlex();
+        border: 1px solid #999;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #8899bb;
+        &:hover {
+          background: #FFAA00;
+          border: $c-main;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .baselib-list-item:hover {
+    border-radius: 3px;
+    padding: 11px;
+    border: 1px solid $c-main;
+    .item-opera-container {
+      @include setFlex();
+    }
+  }
+}
+
+.baselib-face-list-container{
+  .img-span {
+    transition: all 0.5s;
+  }
+  .baselib-list-item:hover {
+    .img-span {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.baselib-list-wrapper {
+  // 小图模式
+  .baselib-vehicle-list-container.baselib-list-container-sm {
+    .baselib-list-item {
+      height: 238px;
+    }
+  }
+  // 中图模式
+  .baselib-vehicle-list-container.baselib-list-container-md {
+    .baselib-list-item {
+      height: 264px;
+    }
+  }
+  // 大图模式
+  .baselib-vehicle-list-container.baselib-list-container-lg {
+    .baselib-list-item{
+      height: 316px;
+    }
+  }
+}
+
+// 列表容器及卡片宽高
+.baselib-list-wrapper{
+  // 小图模式
+  .baselib-list-container-sm {
+    .baselib-list-item {
+      width: $smWidth;
+      height: 244px;
+      margin-right: 16px;
+      margin-bottom: 16px;
+    }
+  }
+  // 中图模式
+  .baselib-list-container-md {
+    .baselib-list-item {
+      width: $mdWidth;
+      height: 276px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  // 大图模式
+  .baselib-list-container-lg {
+    .baselib-list-item{
+      width: $bigWidth;
+      height: 340px;
+      margin-right: 24px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+// 媒体查询适配
+@media screen and (min-width: 1641px) {
+  .baselib-list-wrapper{
+    // 小图模式
+    .baselib-list-container-sm {
+      width: getWrapperWidth($smWidth, 7, 16px);
+      .baselib-list-item {
+        &:nth-child(7n){
+          margin-right: 0px;
+        }
+      }
+    }
+    // 中图模式
+    .baselib-list-container-md {
+      width: getWrapperWidth($mdWidth, 6, 20px);
+      .baselib-list-item {
+        &:nth-child(6n){
+          margin-right: 0px;
+        }
+      }
+    }
+    // 大图模式
+    .baselib-list-container-lg {
+      width: getWrapperWidth($bigWidth, 5, 24px);
+      .baselib-list-item{
+        &:nth-child(5n){
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1381px) and (max-width: 1640px){
+  // ul盒子
+  .baselib-list-wrapper{
+    .baselib-list-container{
+      .baselib-list-item{
+        margin-right: 15px;
+      }
+    }
+    // 小图模式
+    .baselib-list-container-sm {
+      width: getWrapperWidth($smWidth, 6, 15px);
+      .baselib-list-item {
+        &:nth-child(6n){
+          margin-right: 0px;
+        }
+      }
+    }
+    // 中图模式
+    .baselib-list-container-md {
+      width: getWrapperWidth($mdWidth, 5, 15px);
+      .baselib-list-item {
+        &:nth-child(5n){
+          margin-right: 0px;
+        }
+      }
+    }
+    // 大图模式
+    .baselib-list-container-lg {
+      width: getWrapperWidth($bigWidth, 4, 15px);
+      .baselib-list-item{
+        &:nth-child(4n){
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1380px){
+  // ul盒子
+  .baselib-list-wrapper{
+    .baselib-list-container{
+      .baselib-list-item{
+        margin-right: 15px;
+      }
+    }
+    // 小图模式
+    .baselib-list-container-sm {
+      width: getWrapperWidth($smWidth, 5, 15px);
+      .baselib-list-item {
+        &:nth-child(5n){
+          margin-right: 0px;
+        }
+      }
+    }
+    // 中图模式
+    .baselib-list-container-md {
+      width: getWrapperWidth($mdWidth, 4, 15px);
+      .baselib-list-item {
+        &:nth-child(4n){
+          margin-right: 0px;
+        }
+      }
+    }
+    // 大图模式
+    .baselib-list-container-lg {
+      width: getWrapperWidth($bigWidth, 3, 15px);
+      .baselib-list-item{
+        &:nth-child(3n){
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+.img-search-wrapper{
+  .module-content-wrapper{
+    .container-box-tlzj{
+      .baselib-list-container{
+        .baselib-list-item{
+          height: 300px;
+        }
+      }
+    }
+  }
+}

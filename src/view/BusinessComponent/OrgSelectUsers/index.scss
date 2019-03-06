@@ -1,0 +1,130 @@
+.org-select-user-wrapper{
+  margin: 0 auto;
+  width: 100%;
+  min-width: 860px;
+  height: 440px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-size: 12px;
+  .title-part{
+    height: 40px;
+    line-height: 40px;
+    background: #F3F6F9;
+    border-bottom: 1px solid #D8DCE3;
+    border-radius: 3px 0 0 0;
+    padding: 0 16px;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-layout{
+    padding: 16px;
+    height: calc(100% - 40px);
+  }
+  // 搜索框 
+  .device-search-wrapper{
+    width: 180px;;
+    height: 28px;
+    position: absolute;
+    top: 6px;
+    // left: 104px;
+    left: 386px;
+    z-index: 1;
+    input{
+      height: 100%;
+    }
+  }
+  .user-icon-cla{
+    vertical-align: -3px !important;
+  }
+  // 组织树
+  .org-select-wrapper{
+    width: 321px;
+    border: 1px solid #D8DCE3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 100%;
+    .ant-tree{
+      @extend .list-layout;
+      &>li{
+        position: relative;
+        height: 100%;
+        overflow: auto;
+        .device-count{
+          i{
+            font-style: normal;
+          }
+          padding-left: 10px;
+          .online-count{
+            color: green;
+          }
+        }
+      }
+      // 隐藏横向滚动条
+      li span.ant-tree-node-content-wrapper {
+        display: inline-flex;
+        min-width: calc(100% - 24px - 16px);
+        .ant-tree-title {
+          flex: 1;
+          &> span {
+            min-width: 100%;
+            display: inline-flex;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+  // 设备列表
+  .org-device-wrapper{
+    width: 262px;
+    height: auto;
+    border-left: 0;
+    border-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    .title-part .ant-checkbox{
+      vertical-align: text-bottom;
+    }
+    .title-part{
+      position: relative;
+      .ant-checkbox-wrapper{
+        position: absolute;
+        bottom: -54px;
+        height: 38px;
+        line-height: 37px;
+        left: 0px;
+        z-index: 100;
+        width: calc( 100% - 32px );
+        margin: 0 16px 0px;
+        border-bottom: 1px solid #D8DCE3;
+        padding-left: 16px;
+      }
+    }
+    .list-layout{
+      margin-top: 54px;
+      height: calc(100% - 40px - 54px);
+    }
+  }
+  // 选中列表
+  .select-device-wrapper{
+    width: 262px;
+    height: auto;
+    margin-left: 8px;
+  }
+  .operate-wrapper{
+    width: 100%;
+    margin: 16px auto;
+    border-top: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    .ant-btn{
+      width: 80px;
+    }
+  }
+}

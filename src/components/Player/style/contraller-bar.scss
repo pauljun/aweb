@@ -1,0 +1,276 @@
+@import 'src/assets/css/base';
+$playerDownloadFormItemHeight: 24px;
+// $playerBarBg: rgba(45, 51, 84, 0.80);
+$playerBarBg: rgba(29, 33, 53, 0.8);
+$playerBarHeight: 28px;
+
+.lm-player {
+  color: hsla(0,0%,100%,.8);
+  .html5-player-controlbar {
+    z-index: 98;
+  }
+  .contraller-bar-layout {
+    display: flex;
+    position: absolute;
+    height: 28px;
+    width: 100%;
+    background: rgba(29, 33, 53, 0.8);
+    padding: 0 10px;
+    opacity: 1;
+    z-index: 99;
+    transition: all 0.3s;
+  }
+  &.lm-player-hide-bar {
+    .contraller-bar-layout {
+      opacity: 0;
+      z-index: -2;
+    }
+    .html5-player-time-slider.html5-player-track-history-slider {
+      visibility: hidden !important;
+      opacity: 0;
+      z-index: -2;
+    }
+    .html5-player-controlbar {
+      opacity: 0;
+      z-index: -2;
+    }
+  }
+  .top-contraller-bar {
+  
+    top: 0;
+    .player-title {
+      line-height: 26px;
+      max-width: 80%;
+    }
+    .top-contraller {
+      flex: 1;
+      text-align: right;
+      align-self: center;
+      .fullscreen-bar {
+        display: inline-block;
+      }
+      .anticon {
+        font-size: 16px;
+        padding: 0 8px;
+        cursor: pointer;
+      }
+    }
+  }
+  .bottom-contraller-bar {
+    bottom: 0;
+    padding-left: 0;
+    .left-contraller {
+      flex: 1;
+      text-align: left;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      .video-loop {
+        width: 96px;
+        text-align: center;
+        height: 28px;
+        line-height: 28px;
+        color: #adff2f;
+        .anticon {
+          padding-left: 5px;
+        }
+      }
+      .play-type {
+        display: inline-block;
+        margin-right: 8px;
+        i {
+          height: 28px;
+          line-height: 28px;
+          width: 40px;
+          background-image: linear-gradient(-180deg, #476792 0%, #454790 98%);
+          cursor: pointer;
+          text-align: center;
+          font-style: normal;
+          display: inline-block;
+          height: 100%;
+          opacity: 0.6;
+          &.active {
+            opacity: 1;
+            background-image: linear-gradient(-180deg, #5b7eac 0%, #5a5ca6 98%);
+          }
+        }
+      }
+      .play-tools {
+        .anticon {
+          font-size: 16px;
+          width: 28px;
+          padding: 0 8px;
+          line-height: 28px;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+    .right-contraller {
+      flex: 1;
+      text-align: right;
+      align-self: center;
+      .fullscreen-bar {
+        display: inline-block;
+      }
+      .anticon {
+        font-size: 16px;
+        padding: 0 8px;
+        cursor: pointer;
+      }
+      .speed{
+        display: inline-block;
+        color:#fff;
+        border:1px solid #fff;
+        padding: 2px 8px;
+        border-radius: 3px;
+        position: relative;
+        top:-1px;
+        margin:0 4px 0 8px;
+        cursor: pointer;
+      }
+    }
+  }
+  .html5-player-time-slider {
+    padding: 9px 16px !important;
+    width: calc(100% - 12px);
+    max-width: calc(100% - 12px);
+    position: absolute;
+    top: -58px;
+    margin: 4px 6px;
+    border-radius: 10px;
+    background: $playerBarBg;
+    opacity: 1;
+    z-index: 98;
+    transition: all 0.3s;
+    visibility: visible !important;
+    //底部进度条
+    .html5-player-slider-rail {
+      height: 2px;
+      background: #5B7EAC ;
+      border-radius: 2px;
+      transform: none;
+      // 时间截取样式
+      .html5-player-selection-container {
+        .html5-player-selection-left,
+        .html5-player-selection-right {
+          @include setWH(7px, 16px);
+          top: -7px;
+          span {
+            display: block;
+            @include setWH();
+            background: url('../../../assets/img/player/CutRuler_1.svg')
+              no-repeat center/cover;
+            &:hover {
+              background: url('../../../assets/img/player/CutRuler_2.svg')
+                no-repeat center/cover;
+            }
+          }
+        }
+        .html5-player-selection-right {
+          span {
+            transform: rotate(180deg);
+          }
+        }
+      }
+      // 时间气泡
+      .html5-player-for-tooltip {
+        padding: 18px 0px 4px;
+        .html5-player-time-tooltip-content {
+          color: $c-fff;
+          border-radius: 4px;
+          background: $playerBarBg;
+        }
+      }
+      // 已播放的进度
+      .html5-player-slider-track {
+        background: #FFBB22;
+        border-radius: 2px;
+        z-index: 99;
+      }
+      // 断片样式
+      .html5-player-broken {
+        background: rgba(29, 33, 53, 1);
+        z-index: 9;
+      }
+      // 有视频样式
+      .html5-player-hasvideo {
+        background: #5B7EAC;
+        z-index: 98;
+      }
+      // 小圆点
+      .html5-player-slider-circle {
+        display: block;
+        @include setWH(10px, 10px);
+        background:#FFBB22;
+        border: 1px solid $c-fff;
+        top: -4px;
+        z-index: 100;
+      }
+    }
+  }
+}
+
+.popup-set-volume {
+  height: 200px;
+  padding: 0;
+  user-select: none;
+  .ant-popover-content {
+    height: 100%;
+    padding-top: 80px;
+  }
+  .ant-popover-inner {
+    background: transparent;
+    height: 100%;
+    box-shadow: none;
+    & > div {
+      height: 100%;
+    }
+  }
+  .ant-popover-inner-content {
+    height: 100px;
+    padding: 0;
+  }
+  .ant-popover-arrow {
+    display: none;
+  }
+}
+
+.popup-set-speed-popup{
+  .popup-speed-volume{
+    padding-bottom: 2px;
+  }
+  .speed-popup{
+    width: 60px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 3px;
+    border:1px solid rgba(255,255,255,0.5);
+    
+    span{
+      display: block;
+      color:#fff;
+      text-align: center;
+      font-size:12px;
+      padding:2px 0;
+      cursor: pointer;
+      &:hover{
+        color:#ff8800;
+        background: rgba(0,0,0,0.6);
+      }
+    }
+  }
+  .ant-popover-inner{
+    background: transparent;
+  }
+  .ant-popover-inner-content{
+    background: transparent;
+    padding:0;
+  }
+  .ant-popover-arrow{
+    display: none;
+  }
+}
+
+.ant-tooltip-placement-top {
+  pointer-events: none;
+}

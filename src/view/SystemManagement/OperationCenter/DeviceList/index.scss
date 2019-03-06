@@ -1,0 +1,61 @@
+@import 'src/assets/css/base.scss';
+.optCenter-add-contianer.map-expand{
+  height: 100%;
+  width:100%;
+  .change_type{
+      margin: 16px 0;
+      position: absolute;
+      right: 16px;
+      top: -10px;
+      .opt-edit{
+        margin-left:10px;
+        border-color: #ffaa00;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        /* text-align: center; */
+        background: #fdfdfd;
+        color: #ffaa00;
+        /* padding-right: 14px; */
+        padding: 0 7px;
+        &:hover{
+          color:#fdfdfd;
+          background: #ffaa00;
+        }
+      }
+  }
+  .optCenter-wrapper{
+    height: 100%;
+    .table-setting-title.optCenter-title{
+      height: 28px;
+      margin: 16px 0;
+      border: none;
+      display: block;
+      .operation-center-nav{
+        margin: 0px;
+        >button{
+          vertical-align: top;
+        }
+        .ant-input-search{
+          vertical-align: top;
+          width: 248px;
+          display: inline-block;
+          margin-left: 16px;
+          input{
+            border-color: $all-bdcolor;
+          }
+        }
+      }
+    }
+    .center-device-container{
+      height: calc( 100% - 60px );
+      .setting-table{
+        height: calc( 100% - 102px );
+      }
+      .pagination-layout{
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+@import '../../../../assets/css/base.scss';
+
+.community_select{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #8899bb;
+  background: #fff;
+  height: 40px;
+  line-height: 38px;
+  cursor: pointer;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  &:hover {
+    color: $all-active-orange;
+  }
+  .tools-resource{
+    .anticon {
+      padding-right: 5px;
+      font-size: 16px;
+      position: relative;
+      top: 2px;
+    }
+  }
+  .community_select_layout{
+    .ant-popover-content{
+      .ant-popover-inner-content {
+        padding: 0;
+      }
+      .type-popup-layout {
+        user-select: none;
+        width: 370px;
+        font-size: 12px;
+        padding: 10px;
+        box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.2);
+        .type-part {
+          margin: 10px 0;
+          &:first-child {
+            margin-top: 0;
+            margin-bottom: 20px;
+          }
+          .type-name {
+            padding: 5px 0;
+            border-bottom: 1px solid #eaedf1;
+          }
+          .type-content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 10px;
+            .type-item {
+              width: 70px;
+              padding: 0 10px;
+              text-align: center;
+              cursor: pointer;
+              color: #8899bb;
+              .lable-text {
+                padding-top: 4px;
+                display: block;
+                text-align: center;
+              }
+              .icon {
+                display: inline-block;
+                width: 26px;
+                height: 26px;
+                line-height: 26px;
+                text-align: center;
+                border-radius: 50%;
+                border-width: 1px;
+                border-style: solid;
+                overflow: hidden;
+                .anticon {
+                  font-size: 16px;
+                  color: #8899bb;
+                }
+              }
+              &.active{
+                color: $all-active-orange;
+                .icon{
+                  color: #fff;
+                  background: $all-active-orange;;
+                  border-color: $c-main-orange;
+                  .anticon{
+                    color: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>48/index/icon_4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.4934068%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="48/index/icon_4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-48">
+            <rect id="Rectangle-16" stroke-opacity="0.3" stroke="#FFFFFF" x="0.5" y="0.5" width="47" height="47" rx="5"></rect>
+            <g id="Group" transform="translate(11.000000, 9.000000)">
+                <g id="Group-23">
+                    <path d="M7.12648709,3.21736872 C5.78537169,4.47324994 4.94733371,6.25982596 4.94733371,8.24213625 C4.94733371,10.0700616 5.65991982,11.7315536 6.82245611,12.9639762" id="Oval-13" stroke-opacity="0.8" stroke="#FFFFFF" stroke-linecap="round"></path>
+                    <path d="M4.10949603,0.853732359 C2.11791653,2.71873762 0.873415675,5.37183383 0.873415675,8.31559879 C0.873415675,11.0300995 1.93161834,13.4974437 3.65800479,15.3276126" id="Oval-13" stroke-opacity="0.573567708" stroke="#FFFFFF" stroke-linecap="round"></path>
+                    <path d="M21.3083053,3.21736872 C19.9671899,4.47324994 19.1291519,6.25982596 19.1291519,8.24213625 C19.1291519,10.0700616 19.841738,11.7315536 21.0042743,12.9639762" id="Oval-13" stroke-opacity="0.8" stroke="#FFFFFF" stroke-linecap="round" transform="translate(20.218729, 8.090672) scale(-1, 1) translate(-20.218729, -8.090672) "></path>
+                    <path d="M25.3822233,0.853732359 C23.3906438,2.71873762 22.1461429,5.37183383 22.1461429,8.31559879 C22.1461429,11.0300995 23.2043456,13.4974437 24.9307321,15.3276126" id="Oval-13" stroke-opacity="0.573567708" stroke="#FFFFFF" stroke-linecap="round" transform="translate(23.764183, 8.090672) scale(-1, 1) translate(-23.764183, -8.090672) "></path>
+                    <path d="M13.2480724,9.53285123 L2.84858877,29.216168 C2.76825575,29.368216 2.77169521,29.5508768 2.8576953,29.6997928 C2.99579471,29.9389228 3.30159958,30.0208243 3.54072959,29.8827249 L12.6203124,24.6391967 L21.6569412,29.9890174 C21.7982031,30.0726466 21.9715171,30.0816066 22.1206497,30.0129903 C22.3715127,29.8975676 22.4813087,29.6006345 22.3658861,29.3497715 L13.2480724,9.53285123 Z M4.04083178,30.7486913 C3.32344173,31.1629895 2.40602712,30.917285 1.9917289,30.199895 C1.73372862,29.7531471 1.72341024,29.2051645 1.9644093,28.7490206 L13.3099965,7.27499398 L23.2743412,28.9317891 C23.6206092,29.6843779 23.291221,30.5751774 22.5386322,30.9214454 C22.0912343,31.1272943 21.5712922,31.1004142 21.1475067,30.8495268 L12.6140508,25.7975921 L4.04083178,30.7486913 Z" id="Path-8" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    <polygon id="Line-9" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" points="13.4463783 25.1568884 12.9267408 26.0112753 5.65371938 21.5878293 6.17335681 20.7334424"></polygon>
+                    <polygon id="Line-9" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" transform="translate(15.459140, 23.372359) scale(-1, 1) translate(-15.459140, -23.372359) " points="19.3554692 25.1568884 18.8358318 26.0112753 11.5628103 21.5878293 12.0824477 20.7334424"></polygon>
+                    <polygon id="Line-10" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" points="19.5918486 20.8145562 19.000252 21.6207904 9.62121959 14.7386665 10.2128161 13.9324323"></polygon>
+                    <polygon id="Line-10" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" transform="translate(11.490700, 17.799694) scale(-1, 1) translate(-11.490700, -17.799694) " points="16.8000364 20.7879134 16.2396967 21.6161763 6.18136455 14.8114741 6.74170422 13.9832111"></polygon>
+                    <circle id="Oval-5" fill="#CACACA" cx="13" cy="8.27272727" r="3.54545455"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

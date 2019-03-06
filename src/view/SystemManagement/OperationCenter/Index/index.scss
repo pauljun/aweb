@@ -1,0 +1,17 @@
+.optCenter-wrapper-main{
+  height: 100%;
+  .optCenter-wrapper{
+    height: calc(100% - 48px);
+    overflow: hidden;
+    .optCenter-container{
+      height: calc(100% - 90px);
+      .setting-table{
+        height: calc(100% - 80px);
+      }
+    }
+    .ant-pagination {
+      height:80px;
+      padding-top: 20px;
+    }
+  }
+}

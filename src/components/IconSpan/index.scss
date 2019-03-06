@@ -1,0 +1,40 @@
+@import 'src/assets/css/base';
+
+$c-ddd: #ddd;
+$c-normal: #494949;
+
+.icon-span{
+  font-size: $fs-12;
+  cursor: pointer;
+  &>i {
+    font-size: $fs-16;
+    @include setFlex();
+  }
+  &:hover {
+    i, span {
+      color: $c-main;
+    }
+  }
+}
+.icon-span.disabled{
+  color: $c-ddd!important;
+  cursor: not-allowed;
+  &:hover {
+    i, span {
+      cursor: not-allowed;
+      color: $c-ddd !important;
+    }
+  }
+}
+.icon-span.icon-span-vertical {
+  @include setFlex(center, center, column);
+  &>i {
+    margin-bottom: 6px;
+  }
+}
+.icon-span.icon-span-horizontal {
+  @include setFlex();
+  &>i {
+    margin-right: 4px;
+  }
+}

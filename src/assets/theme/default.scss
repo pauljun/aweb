@@ -1,0 +1,137 @@
+/**
+ * 蓝色主题颜色 前缀：A
+ */
+
+/**
+ * 公共颜色
+ */
+$A-c-fff: #fff;
+$A-c-black: #333;
+$A-c-gray-6:#666;
+$A-c-orange-1:#FF8800;
+$A-c-orange-2:#FFAA00;
+
+/**
+  * 字体颜色
+  */
+$A-c-dark: #252525;
+$A-c-normal: #595959;
+$A-c-light: #989898;
+$A-c-main: #00a1f2;
+$A-c-hover: #38bcfe;
+$A-c-disabled: #fff;
+
+/**
+  * 安全级别颜色
+  */
+$A-c-danger: #ea565c;
+$A-c-warning: #ffba00;
+$A-c-success: #8dc63f;
+$A-c-primary: #44aaff;;
+
+/**
+  * 背景颜色
+  */
+$A-bg-danger: #ea565c;
+$A-bg-warning: #ffba00;
+$A-bg-success: #8dc63f;
+$A-bg-primary: #40bbea;
+
+/**
+  * 边框颜色
+  */
+$A-bd-danger: #ea565c;
+$A-bd-warning: #ffba00;
+$A-bd-success: #8dc63f;
+$A-bd-primary: #40bbea;
+
+/**
+  * layout全局颜色
+  */
+$A-header-bg: #0b1532;
+$A-menu-bg: #181c2a;
+$A-menu-item-bg: #44aaff;
+
+$A-tab-item-normol: #3c445b;
+$A-tab-item-active: linear-gradient(-180deg, #d2dce6 0%, #ffffff 100%);
+
+
+
+
+// aiceweb defaulet.scss 
+
+/**
+ * 默认主题颜色
+ */
+
+ /**
+ * 常用公用颜色
+ */
+ $c-aaa: #aaa;
+ $c-fff: #fff;
+ $c-ccc: #ccc;
+ $c-ddd: #ddd;
+ $c-eee: #eee;
+ $c-333: #333;
+ $c-444: #444;
+
+ /**
+ * 背景颜色
+ */
+ $bg-f4: #f4f4f4;
+ $bg-f5: #f5f5f5;
+ $bg-f7: #f7f7f7;
+ $bg-fff: #fff;
+ $bg-98: #989898;
+ $bg-eee: #eee;
+ $bg-hover: #f0faff;
+
+
+ // 特定颜色
+ $bg-warning: #ffba00;
+ $bg-success: #8dc63f;
+ $bg-primary: #40bbea;
+ $bg-layout: #f3f6f7;
+ $bg-tab:#237CE0;
+ $bg-header-left: #293745;
+ $bg-header-right: #4F4A71;
+
+ /**
+ * 边框颜色
+ */
+//  常用颜色
+//  数字
+$bd-f4: #f4f4f4;
+$bd-f7: #f7f7f7;
+$bd-fff:#fff;
+$bd-98: #989898;
+
+$bd-ddd:#ddd;
+$bd-eee:#eee;
+$bd-disabled: #d9d9d9;
+
+
+// 特定颜色 
+$bd-tab: #006daa;
+$bd-header-span: #1c87f2;
+$bd-warning: #ffba00;
+$bd-success: #8dc63f;
+$bd-primary: #40bbea;
+
+ /**
+ * 字体颜色
+ */
+ $c-dark: #252525;
+ $c-normal: #595959;
+ $c-light: #989898;
+ $c-main: #2B8DFF;
+ $c-hover: #38BCFE;
+ $c-disabled: #686868;
+
+ /**
+ * 安全级别颜色
+ */
+ $c-danger:#ea565c;
+ $c-warning:#ffba00;
+ $c-success:#8dc63f;
+ $c-primary:#40bbea;

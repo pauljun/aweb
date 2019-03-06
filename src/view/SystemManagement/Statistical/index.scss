@@ -1,0 +1,103 @@
+@import 'src/assets/css/base';
+.statistical-view {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .statistical-title {
+    width: 100%;
+    flex: 1;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    .setting-title {
+      border-bottom: none;
+    }
+    .statistical-search-view {
+      margin-bottom: 20px;
+      .search-part {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        align-items: center;
+        .title {
+          font-weight: normal;
+          font-size: 14px;
+          width: 50px;
+        }
+        .search-box.time-search-box {
+          align-items: center;
+          display: flex;
+          flex: 1;
+          .time-btns {
+            .ant-btn {
+              margin: 0 3px;
+            }
+            .active {
+              color: #ff8800;
+              border-color: #ff8800;
+            }
+          }
+        }
+      }
+      .ant-input-search {
+        width: 300px;
+      }
+      .type-view {
+        .search-box.type-search-box {
+          ul {
+            display: flex;
+            li {
+              cursor: pointer;
+              line-height: 35px;
+              box-sizing: border-box;
+              padding: 0 7px;
+              font-size: 14px;
+              height: 35px;
+              color: #444444;
+              float: left;
+              margin-right: 20px;
+              font-weight: normal;
+              &.active {
+                background-color: #ff8800;
+                border-color: #ff8800;
+                color: #fff;
+                border-radius: 3px;
+              }
+            }
+          }
+        }
+      }
+      .btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        button {
+          margin: 0 30px;
+        }
+      }
+    }
+    .statistical-list-view {
+      height: calc(100% - 250px);
+    }
+  }
+  .statistical-list {
+    width: 100%;
+    height: calc(100% - 200px) !important;
+    flex: 3;
+    margin-top: 20px;
+    .statistical-table-view {
+      height: 100%;
+      .setting-table {
+        height: calc(100% - 80px);
+      }
+      .ant-pagination {
+        height: 80px;
+        padding-top: 20px;
+      }
+    }
+  }
+}

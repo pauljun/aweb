@@ -1,0 +1,98 @@
+@import 'src/assets/css/base.scss';
+.org-table-content {
+  height: calc(100% - 48px);
+  width: 1000px;
+  margin: 0 auto;
+  .org-baseInfo {
+    padding: 20px 0;
+    height: 182px;
+    .orgInfo {
+      padding: 0 20px;
+    }
+  }
+  .org-table-container{
+    height: calc(100% - 182px);
+    .org-Search-Btns{
+      display: flex;
+      .addOrgBtn {
+        float: right;
+        width: 146px;
+        height: 32px;
+        padding: 0px 20px;
+        border: 0 none;
+        margin-right: 0px;
+        border-radius: 4px;
+        margin: 0 10px ;
+        font-size: 14px;
+        color: #ffffff;
+        text-align: left;
+        line-height: 14px;
+        background-image: -webkit-gradient(
+          linear,
+          left bottom,
+          left top,
+          from(#ffaa00),
+          to(#ff8800)
+        );
+      }
+      .form-btn-group{
+        display:flex;
+        .icon-span{
+          position: relative;
+          top:5px;
+          padding-right:3px;
+        }
+      }
+    }
+    .org-table {
+      height: calc(100% - 66px);
+      display:flex;
+      flex-direction: column;
+      .setting-table {
+        flex:1;
+        overflow: auto;
+      }
+      .ant-pagination{
+        height: 80px;
+        padding-top:20px;
+      }
+    }
+  }
+}
+.add-edit-modal-org {
+  .ant-modal-body{
+    padding:8px 40px;
+  }
+  .ant-modal-footer div{
+    text-align: center;
+  }
+  .ant-form-item {
+    width: 100%;
+    margin-bottom: 8px;
+    .ant-form-item-label {
+      text-align: left;
+      font-size: 12px;
+      margin-left:-12px;
+      label{
+        color: #666;
+        font-size: 12px;
+        
+      }
+    }
+    .ant-form-item-control-wrapper {
+      display: block;
+      width: 100%;
+      padding-left: 0;
+    }
+  &.org-desc-item{
+    .ant-form-item-label{
+      margin-left:0;
+    }
+  }
+  }
+}
+.hindModalBtn{
+  .ant-modal-footer{
+    display:none
+  }
+}

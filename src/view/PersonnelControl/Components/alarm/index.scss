@@ -1,0 +1,544 @@
+@import '../../../../assets/css/base.scss';
+/* 历史报警样式 */
+.total-button {
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+  .ant-btn:hover{
+    color: $c-main-orange;
+    border-color:$c-main-orange;
+  }
+}
+ .baselib-container.alarm-new{
+   padding-left: 0px;
+   height: 100%;
+   .baslib-wrapper{
+     height: 100%;
+     @include setFlex('center','left','column');
+   }
+   .ant-back-top{
+     right: 40px;
+     bottom: 40px;
+     &:hover{
+      .ant-back-top-content{
+        background-color: $c-main-orange;
+      }
+     }
+     .ant-back-top-content{
+       background-color: $all-active-orange;
+     }
+   }
+ }
+/**2.4.0 6月28日UI调整*/
+.history-alarm-wrapper{
+  position: relative;
+  height: 100%;
+  .alarm-task {
+    width: 280px;
+    height: 100%;
+  }
+  .alarm-container{
+    position: relative;
+    background: #fff;
+    flex: 1;
+    height: 100%;
+    .alarm-container-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px 12px 22px;
+    }
+    .box_container{
+      height: calc(100% - 50px);
+      &.alarm-history-box-out{
+        height: calc(100% - 60px);
+        min-height: calc(100% - 60px);
+        overflow-y: auto;
+        margin-right: 10px;
+        .ant-spin-dot i{
+          background-color: $all-active-orange;
+        }
+        .task-list{
+          &.no-data{
+            height: calc(100% - 30px);
+            .has-not-data{
+              margin-top: 200px;
+            }
+          }
+          // 去操作权限时禁用鼠标
+          &.no-handle .ant-list-item-content {
+            pointer-events: none;
+          }
+        }
+      }
+      .task-list {
+        position: relative;
+        border-radius: 3px;
+        margin: 10px 0 20px;
+        height: calc(100% - 30px);
+      }
+
+    }
+    .ant-spin-nested-loading {
+      height: 100%;
+      .ant-spin-container {
+        height: 100%;
+      }
+    }
+    .title{
+      margin-top: 10px;
+      height: 50px;
+      line-height: 50px;
+      .ant-select-selection-selected-value{
+        i{
+          vertical-align: middle;
+          color: #bbc0cc;
+          margin-right: 4px;
+        }
+      }
+    }
+    .total{
+      display: inline-block;
+      margin-left: 13px;
+      font-size: 12px;
+      .text-red {
+        color: #FF4466;
+      }
+    }
+    .search{
+      float: right;
+      font-size: 14px;
+      color: #2B8DFF;
+      margin-right: 20px;
+      cursor: pointer;
+      .anticon{
+        font-size: 18px;
+        float: left;
+        margin: 16px 2px 0;
+        font-weight: bold;
+      }
+    }
+    .ant-card-head-title{
+      padding: 0 10px;
+      font-size: 12px;
+      color: #666666;
+      line-height: 36px;
+      >div{
+        width: calc(100% - 80px);
+        @include ellip();
+      }
+      .anticon{
+        float: left;
+        color: #999;
+        margin: 12px 0 0 0;
+        font-size: 14px;
+      }
+    }
+    .item{
+      padding: 10px 5px 0 5px;
+      text-align: center;
+      .score{
+        margin-top: 14px;
+        display: inline-block;
+        position: relative;
+        height: 68px;
+        span{
+          font-size: 16px;
+          color: #DF0000;
+          line-height: 16px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          z-index: 1;
+        }
+      }
+      .fl,.fr{
+        width: 102px;
+        height: 140px;
+        background-size: 100%;
+        >div{
+          width: 94px;
+          height: 115px;
+          margin-left: 4px;
+          margin-top: 4px;
+          border-radius: 3px;
+        }
+        p{
+          line-height: 20px;
+          text-align: center;
+          font-size: 12px;
+          color: #FFFFFF;
+          margin: 0;
+        }
+      }
+      .bg-img{
+        width: 100%;
+        height: 130px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center center;
+        .watermask{
+          position: absolute;
+          display: block;
+          top: 50%;
+          left:50%;
+          color: rgba(255,255,255,0.2);
+          text-shadow: 1px 1px rgba(0,0,0,0.3);
+          font-size: 4px;
+          transform: translate(-50%,-50%) rotate(45deg);
+        }
+      }
+      .fl{
+        p{
+          color: #44AAFF;
+        }
+      }
+      .fr{
+        p{
+          color: #FF4466;
+        }
+      }
+    }
+    .detail{
+      font-size: 14px;
+      color: #44AAFF;
+      line-height: 28px;
+      padding: 5px 5px 0 6px;
+      .detail-name{
+        width: 76px;
+        @include ellip();
+      }
+      .detail-lib {
+        font-size: 12px;
+        color: #333333;
+        margin-top: -5px;
+        width: 80px;
+        @include ellip();
+      }
+      .detail-time {
+        font-size: 12px;
+        color: #333333;
+        margin-top: -9px;
+      }
+      
+    }
+    .handle-result{
+      position: absolute;
+      right: 10px;
+      bottom: 15px;
+      text-align: center;
+      width: 100px;
+      z-index: 1;
+      .no-handle{
+        text-align: center;
+        text-align: right;
+        button{
+          text-align: center;
+          padding: 0;
+          font-size: 12px;
+          margin-top: 4px;
+          width: 54px;
+          height: 24px;
+          border-radius: 3px;
+          text-align: center;
+          span{
+            margin: 0;
+          }
+        }
+        .anticon{
+          float: left;
+          margin: 1px 0 0 2px;
+        }
+        .handle-yes {
+          button{
+            border: 1px solid #44AAFF;
+          }
+          .anticon{
+            color: #44AAFF;
+          }
+          span {
+            font-size: 12px;
+            color: #44AAFF;
+          }
+        }
+        .handle-no {
+          button{
+            border: 1px solid #B5BBC7;
+          }
+          span {
+            font-size: 12px;
+          }
+          .anticon{
+            color: #999;
+          }
+        }
+      }
+      .result-isEffective,
+      .result-isEffective-no {
+        width: 100px;
+        height: 100px;
+        background-size: 100% 100%; 
+        transform: rotate(-30deg);
+      }
+      .result-isEffective{
+        background-image: url('../../../../assets/img/alarm_result_yes_pic.svg');
+      }
+      .result-isEffective-no{
+        background-image: url('../../../../assets/img/alarm_result_no_pic.svg');
+      }
+    }
+  }
+  .ant-list-item{
+    margin-bottom: 10px;
+  }
+  .ant-list-item-content{
+    width: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+    .ant-card-head{
+      min-height: auto;
+      padding: 0;
+    }
+    .ant-card-body{
+      padding: 0;
+    }
+  }
+  .ant-pagination{
+    height: 130px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+}
+
+.history-alarm-search{
+  position: absolute;
+  right: -10px;
+  top: -48px;
+  z-index: 5;
+  text-align: left;
+  height: calc(100% + 48px);
+  background: #FFFFFF;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 4px 0 0 4px;
+}
+
+// 魅影告警， 未知人员告警样式
+.alarm_str_all{
+  .ant-card-bordered{
+    background: #FFFFFF;
+    border: 1px solid #D8DCE3;
+    border-radius: 3px;
+  }
+  .item{
+    &.item_all{
+      //魅影告警列表和未知人员告警列表样式
+      padding-bottom: 10px;
+      position: relative;
+      .item_all_pic{
+        width: 92px;
+        height: 120px;
+        background: #FFFFFF;
+        border: 1px solid #D5D5D5;
+        border-radius: 3px;
+        position: relative;
+        .bg-img{
+          width: 84px;
+          height: 112px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin: 0px;
+          transform: translate(-50%,-50%);
+          border-radius: 3px;
+          background-size: 100% 100%;
+          &.lib-type-3{
+            background-size: contain;
+            background-position: center center;
+          }
+          &.lib-type-2{
+            background-size: cover;
+            background-position: center center;
+          }
+        }
+      }
+      .item_all_info{
+        padding-left: 99px;
+        width: 100%;
+        font-size: 12px;
+        text-align: left;
+        >div{
+          padding-left: 20px;
+          position: relative;
+          >i{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            // color: #bbc0cc;
+            color: #8D96A9;
+            opacity: 0.6;
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+        }
+        .address_all_info{
+          overflow: hidden;
+          -webkit-line-clamp: 2;
+          text-overflow: ellipsis;
+          -webkit-box-orient: vertical;
+          display: -webkit-box;
+          word-wrap: break-word;
+          max-height: 36px;
+        }
+        .lib_name_all_info{
+          @include ellip();
+        }
+      }
+    }
+  }
+  .handle_str_all{
+    position: absolute;
+    bottom: 21px;
+    right: 15px;
+    width: 112px;
+    height: 24px;
+    .no-handle{
+      .handle-yes,.handle-no{
+        float: right;
+        button{
+          width: 54px;
+          height: 24px;
+          border-radius: 3px;
+          font-size: 12px;
+          border: 1px solid #8D96A9;
+          i{
+            vertical-align: bottom;
+            margin-bottom: 1px;
+          }
+          span{
+            margin-left: 1px;
+          }
+        }
+      }
+      .handle-no{
+        button{
+          border: 1px solid #B5BBC7;
+          i{
+            color: #999;
+          }
+        }
+      }
+      .handle-yes{
+        margin-left: 4PX;
+        button{
+          color: #44AAFF;
+          border: 1px solid #44AAFF;
+        }
+      }
+    }
+  }
+  .hanle_result_str_all{
+    position: absolute;
+    top: 30px;
+    left: 52px;
+    pointer-events: none;
+    .result-isEffective,
+    .result-isEffective-no {
+      width: 100px;
+      height: 100px;
+      background-size: 100% 100%; 
+      transform: rotate(-30deg);
+    }
+    .result-isEffective{
+      background-image: url('../../../../assets/img/alarm_result_yes_pic.svg');
+    }
+    .result-isEffective-no{
+      background-image: url('../../../../assets/img/alarm_result_no_pic.svg');
+    }
+
+  }
+}
+// 布控筛选样式-超出后增加滚动条
+.item-libs-list-style{
+  .ant-modal-content{
+    .ant-spin-container{
+      max-height: 300px;
+      overflow-y: auto;
+    }
+  }
+}
+
+.alarm-history-score{
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  z-index: 1;
+  em{
+    font-style: normal;
+    font-size: 16px;
+    color: #FF4466;
+  }
+}
+
+// ui样式再调整
+.alarm-face-item{
+  .detail{
+    padding: 5px 5px 6px 6px !important;
+    >div{
+      color: #666;
+      font-size: 12px;
+      height: 17px;
+      line-height: 17px;
+      margin-top: 4px !important;
+      i{
+        margin-right: 4px;
+        color: #8D96A9;
+        opacity: 0.6;
+      }
+    }
+    .address_all_info{
+      font-size: 14px;
+      color: #333333;
+      @include ellip();
+      margin-top: 4px;
+      height: 20px;
+      line-height: 20px;
+    }
+    .alarm_similar{
+      em{
+        font-style: normal;
+        color: #FF4466;
+        margin-left: 2px;
+      }
+    }
+  }
+}
+.ant-select-dropdown{
+  ul{
+    li{
+      i{
+        vertical-align: middle;
+        color: #bbc0cc;
+        margin-right: 4px;
+      }
+    }
+  }
+}
+// 适配
+@media screen and (min-width: 1600px) and (max-width: 1800px){
+  .no-padding-card.alarm-card{
+    .ant-spin-container{
+      .ant-row{
+        >div{
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+.effective-handel{
+  pointer-events: none;
+}

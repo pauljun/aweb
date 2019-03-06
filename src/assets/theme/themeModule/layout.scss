@@ -1,0 +1,83 @@
+@import '../default.scss';
+@import '../lingyang.scss';
+
+.default-theme {
+  .container-header {
+    background: $A-header-bg;
+  }
+  .left-menu {
+    .ant-layout-sider-children {
+      background: $A-menu-bg;
+    }
+    .ant-menu-dark,
+    .ant-menu-dark .ant-menu-sub {
+      background: $A-menu-bg;
+    }
+    
+    .ant-menu.ant-menu-dark .ant-menu-item-selected,
+    .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+      background: transparent;
+    }
+
+    .ant-layout-sider-children
+      .ant-menu.ant-menu-inline-collapsed
+      .ant-menu-submenu.ant-menu-submenu-selected {
+      background: transparent;
+    }
+  }
+
+  .menu-tab {
+    & > .ant-tabs-bar {
+      margin: 0;
+      border: none;
+      padding-left: 0;
+      position: absolute;
+      left: 180px;
+      top: -45px;
+      width: calc(100% - 180px - 400px);
+      .ant-tabs-nav-container {
+        & > .ant-tabs-tab-prev,
+        & > .ant-tabs-tab-next {
+          color: $A-c-fff;
+        }
+        .ant-tabs-tab {
+          &:before {
+            background: $A-tab-item-normol;
+          }
+          &:after {
+            background: $A-tab-item-normol;
+          }
+          & > div {
+            color: $A-c-fff;
+          }
+
+          .anticon-close {
+            color: $A-c-fff;
+          }
+          &.ant-tabs-tab-active {
+            &:before {
+              background: #f3f6f9;
+            }
+            &:after {
+              background: #f3f6f9;
+            }
+            > div {
+              color: $A-c-black;
+            }
+            .anticon {
+              color: #89b;
+            }
+            .anticon-close {
+              color: #8899bb;
+            }
+          }
+        }
+      }
+    }
+    & > .ant-tabs-content {
+      .ant-tabs-tabpane-active {
+        overflow-x: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>16/Bar/sq_press</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="16/Bar/sq_press" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,14 L11,14 L11,5 L14,5 C14.5522847,5 15,5.44771525 15,6 L15,14 L16,14 L16,15 L0,15 L0,14 L1,14 L1,3 C1,2.44771525 1.44771525,2 2,2 L9,2 C9.55228475,2 10,2.44771525 10,3 L10,14 Z M3,5 L3,6 L8.1003418,6 L8.1003418,5 L3,5 Z M3,8 L3,9 L8.1003418,9 L8.1003418,8 L3,8 Z M3,11 L3,12 L8.1003418,12 L8.1003418,11 L3,11 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

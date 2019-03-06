@@ -1,0 +1,13 @@
+.map-zoom-center-layout{
+  .amap-marker-label{
+    top:-30px !important;
+    background: #fff;
+    color:#333;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-left:14px;
+    &:after{
+      border-color:#fff transparent transparent transparent;
+    }
+  }
+}

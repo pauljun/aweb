@@ -1,0 +1,39 @@
+
+.center-detail-wrapper{
+  .ant-tabs-bar{
+    margin: 0;
+  }
+  .ant-tabs{
+    .ant-tabs-content{
+      height: calc(100% - 45px) !important;
+      .ant-tabs-tabpane{
+        height: 100%;
+      }
+    }
+  }
+  .VD-edit-btn{
+    float: right;
+    width: 80px;
+    cursor: pointer;
+    height: 28px;
+    font-size: 14px;
+    color: #f80;
+    border: 1px solid #fa0;
+    border-radius: 4px;
+  }
+  .another-style{
+    float: none !important;
+    width: 33px !important;
+    cursor: pointer;
+    height: 33px !important;
+    font-size: 14px;
+    color: #FF8800;
+    border: 1px solid #FFAA00;
+    border-radius: 50% !important;
+    margin-left: 16px;
+    &:hover{
+      background: #FFAA00;
+      color:#fff;
+    }
+  }
+}

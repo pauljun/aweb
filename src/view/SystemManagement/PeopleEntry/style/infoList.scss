@@ -1,0 +1,86 @@
+@import 'src/assets/css/base.scss';
+
+.info-list-view {
+  .ant-table-body .ant-table-thead tr th{
+    background: #d8dce3;
+    font-weight: bold;
+    height: 37px; 
+  }
+  .ant-table-thead .ant-table-selection-column, .ant-table-tbody .ant-table-selection-column{
+      width: 45px;
+      min-width: 45px;
+      padding: 10px 0 10px 0 !important;
+    }
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 0;
+    font-size: 14px;
+  }
+  .info-list-table-row{
+    td {
+      &:nth-child(2) {
+         text-align: center;
+        .list-pop-box{
+          width: 27px;
+          height: 33px;
+          background: #ccc;
+          border-radius: 2px;
+          overflow: hidden;
+          cursor: pointer;
+          .pop-img {
+            display: block;
+            height: 100%;
+            width: auto;
+            margin: 0 auto;
+          }
+        }
+      }
+      &:nth-child(3) {
+        color: $c-main-orange;
+        font-weight: 600;
+      }
+      .import-status{
+        .status-span{
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          position: relative;
+          bottom: -1px;
+          margin-right: 4px;
+        }
+        .green {
+          background-color: #25dc9b;
+        }
+        .blue{
+          background-color: #44aaff;
+        }
+        .yellow{
+          background-color: #ffaa00;
+        }
+        .red {
+          background-color: #ff5f57;
+        }
+        .yard {
+          background-color: #a7aebc;
+        }
+      }
+    }
+  }
+}
+.people-info-pop{
+  .ant-popover-inner-content{
+    padding: 0;
+    .people-box{
+      height: 200px;
+      width: 164px;
+      padding: 4px;
+      overflow: hidden;
+      .box-img {
+        display: block;
+        height: 100%;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}

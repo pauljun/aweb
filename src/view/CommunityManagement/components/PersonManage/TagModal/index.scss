@@ -1,0 +1,65 @@
+@import "src/assets/css/base.scss";
+
+.tag-modal-handle {
+	.ant-modal-close {
+		.ant-modal-close-x {
+			width: 32px;
+			height: 32px;
+			line-height: 32px;
+		}
+	}
+	.ant-modal-header {
+		padding: 6px 12px;
+		.ant-modal-title {
+			font-size: 14px;
+			font-family: PingFang-SC-Bold;
+			font-weight: bold;
+		}
+	}
+	.ant-modal-body {
+		text-align: center;
+		background: rgba(255, 255, 255, 0.90);
+		.anticon {
+			font-size: 64px;
+			color: #8899bb;
+		}
+		.modal_view_text {
+			padding-top: 4px;
+			text-align: center;
+			font-family: PingFang-SC-Regular;
+			font-size: 14px;
+			color: #333333;
+			span {
+				color: $c-main-orange;
+			}
+		}
+	}
+	.ant-modal-footer {
+    text-align: center;
+		> div {
+			display: flex;
+			justify-content: center;
+			.ant-btn {
+				&:hover {
+          color: $c-main-orange;
+          border-color: $c-main-orange;
+				}
+			}
+			.ant-btn-primary {
+				background-image: linear-gradient(-180deg, #ffbb22 0%, #ffaa00 100%);
+				// border: 1px solid #ffbb22;
+				border-color: transparent;
+
+				&:hover {
+          color: #fff;
+					background-image: linear-gradient(-180deg, #ffaa00 0%, #ff8800 100%);
+				}
+			}
+		}
+	}
+}
+.half-circle{
+  height: 24px;
+  border-radius: 12px;
+  border: 1px solid #ff8800;
+}

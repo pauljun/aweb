@@ -1,0 +1,332 @@
+@import '../../../../assets/css/base.scss';
+.tasks-all-container{
+  height: 100%;
+  .ant-form-explain{
+    margin-top: 2px;
+  }
+  .container{
+    height: 100%;
+     @include setFlex('center','left','column');
+    .task-content-box{
+      flex: 1;
+      overflow: auto;
+      position: relative;
+      height: 100%;
+      .ant-spin-nested-loading{
+        // height: 100%;
+        //position: static;
+        > div > .ant-spin{
+          max-height: 400px;
+        }
+        .ant-spin-container{
+          // height: 100%;
+          // position: relative;
+          //position: static;
+        }
+      }
+    }
+    .tasks-add-auto{
+      overflow: auto;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  // 布控任务编辑/添加模块样式
+  .monitee_tasks_box{
+	padding: 16px 0px 12px 0px;
+	// antd自带样式修改
+	.ant-form-explain{
+		font-size: 12px;
+	}
+	.monitees-error{
+		font-size: 12px;
+		color: red;
+		&.repeat-mode-error{
+			padding-left: 125px;
+			margin-bottom: 10px;
+		}
+	}
+	.ant-form-item{
+		.ant-form-item-label{
+			height: 32px;
+			label{
+				line-height: 32px;
+				font-size: 12px;
+				color: $c-999;
+				&::after{
+					margin-right: 0px;
+					margin-left: 3px;
+				}
+			}
+		}
+	}
+	// 模拟表单样式修改
+	.form-group-item{
+		.form-group-item-label-required{
+			&::before{
+				display: inline-block;
+				margin-right: 4px;
+				content: "*";
+				font-family: SimSun;
+				line-height: 1;
+				font-size: 14px;
+				color: #f5222d;
+			}
+			&.repeat-type-tl{
+				&::before{
+					display: none;
+				}
+			}
+		}
+		.monitees-error{
+			color: red;
+			font-size: 12px;
+			padding-left: 0px;
+		}
+	}
+	// 公共样式
+	.ant-form-item, .form-group-item{
+		display: flex;
+		margin-bottom: 12px;
+		.ant-form-item-label, .form-group-item-label-required{
+			width: 124px;
+			text-align: right;
+			padding-right: 8px;
+			font-size: 12px;
+			color: $c-999;
+			line-height: 32px;
+		}
+		.ant-form-item-control-wrapper, .form-group-item-content{
+			flex: 1;
+			.ant-form-item-control{
+				line-height: 32px;
+			}
+		}
+	}
+	// 布控任务基本信息
+	&.task_basic_info{
+		.taks_name{
+			width: 424px;
+			font-size: 12px;
+			color: $c-333;
+			border-radius: 3px;
+		}
+		.form-group-item-content{
+			.range-picker-wrapper{
+				.date-picker-content{
+					.ant-calendar-picker{
+						width: 200px !important;
+						.anticon{
+							color: $icon-font-color;
+						}
+					}
+				}
+				.start-picker-wrapper{
+					margin-left: 0px;
+				}
+				.date-picker-divider{
+					margin-left: 7px;
+					width: 10px;
+					text-align: center;
+				}
+				.end-picker-wrapper{
+					margin-left: 7px;
+				}
+			}
+			.ant-radio-wrapper{
+				span{
+					font-size: 12px;
+					color: $c-333;
+				}
+			}
+		}
+		.task-capture-time-box{
+			.form-group-item-label-required{
+				line-height: 19px;
+			}
+		}
+		.task-describe-basic{
+			font-size: 12px;
+			color: $c-333;
+			width: 852px !important;
+		}
+	}
+	// 布控任务重点人员
+	&.libs_list{
+		.libs-sel-box{
+			.libs-select-new{
+				width: 852px;
+				>div{
+					width: 422px;
+					&.selected-libs-right-container{
+						margin-left: 8px;
+					}
+				}
+			}
+		}
+	}
+	// 布控任务任务范围
+	&.tasks_scope{
+		.tasks_scope_box{
+			.form-group-item{
+				.libs-select-list{
+					.org-select-device-wrapper {
+						.tlzj-org-tree.org-select-wrapper{
+							width: 321px;
+						}
+						.org-device-wrapper{
+							width: 304px;
+						}
+						.device-list-check-wrapper.select-device-wrapper{
+							width: 320px;
+						}
+					}
+				}
+				.monitees-error{
+					margin-left: 22px;
+				}
+			}
+		}
+		.scope-type{
+			text-align: center;
+			margin-bottom: 16px;
+			.btn{
+				width: 104px;
+				height: 28px;
+				border-radius: 3px;
+				span{
+					font-size: 14px;
+					margin-left: 4px;
+				}
+				i{
+					color: #8899bb;
+					transition: all .3s;
+				}
+				&:not(.active):hover{
+					border-color: $all-active-orange;
+					i{
+						color: $all-active-orange;
+					}
+				}
+				&.active{
+					background: $all-active-orange;
+					border: 1px solid $c-main-orange;
+					color: #fff;
+					i{
+						color: #fff;
+					}
+				}
+			}
+			button:nth-child(2){
+				margin-left: 8px;
+			}
+    }
+		.libs-select-map{
+			overflow: hidden;
+			padding-left: 24px;
+			>div{
+				float: left;
+			}
+			// 地图样式
+			.libs-select-left{
+				width: 628px;
+				height: 540px;
+				border: 1px solid #D8DCE3;
+				border-radius: 3px;
+				width: 952px;
+			}
+		}
+		.libs-select-list{
+			padding-left: 24px;
+			height: 540px;
+			.org-select-device-wrapper {
+				padding-bottom: 0px;
+				height: 540px;
+        max-height: auto;
+        .org-tree-part.org-select-wrapper{
+          width: 321px;
+        }
+        .device-list-check-wrapper.org-device-wrapper{
+          width: 304px;
+        }
+        .device-list-check-wrapper.select-device-wrapper{
+          width: 320px;
+          margin-left: 8px;
+        }
+      }
+		}
+	}
+	// 布控任务接收
+	&.tasks_receive{
+		.repeat-mode-box{
+			height: 25px;
+			line-height: 25px;
+			.form-group-item-label-required{
+				height: 25px;
+				line-height: 25px;
+			}
+		}
+    .form-group-item-label-required{
+      height: 18px;
+      line-height: 18px;
+    }
+		.form-group-item-content{
+			.ant-checkbox-group{
+				height: 18px;
+				line-height: 18px;
+				.ant-checkbox-wrapper{
+					span{
+						font-size: 12px;
+						color: $c-333;
+					}
+				}
+			}
+			.ant-radio-group{
+				height: 18px;
+				line-height: 18px;
+				margin-bottom: 0px !important;
+			}
+			&.repeat-mode{
+        .ant-radio-group{
+          >label:nth-child(2){
+            margin-left: 5px !important;
+          }
+        }
+				.ant-radio-wrapper{
+					>span:nth-child(2){
+						font-size: 12px;
+            color: $c-333;
+          }
+				}
+				button{
+					width: 40px;
+					height: 25px;
+					padding: 0px;
+					margin-right: 8px;
+					color: $c-333;
+					&:focus{
+						border: 1px solid #d9d9d9;
+						color: $c-333;
+					}
+					span{
+						font-size: 12px;
+					}
+					&.active{
+						border-color: $c-main-orange;
+						color: $c-main-orange;
+					}
+				}
+			}
+			.promission_management {
+				width: 852px;
+				>div{
+					width: 422px;
+				}
+				.rightOrgTree.selected-users{
+					margin-left: 8px;
+				}
+			}
+		}
+	}
+}
+}

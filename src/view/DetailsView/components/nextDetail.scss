@@ -1,0 +1,68 @@
+@import '../../../assets/css/base.scss';
+
+.imm_left {
+	width: 120px;
+	height: 160px;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+	padding: 8px;
+	cursor: pointer;
+	margin: 0 16px;
+	opacity: .65;
+	transition: .4s;
+	user-select: none;
+	&:hover {
+		opacity: 1;
+		border-color: $all-active-orange;
+		.imm_left_p,
+		.anticon {
+			color: $all-active-orange;
+		}
+	}
+	&.face-style{
+		.water-mark-span{
+			left: 30%;
+    	top: 72%;
+		}
+	}
+	.imm_img {
+		display: block;
+		width: 102px;
+		height: 128px;
+		border-radius: 3px;
+		position: relative;
+		img{
+			max-width: 100%;
+			max-height: 100%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			border-radius: 3px;
+		}
+		.watermask{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			display: block;
+			color: rgba(255,255,255,0.2);
+			text-shadow: 1px 1px rgba(0,0,0,0.3);
+			font-size: 8px;
+			transform: translate(-50%,-50%) rotate(45deg);
+			z-index: 1;
+		}
+	}
+	.imm_left_p {
+		padding-top: 2px;
+		margin-bottom: 0;
+		text-align: center;
+		font-size: 12px;
+		color: #333333;
+	}
+}
+.null_left {
+	width: 120px;
+	margin: 0 16px;
+	height: 0;
+}

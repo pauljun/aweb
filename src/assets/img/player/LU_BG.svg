@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="601px" height="198px" viewBox="0 0 601 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#36C6FF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#1374D2" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#BAEBFF" offset="0%"></stop>
+            <stop stop-color="#91E0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2_云烟监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Video_Now_1" transform="translate(-7.000000, -7.000000)">
+            <g id="LU" transform="translate(7.000000, 7.000000)">
+                <g id="BG">
+                    <path d="M13,33 L13,65 L3,75 L3,198 L0,74 L9,64 L9,30 L30,7 L343,21 L362,41 L601,45 L361,45 L341,25 L33,13 L13,33 Z M5,27 L5,63 L3,25 L26,0 L343,17 L27,3 L5,27 Z" fill-opacity="0.8" fill="#36C6FF"></path>
+                    <polygon fill="url(#linearGradient-1)" points="13 33 33 13 341 25 361 45 341 65 13 65"></polygon>
+                    <path d="M354,45 L346,53 L343,53 L351,45 L343,37 L346,37 L354,45 Z M347,45 L341,51 L341,49 L345,45 L341,41 L341,39 L347,45 Z" id="Path-2" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

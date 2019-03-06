@@ -1,0 +1,60 @@
+@import 'src/assets/css/base.scss';
+.monitee-lib-add-wrapper{
+  height: 100%;
+  width: 100%;
+  .lib-add-header{
+    max-width: 1000px;
+    height: 64px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: $fs-18;
+    font-weight: bold;
+  }
+  .lib-add-content-wrapper {
+    width: 100%;
+    height: calc(100% - 64px);
+    overflow-y: auto;
+  }
+  .lib-add-content-container{
+    max-width: 1000px;    
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 80px;
+    // 布控库信息表单样式
+    .monitee-form-lib-info {
+      margin: 0 auto;
+    }
+    // 布控库人员添加样式
+    .lib-add-people-wrapper {
+      height: 100%;
+      .lib-add-people-title{
+        width: 1200px;
+        height: 64px;
+        line-height: 64px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #44AAFF;
+        font-weight: bold;
+      }
+      .monitee-people-wrapper{
+        border: 0;
+        height: calc(100% - 64px);
+      }
+      // 批量添加
+      .monitee-multi-people-wrapper{
+        .upload-btn-wrapper, .img-list-wrapper{
+          width: 1200px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .monitee-lib-btns{
+    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    border-top: 0;
+    margin: 40px auto;
+  }
+}

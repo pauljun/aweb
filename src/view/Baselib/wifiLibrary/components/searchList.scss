@@ -1,0 +1,126 @@
+.wifi-group-point{
+  .item-content.point-group{
+    .wifi-left-list{
+      background: #FFFFFF;
+      border: 1px solid #B5BBC7;
+      border-radius: 3px;
+      width: 100%;
+      max-height: 270px;
+      padding-bottom: 29px;
+      position: relative;
+      .wifi-device-content{
+        .wifiOnline{
+          .anticon{
+            &:hover{
+              i{ color:#17bc84 !important;}
+            }
+            color:#17bc84;
+            position: relative;
+            right:3px;
+            font-size: 14px;
+          }
+         
+        }
+        .wifiOffline{
+          .anticon{
+            &:hover{
+              i{ color:#8899BB !important;}
+            }
+            color: #8899BB;
+            position: relative;
+            right:3px;
+            font-size: 14px;
+          }
+        }
+        margin:auto;
+        background: #FFFFFF;
+        border-radius: 3px;
+        overflow-y: auto;
+        width: 198px;
+        height: 268px;
+        padding-top:8px;
+        padding-bottom: 29px;
+        position: relative;
+        &>div{
+          padding-top:4px;
+          font-size: 12px;
+        }
+        // .anticon{
+        //   color: #8899BB;
+        //   margin-right:4px;
+        // }
+      }
+      .clear{
+        position: absolute;
+        height: 27px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        border-top: 1px solid #B5BBC7;
+        line-height: 26px;
+        cursor: pointer;
+        .anticon{
+          color: #8899BB;
+          font-size: 14px;
+          position:relative;
+          top:1px;
+          right:2px;
+        }
+      }
+    }
+  }
+}
+.wifi-map-point{
+  .ant-modal{
+    width:1004px !important;
+    height:682px;
+    .ant-modal-content{
+      width:1004px;
+      height: 100%;
+      .ant-modal-body{
+        padding:0px;
+        background:#F3F6F9;
+        .map-select-layout{
+          padding:20px;
+          height: 100%;
+          .amap-container{
+            border:1px solid #e8e8e8;
+            border-radius: 3px;
+          }
+          .map-select-draw-tools{
+            right:30px;
+            top:30px;
+          }
+          .device-list-check-wrapper{
+            right:30px;
+          }
+          .map-reset-tool{
+            left:30px;
+            bottom:30px;
+          }
+        }
+        width:1004px;
+        height:83%;
+      }
+      .ant-modal-footer{
+        text-align: center;
+      }
+    }
+  }
+}
+.wifi-grap-point{
+  .ant-modal{
+    width:704px !important;
+    height:682px;
+    .ant-modal-content{
+      width:704px;
+      height: 100%;
+      .ant-modal-body{
+        width:704px;
+        height:83%;
+      }
+    }
+  }
+}

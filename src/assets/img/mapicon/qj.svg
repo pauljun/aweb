@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>16/Point/1_Camera_2_Light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="16/Point/1_Camera_2_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3,6 L13,6 L13,8 C13,10.7614237 10.7614237,13 8,13 C5.23857625,13 3,10.7614237 3,8 L3,6 Z M8,7 C6.8954305,7 6,7.8954305 6,9 L6,10 C6,11.1045695 6.8954305,12 8,12 C9.1045695,12 10,11.1045695 10,10 L10,9 C10,7.8954305 9.1045695,7 8,7 Z M7,10 C7,9.4475 7.448,9 8,9 C8.552,9 9,9.4475 9,10 C9,10.5525 8.552,11 8,11 C7.448,11 7,10.5525 7,10 Z M2.5,4 L13.5,4 C13.7761424,4 14,4.22385763 14,4.5 L14,5.5 L2,5.5 L2,4.5 C2,4.22385763 2.22385763,4 2.5,4 Z" id="Fill-1-Copy" fill="#FFFFFF"></path>
+    </g>
+</svg>

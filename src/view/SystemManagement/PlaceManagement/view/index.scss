@@ -1,0 +1,16 @@
+@import 'src/assets/css/base.scss';
+
+.place_management_view{
+  .place_header{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #d8dce3;
+    background: #f3f6f9;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    .place_header_title{
+      padding-left: calc(50% - 600px);
+    }
+  }
+}

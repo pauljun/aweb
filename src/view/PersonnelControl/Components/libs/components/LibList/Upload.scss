@@ -1,0 +1,63 @@
+.library-modal-wrapper {
+  .ant-modal-header {
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #F6F8F9 95%);
+    padding: 0 20px;
+    .ant-modal-close-icon{
+      font-size: 14px;
+    }
+    .ant-modal-title {
+      line-height: 36px;
+      font-size: 14px;
+      color: #333;
+      font-weight: bold;
+    }
+  }
+  .ant-modal-body{
+    padding: 0px;
+  }
+  .notice {
+    text-align: center;
+    >div {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto;
+    }
+    .failure {
+      background: url('/src/assets/img/monitees/Failure.svg');
+    }
+    .success {
+      background: url('/src/assets/img/monitees/Success.svg');
+    }
+  }
+  .success-list{
+    padding: 0px 20px;
+    .ul{
+      padding-right: 14px;
+      &:last-child{
+        ul{
+          border-right: none;
+        }
+      }
+    }
+    ul{
+      border-right: 1px solid #D8DCE3;
+    }
+  }
+  .ok-btn {
+    text-align: center;
+    border-top: 1px solid #e8e8e8;
+    button {
+      width: 80px;
+      margin: 10px 0;
+    }
+    button:nth-child(2){
+      margin-left: 16px;
+    }
+  }
+  .error-mes {
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin: 50px 0;
+  }
+}

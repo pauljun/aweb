@@ -1,0 +1,271 @@
+@import 'src/assets/css/base';
+
+
+.media-lib-drawer-wrapper{
+  .ant-drawer-content-wrapper{
+    width: 300px;
+    .ant-drawer-body{
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+}
+
+// 视图库容器样式
+.media-lib-module-wrapper {
+  @include setWH(300px);
+  color: #333;
+  background: #f4f4f4;
+  .anticon {
+    color: #8899bb;
+  }
+}
+
+// 视图库弹窗
+.media-lib-modal {
+  width: 800px !important;
+  .ant-modal-content {
+    .ant-modal-body {
+      height: 450px;
+      padding:0;
+      .top-contraller{
+        .close-video{
+          display: none;
+        }
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// 视图库头部样式
+.media-lib-header {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  background: #fefefe;
+  .title {
+    font-size: $fs-14;
+    font-weight: bold;
+  }
+  .icon-span {
+    margin-left: 15px;
+    float: right;
+    height: 100%;
+    line-height: 36px;
+  }
+  .anticon {
+    font-size: $fs-14;
+    position: relative;
+    top: 1px;
+  }
+  .close-btn {
+    .anticon {
+      font-size: $fs-16;
+      margin-right: 0;
+    }
+  }
+}
+
+// 视图库内容样式
+.media-lib-content {
+  height: calc(100% - 72px); // 选项卡样式
+  .ant-tabs.media-lib-tab {
+    height: 100%;
+    overflow: visible;
+    .ant-tabs-bar {
+      background: #fefefe;
+      margin-bottom: 0;
+      border-bottom: 1px solid #e0e0e1;
+      border-top: 1px solid #e0e0e1;
+      .ant-tabs-nav-container {
+        .ant-tabs-ink-bar {
+          border-radius: 2px;
+          background: $all-active-orange;
+        }
+        .ant-tabs-tab {
+          height: 36px;
+          width: 60px;
+          margin: 0 20px;
+          text-align: center;
+          line-height: 36px;
+          padding: 0;
+        }
+        .ant-tabs-tab-active {
+          color: $all-active-orange;
+        }
+      }
+    }
+    .ant-tabs-content {
+      height: calc(100% - 36px);
+    }
+  } // 折叠面板容器样式
+  .media-lib-collapse-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    background: transparent;
+    padding: 16px 16px 0;
+    border: 0; // 单项折叠面板收起样式
+    .ant-collapse-item {
+      transition: padding .3s; // margin-bottom: 16px;
+      border-bottom: 0; // checkbox样式
+      .ant-checkbox-wrapper {
+        @include setWH(16px, 16px);
+        line-height: 16px;
+      } // 头部
+      .ant-collapse-header {
+        @include setFlex();
+        height: 32px;
+        line-height: 32px;
+        background: #fff;
+        border-radius: 3px;
+        padding: 0;
+        margin-bottom: 16px;
+        .collapse-item-header {
+          @include setWH();
+          @include setFlex();
+          .item-title {
+            font-size: $fs-12;
+            @include flexNum();
+            font-weight: bold;
+            padding: 0 8px;
+            border: 1px solid #D8DCE3;
+            border-radius: 2px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+        } // 
+        .arrow {
+          line-height: inherit;
+          left: unset;
+          right: 0;
+          width: 32px;
+        }
+      } // 内容
+      .ant-collapse-content {
+        border-top: 0;
+        overflow: visible;
+        background: transparent;
+        .ant-collapse-content-box {
+          padding: 0;
+          .ant-checkbox-group{
+            width: 100%;
+          }
+          .list-item-wrapper {
+            @include setFont($fs-12, #333);
+            height: 72px;
+            margin-bottom: 16px;
+            @include setFlex();
+            .item-img-wrapper {
+              @include flexNum();
+              height: 100%;
+              position: relative;
+              &:hover {
+                .item-img-view {
+                  display: block;
+                }
+              }
+              .item-img-small {
+                border-radius: 3px;
+                display: block;
+                @include setWH();
+              }
+              .anticon {
+                @include absCenter();
+                @include setWH(32px, 32px);
+                @include setFont($fs-18, rgba(0, 0, 0, 0.5));
+                cursor: pointer;
+                @include setFlex();
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.8);
+              }
+              .item-img-view {
+                display: none;
+                @include setWH(320px, 180px);
+                position: absolute;
+                border-radius: 3px;
+                left: -110%;
+                top: 100px;
+                img {
+                  @include setWH();
+                }
+              }
+            }
+            .item-info-wrapper {
+              @include setFlex(stretch, space-between, column);
+              @include setWH(130px);
+              margin-left: 10px;
+              .item-time-wrapper {
+                p {
+                  margin-bottom: 5px;
+                }
+              }
+              .item-operate-wrapper {
+                text-align: right;
+                .anticon {
+                  cursor: pointer;
+                  @include setWH(16px, 16px);
+                  margin-left: 10px;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } // 折叠面板批量编辑样式
+  .media-lib-collapse-wrapper.checkbox-show {
+    .ant-collapse-item {
+      padding-left: 32px;
+    }
+    .ant-collapse-header,
+    .list-item-wrapper {
+      position: relative;
+    }
+    .ant-checkbox-wrapper {
+      position: absolute;
+      left: -32px;
+    }
+    .check-all {
+      top: 8px;
+    }
+    .check-item {
+      top: 24px;
+    }
+  }
+}
+
+// 视图库底部样式
+.media-lib-footer {
+  @include setFlex(stretch);
+  height: 36px;
+  background: #fefefe;
+  .icon-span {
+    @include flexNum();
+    position: relative;
+    .anticon {
+      font-size: $fs-14;
+      position: relative;
+      top: 1px;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      @include setWH(1px);
+    }
+  }
+  .download-btn:after {
+    background-image: linear-gradient(-179deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 52%, rgba(0, 0, 0, 0.00) 100%);
+    right: 0;
+  }
+  .delete-btn:after {
+    background-image: linear-gradient(-179deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.10) 52%, rgba(255, 255, 255, 0.00) 100%);
+    left: 0;
+  }
+}

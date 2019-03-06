@@ -1,0 +1,61 @@
+.map_detail_modal {
+  .ant-modal-content {
+    .ant-modal-close {
+      .ant-modal-close-x {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+      }
+    }
+    .ant-modal-header {
+      height: 36px;
+      padding: 5px 24px;
+      line-height: 36px;
+    }
+    .ant-modal-body {
+      .map_detail_modal_header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .header_p {
+          width: 25%;
+          font-size: 14px;
+          color: #999999;
+          text-align: left;
+          margin-bottom: 4px;
+          padding-right: 12px;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          .header_span {
+            display: inline-block;
+            width: 70px;
+            color: #333333;
+            text-align: right;
+          }
+        }
+      }
+      .map_detail_modal_content {
+        .alarm_detail_imm {
+          .imm_content {
+            .imm_content_box .lm-player .top-contraller-bar {
+              display: none;
+            }
+            .left-content-footer {
+              .footer_search {
+                display: none;
+              }
+            } 
+            .imm_switch {
+              .switch_box {
+                &:last-child {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

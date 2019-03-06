@@ -1,0 +1,124 @@
+.setting-tree-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .tree-checkall{
+    padding: 16px 0 0 16px;
+  }
+}
+.setting-org-tree {
+  padding: 10px 0;
+  flex: 1;
+  // height: calc(100% - 37px);
+  overflow: auto;
+  color: rgba(255, 255, 255, 0.8);
+  transition: height 0.3s linear;
+  &::-webkit-scrollbar-thumb {
+    width:2px;
+    // background: #37415f;
+  }
+  &.hide-tree {
+    height: 0px;
+    padding: 0;
+    overflow: hidden;
+  }
+  li span.ant-tree-node-content-wrapper {
+    color: #333;
+    font-size: 12px;
+    min-width: calc(100% - 24px - 16px);
+    position: relative;
+    margin: 0 8px;
+    display: inline-flex;
+
+    // overflow: hidden;
+    // white-space: nowrap;
+    // text-overflow: ellipsis;
+    .anticon{
+      font-size: 16px;
+      position: relative;
+      top:2px;
+    }
+    .ant-tree-title{
+      padding-left:5px;
+      flex: 1;
+      &> span {
+        min-width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+      }
+    }
+    &:hover {
+      background: rgba(55, 65, 95, 0.4);
+      color: #fff;
+      .device-count {
+        .video-lx {
+          display: initial;
+          opacity: 1;
+        }
+      }
+    }
+    &.ant-tree-node-selected{
+      background: #fff;
+      color:#333;
+    }
+    .device-count {
+      // position: absolute;
+      // right: 10px;
+      padding-left: 10px;
+      .count {
+        color: #7584a3;
+      }
+      i {
+        font-style: normal;
+      }
+      .video-lx {
+        padding-left: 5px;
+        display: none;
+        opacity: 0;
+        .anticon{
+          font-size: 16px;
+          position: relative;
+          top:2px;
+        }
+      }
+    }
+  }
+  li {
+    ul.ant-tree-child-tree {
+      padding-top: 7px;
+      .ant-tree-treenode-switcher-close{
+        padding:2px 0;
+      }
+    }
+  }
+  .ant-tree-treenode-selected {
+    & > .ant-tree-node-content-wrapper {
+      background: #37415f;
+      color: #fff;
+    }
+  }
+  .ant-tree-iconEle {
+    width: 24px;
+    .anticon {
+      font-size: 12px;
+      color: #8899bb;
+    }
+  }
+  .ant-tree-switcher {
+    position: relative;
+    top: -1px;
+    left: 8px;
+    z-index: 2;
+    margin-right: 5px;
+    color: #8899bb;
+  }
+  .ant-tree-treenode-switcher-open,
+  .ant-tree-treenode-switcher-close {
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}

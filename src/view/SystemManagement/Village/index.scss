@@ -1,0 +1,33 @@
+.Village-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 48px);
+  .village-title{
+    height: 80px;
+    font-size: 16px;
+    .village-table-search {
+      display: flex;
+      align-items: center;
+      .ant-input-search {
+        width: 300px;
+        margin-right: 16px;
+      }
+    }
+  }
+  .setting-table{
+    height: calc(100% - 80px);
+    .user-tr{
+      max-width: 385px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+    }
+  }
+  .ant-pagination {
+    height:80px;
+    padding-top: 20px;
+  }
+}

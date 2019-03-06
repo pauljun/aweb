@@ -1,0 +1,362 @@
+@import '../../../assets/css/base.scss';
+.current_alarm_box_another {
+  @include setFlex();
+  height: 100%;
+  .alarm_left_total {
+    height: 100%;
+    width: 300px;
+    transition: all 0.5s;
+    background: #eaedf1;
+    position: relative;
+    .out-scroll-div {
+      height: calc(100% - 48px);
+      width: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      .alarm_all_total_num {
+        margin-top: 11px;
+        position: relative;
+        .title {
+          height: 45px;
+          width: 262px;
+          margin: 0 auto;
+        }
+        .content {
+          margin-top: -15px;
+          height: 264px;
+          .chartAnother {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+      .alarm_type_total_num {
+        margin-top: -45px;
+        position: relative;
+        .title {
+          height: 45px;
+          width: 262px;
+          margin: 0 auto;
+        }
+        .content {
+          margin-top: -10px;
+          height: 253px;
+          .chartAnother {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .alarm-line {
+          bottom: -16px;
+        }
+      }
+      .alarm_change_total_num {
+        margin-top: 18px;
+        height: calc(100% - 570px);
+        min-height: 311px;
+        .title {
+          height: 45px;
+          width: 262px;
+          margin: 0 auto;
+        }
+        .content {
+          min-height: 266px;
+          height: calc(100% - 45px);
+          .chartAnother {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+    .alarm-title-real {
+      font-family: PingFang-SC-Bold;
+      height: 48px;
+      font-size: 18px;
+      color: #333333;
+      background: #d8dce3;
+      line-height: 48px;
+      padding-left: 16px;
+      border-bottom: 1px solid #c9c5c5;
+    }
+    .alarm_all_total_num {
+      position: relative;
+      .title {
+        background: url('../../../assets/img/monitees/realalarm/DataNameBG.svg')
+          no-repeat 50%;
+        text-align: center;
+        line-height: 45px;
+        color: #89b;
+        font-size: 16px;
+        span {
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+      .circle-word {
+        height: 70%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 12px;
+        @media screen and (max-width: 1366px) {
+          .circle-word-count {
+            div:nth-child(2) {
+              font-size: 16px !important;
+            }
+          }
+          .circle-nohandle-count {
+            div:nth-child(2) {
+              font-size: 16px !important;
+            }
+          }
+        }
+        .circle-word-count {
+          margin-top: -3px;
+          div {
+            text-align: center;
+          }
+          div:nth-child(2) {
+            font-size: 24px;
+            color: #151515;
+          }
+        }
+        .circle-nohandle-count {
+          margin-top: 6px;
+          div {
+            text-align: center;
+          }
+          div:nth-child(2) {
+            font-size: 24px;
+            color: #ffaa00;
+          }
+        }
+      }
+    }
+    .alarm_type_total_num {
+      .title {
+        background: url('../../../assets/img/monitees/realalarm/DataNameBG.svg')
+          no-repeat 50%;
+        text-align: center;
+        line-height: 45px;
+        color: #89b;
+        font-size: 15px;
+        span {
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+    }
+    .alarm_change_total_num {
+      .title {
+        background: url('../../../assets/img/monitees/realalarm/DataNameBG.svg')
+          no-repeat 50%;
+        text-align: center;
+        line-height: 45px;
+        color: #89b;
+        font-size: 16px;
+        span {
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+    }
+    &.collapse {
+      margin-left: -300px;
+      > div {
+        .title {
+          width: 0;
+        }
+      }
+      .collapse-btn {
+        .anticon {
+          color: $c-fff;
+          transform: rotate(90deg);
+        }
+      }
+    }
+    .collapse-btn {
+      position: absolute;
+      height: 45px;
+      line-height: 28px;
+      width: 0;
+      background: transparent;
+      right: -14px;
+      top: 50%;
+      cursor: pointer;
+      border-top: 10px solid transparent;
+      border-right: none;
+      border-bottom: 10px solid transparent;
+      border-left: 14px solid #1c253f;
+      .anticon {
+        color: $c-fff;
+        transition: all 0.5s;
+        transform: rotate(-90deg);
+        position: absolute;
+        left: -15px;
+        top: 4.5px;
+      }
+    }
+  }
+  .alarm_right_container {
+    flex: 1;
+    height: 100%;
+    padding: 0 0px 2px 0;
+    position: relative;
+    .ant-back-top {
+      right: 40px;
+      &:hover {
+        .ant-back-top-content {
+          background-color: $c-main-orange;
+        }
+      }
+      .ant-back-top-content {
+        background-color: $all-active-orange;
+      }
+    }
+    .ant-pop-alarm {
+      .ant-popover-inner-content {
+        padding: 2px 9px;
+      }
+    }
+    .alarm-scroll-height {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      z-index: 15;
+      border-radius: 50%;
+      background: url('../../../assets/img/monitees/realalarm/toTop_Main.svg')
+        #ffaa00 no-repeat center center;
+      bottom: 30px;
+      right: 30px;
+      cursor: pointer;
+    }
+    .alarm-top-tab {
+      width: 100%;
+      height: 48px;
+      background: #f3f6f9;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      line-height: 48px;
+      .alarm-just-button {
+        position: absolute;
+        right: 24px;
+        z-index: 10;
+        top: 0;
+        border-bottom: 0;
+
+        .ant-btn {
+          color: #ffaa00;
+          border-color: #ffaa00;
+          &:hover {
+            color: #fff;
+            background: #ffaa00;
+            border-color: #ffaa00;
+          }
+          &:focus {
+            color: #fff;
+            background: #ffaa00;
+            border-color: #ffaa00;
+          }
+        }
+      }
+      .alarm-top-left {
+        //text-align: center;
+        //padding-left: 10px;
+        width: 112px;
+        padding: 0 10px;
+        //height: 100%;
+        color: #ffaa00;
+        border-bottom: 2px solid #ffaa00;
+        cursor: pointer;
+        .anticon {
+          margin-right: 10px;
+        }
+        img:nth-child(1) {
+          margin-top: -4px;
+        }
+        img:nth-child(2) {
+          margin-left: -8px;
+          margin-top: -4px;
+        }
+      }
+    }
+    .alram_right_header {
+      height: 32px;
+      line-height: 32px;
+      margin-bottom: 16px;
+
+      .refresh_btn {
+        color: #44aaff;
+        font-size: 14px;
+        border-color: #44aaff;
+        float: right;
+        width: 90px;
+        height: 32px;
+        > span {
+          margin-left: 2px;
+        }
+      }
+    }
+    .alart_list_item {
+      height: calc(100% - 48px);
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      position: relative;
+      justify-content: center;
+      align-content: space-between;
+      padding: 20px 50px 20px 40px;
+      .event-real-alarm-just {
+        margin-left: 24px;
+        width: 188px;
+        height: 0px;
+      }
+      .bottom-button-jump {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-btn {
+          &:hover {
+            border-color: #ff8800;
+            color: #ff8800;
+          }
+        }
+      }
+      .spin-loading-bottom {
+        position: absolute;
+        left: 50%;
+        bottom: 100px;
+        z-index: 30;
+      }
+      .alarm-demo-infinite-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        //padding-left: 50px;
+        //overflow-y: auto;
+      }
+      /* 	.alarm-out-card{
+				.alarm-card-image{
+					img{
+						width:40%;
+					}
+				}
+
+			} 
+			 */
+    }
+  }
+}
+.alarm-item-layer {
+  display: flex;
+}

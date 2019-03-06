@@ -1,0 +1,35 @@
+@import '../../../assets/css/base.scss';
+.setting-wrapper {
+	.role_view {
+		width: 1200px;
+		height: calc(100% - 48px);
+		margin: 0 auto;
+		.setting-title {
+			height: 80px;
+			line-height: 80px;
+			font-size: 18px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.role-container {
+			height: calc(100% - 50px - 16px);
+			box-shadow: none;
+			overflow: hidden;
+			.setting-table {
+				height: calc(100% - 80px);
+				.ellipsis {
+					max-width: 564px;
+					display: inline-block;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+			}
+			.ant-pagination {
+				height: 80px;
+				padding-top: 20px;
+			}
+		}
+	}
+}

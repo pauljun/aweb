@@ -1,0 +1,10 @@
+.soilder-search-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .search-right {
+    .ant-input-search {
+      width: 280px;
+    }
+  }
+}

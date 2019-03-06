@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>64/Notice/Failure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.80410043%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF4466" offset="0%"></stop>
+            <stop stop-color="#FF2244" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="64/Notice/Failure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,56 C18.745166,56 8,45.254834 8,32 C8,18.745166 18.745166,8 32,8 C45.254834,8 56,18.745166 56,32 C56,45.254834 45.254834,56 32,56 Z M23,24.5 L29,32 L23,39.5 L24.5,41 L32,35 L39.5,41 L41,39.5 L35,32 L41,24.5 L39.5,23 L32,29 L24.5,23 L23,24.5 Z" id="Oval-7" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

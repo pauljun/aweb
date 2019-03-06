@@ -1,0 +1,34 @@
+@import 'src/assets/css/base';
+
+$RangePickerHeight: 32px;
+.range-picker-wrapper {
+  // @include setWH(auto, $RangePickerHeight);
+  height: $RangePickerHeight;
+  line-height: $RangePickerHeight;
+  .date-picker-divider{
+    margin-left: 10px;
+  }
+  .date-picker-wrapper{
+    @include setFlex();
+    margin-left: 10px;
+    height: 100%;
+    .date-picker-label,
+    .date-picker-content {
+      height: 100%;
+      overflow: hidden;      
+    }
+    .date-picker-label{
+      padding-right: 10px;
+    }
+    .date-picker-content{
+      @include flexNum();
+      .ant-calendar-picker{
+        min-width: 180px;
+        display: block;
+      }
+      input::-webkit-input-placeholder{
+        font-size: $fs-12;
+      }
+    }
+  }
+}

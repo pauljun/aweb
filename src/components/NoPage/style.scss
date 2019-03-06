@@ -1,0 +1,26 @@
+.nopage-con {
+  background-color: #0a7189;
+  color: #000;
+  font-size: 0.18rem;
+  font-weight: 300;
+  text-align: center;
+}
+.has-not-data-box-container{
+  //position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -90%);
+  margin: 240px auto 0;
+  width: 210px;
+  text-align: center;
+  p{
+    font-size: 36px;
+    color: #FF8800;
+    text-align: center;
+    margin: 0px;
+  }
+  img{
+    width: 150px;
+    height: 180px;
+  }
+} 

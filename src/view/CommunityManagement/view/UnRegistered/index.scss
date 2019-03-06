@@ -1,0 +1,225 @@
+@import 'src/assets/css/base.scss';
+.community_float_alarm_box{
+	@include setFlex();
+	height: 100%;
+  .community_left_total{
+		height: 100%;
+		width: 280px;
+		transition: all .5s;
+		background: #EAEDF1;
+		position: relative;
+		.community-title-real {
+      font-family: PingFang-SC-Bold;
+      height: 48px;
+      font-size: 18px;
+      color: #333333;
+      background: #d8dce3;
+      line-height: 48px;
+      padding: 0 16px 0 16px;
+			border-bottom: 1px solid #c9c5c5;
+			display: flex;
+			justify-content: space-between;
+			.community-checkbox{
+				font-size: 12px;
+        color: #333333;
+			}
+		
+		}
+		.community-input{
+			margin-top:16px;
+			margin-left: 16px;
+			width:100%;
+			.ant-input-affix-wrapper{
+				width: 248px;
+				height: 32px;
+			}
+		}
+		.community-exp{
+			height: calc(100% - 96px );
+			width: 100%;
+			margin-top: 12px;
+			padding-bottom: 10px;
+		/* 	display: flex;
+		 flex-direction: column;
+		 align-items: center; */
+		 overflow-y: auto;
+		 overflow-x: hidden;
+		}
+		::-webkit-scrollbar{
+			width:4px;
+		}
+	}
+	.community_right_container{
+		//flex: 1;
+		width: calc(100% - 280px);
+		height: 100%; 
+		position: relative;
+		.alarm-container-header-search{
+			top: 8px;
+			z-index: 10;
+			width: auto;
+			right: 16px;
+			.header-text{
+				font-size: 12px;
+			}
+		}
+		.ant-tabs{
+			height: 100%;
+			.ant-tabs-content{
+				height: calc(100% - 48px);
+				.ant-tabs-tabpane-active{
+					overflow: hidden;
+				}
+				.ant-tabs-tabpane{
+					height:100%;
+					.float-communty-tab-scroll-unregister{
+						height: calc(100% - 58px);
+						overflow-y: auto;
+						.ant-spin-nested-loading{
+							height: 100%;
+							.ant-spin-container{
+								height: 100%;
+								.query-backTop{
+									display: flex;
+									flex-wrap: wrap;
+									overflow-y: auto;
+									justify-content: center;
+									min-height: 100%;
+									align-content: space-between;
+								}
+							}
+						}
+					}
+				}
+			}
+      .ant-tabs-bar{
+				height: 48px;
+				background: #F3F6F9;
+				margin: 0;
+				.ant-tabs-tab-active{
+					color:#FFAA00;
+				}
+        .ant-tabs-nav-container{
+					height: 48px;
+					border-bottom:1px solid #e8e8e8;
+          .ant-tabs-nav-wrap{
+           .ant-tabs-nav-scroll{
+             background:#F3F6F9;
+             .ant-tabs-nav{
+							 margin-left: 15px;
+							 .ant-tabs-ink-bar{
+								background-color:#FFAA00;
+								height: 2px;
+								visibility: inherit;
+							}
+							 .ant-tabs-tab{
+								background: #f3f6f9;
+							 }
+                 div{
+									 /* height: 48px; */
+                   .ant-tabs-tab{
+										 border:0;
+										 text-align: center;
+										 padding:5px 16px;
+									   margin-right: 15px;
+										 &:hover{
+											color:#FFAA00;
+											//color:transparent;
+											//background: url('../../../assets/img/monitees/realalarm/New_1_Main.svg') no-repeat left;
+										}
+									 }
+									  
+								 }
+								 
+             }
+           } 
+          }
+        }
+      }
+		}
+		.community_list_item{
+			width: 100%;
+			height: 48px;
+			background: #F3F6F9;
+			display:flex;
+			.alarm-container-header-search{
+				top: 58px;
+				.header-text{
+					font-size: 14px;
+				}
+			}
+		}
+		.community-top-bottom{
+			width: 98%;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 23px;
+		}
+		.community-scroll{
+			height: calc(100% - 106px);
+			overflow-y: auto;
+			display: flex;
+			flex-wrap: wrap;
+			padding: 20px 0 0 50px;
+			.community-footer-page{
+				height:90px;
+				margin-top:40px;
+				margin-left: 450px;
+			}
+			@media screen and (max-width: 1366px) {
+				.community-footer-page{
+					margin-left: 200px !important;
+				}
+			}
+		}
+	}
+}
+.float-community-unregistered{
+	display: flex;
+	justify-content: space-between;
+	height: 58px;
+	padding: 9px 20px 0 20px;
+	position: relative;
+	.float-input-search{
+		margin-top: -5px;
+		width: 100px;
+	}
+}
+.float-communty-tab-scroll-unregister{
+/* 	width: 99%;
+	height: 770px;
+	overflow-y: auto;
+	display: flex;
+	flex-wrap: wrap; */
+	//padding: 10px 40px 0 40px;
+	.community-footer-page{
+		height:100px;
+				padding-top:45px;
+				width: 100%;
+				//margin-left: 450px;
+	}
+}
+.alarm-scroll-height {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 15;
+	border-radius: 50%;
+	background: url('../../../../assets/img/monitees/realalarm/toTop_Main.svg') #ffaa00 no-repeat center center;
+	bottom:30px;
+	right: 30px;
+	cursor: pointer;
+}
+.checkbox-span-pop-community-unregistered{
+	
+		padding: 2px 4px;
+	
+}
+.filling-community{
+	width: 348px;
+  height:0;
+  margin-left: 20px;
+}
+.ant-tabs-tabpane-active{
+	overflow-y: hidden;
+}

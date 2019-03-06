@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/18x18/静止</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons/18x18/静止" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#D9D9D9" stroke-width="2" cx="9" cy="9" r="8"></circle>
+        <rect id="Rectangle" stroke="#D9D9D9" transform="translate(9.000000, 9.000000) rotate(-51.000000) translate(-9.000000, -9.000000) " x="8.5" y="0.5" width="1" height="17"></rect>
+    </g>
+</svg>

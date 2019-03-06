@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.83824061%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0AACFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#1B2771" stop-opacity="0.4" offset="45.6895773%"></stop>
+            <stop stop-color="#0C334E" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#55C8FF" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#6E81FF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#89D9FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#162271" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-4">
+            <stop stop-color="#89D9FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#162271" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#89D9FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#162271" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2_云烟监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud_Open" transform="translate(-433.000000, -334.000000)">
+            <g id="Video" transform="translate(382.000000, 114.000000)">
+                <g id="1" transform="translate(0.000000, 27.000000)">
+                    <g id="Cloud" transform="translate(40.000000, 182.000000)">
+                        <g id="BG" transform="translate(11.000000, 11.000000)">
+                            <circle fill="url(#linearGradient-1)" cx="74" cy="74" r="74"></circle>
+                            <g transform="translate(4.000000, 4.000000)">
+                                <path d="M70,140 C31.3400675,140 0,108.659932 0,70 C0,31.3400675 31.3400675,0 70,0 C108.659932,0 140,31.3400675 140,70 C140,108.659932 108.659932,140 70,140 Z M70.0008461,104.001481 C88.7788781,104.001481 104.001481,88.7788781 104.001481,70.0008461 C104.001481,51.2228142 88.7788781,36.0002115 70.0008461,36.0002115 C51.2228142,36.0002115 36.0002115,51.2228142 36.0002115,70.0008461 C36.0002115,88.7788781 51.2228142,104.001481 70.0008461,104.001481 Z M70,97 C55.0883118,97 43,84.9116882 43,70 C43,55.0883118 55.0883118,43 70,43 C84.9116882,43 97,55.0883118 97,70 C97,84.9116882 84.9116882,97 70,97 Z" id="Oval" fill="url(#linearGradient-2)"></path>
+                                <g id="Line" transform="translate(4.000000, 4.000000)" fill="#112C4F" fill-opacity="0.2">
+                                    <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(22.500000) translate(-66.000000, -66.000000) "></path>
+                                    <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(67.500000) translate(-66.000000, -66.000000) "></path>
+                                    <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(112.500000) translate(-66.000000, -66.000000) "></path>
+                                    <path d="M65,-4 L67,-4 L66.5,32 L65.5,32 L65,-4 Z M65,136 L65.5,100 L66.5,100 L67,136 L65,136 Z" transform="translate(66.000000, 66.000000) rotate(157.500000) translate(-66.000000, -66.000000) "></path>
+                                </g>
+                                <circle id="Oval-3" stroke="url(#linearGradient-3)" cx="70" cy="70" r="69.5"></circle>
+                                <circle id="Oval-4" stroke="url(#linearGradient-4)" cx="70" cy="70" r="34.5"></circle>
+                                <circle id="Oval-3" stroke="url(#linearGradient-5)" cx="70" cy="70" r="26.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

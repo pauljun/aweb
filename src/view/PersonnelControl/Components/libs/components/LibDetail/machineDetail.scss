@@ -1,0 +1,32 @@
+@import 'src/assets/css/base.scss';
+
+.library-modal-wrapper {
+  .success-list {
+    margin: 20px;
+    @include setFlex(left, top);
+    .ul {
+      @include flexNum();
+      .ul-tlt {
+        font-size: 14px;
+        color: #666;
+        font-weight: bold;
+      }
+      ul {
+        height: 200px;
+        margin: 10px 0;
+        overflow-y: auto;
+        font-size: 14px;
+        color: #333;
+        line-height: 26px;
+        li {
+          @include ellip();
+        }
+      }
+    }
+  }
+  .ant-modal-close-x {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+  }
+}

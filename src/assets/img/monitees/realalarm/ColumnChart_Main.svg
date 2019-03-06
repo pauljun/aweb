@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>16/Bar/ColumnChart_Main</title>
+    <desc>Created with Sketch.</desc>
+    <g id="16/Bar/ColumnChart_Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.5,4 L8.5,4 C9.05228475,4 9.5,4.44771525 9.5,5 L9.5,12 C9.5,12.5522847 9.05228475,13 8.5,13 L7.5,13 C6.94771525,13 6.5,12.5522847 6.5,12 L6.5,5 C6.5,4.44771525 6.94771525,4 7.5,4 Z M12,2 L13,2 C13.5522847,2 14,2.44771525 14,3 L14,12 C14,12.5522847 13.5522847,13 13,13 L12,13 C11.4477153,13 11,12.5522847 11,12 L11,3 C11,2.44771525 11.4477153,2 12,2 Z M3,6 L4,6 C4.55228475,6 5,6.44771525 5,7 L5,12 C5,12.5522847 4.55228475,13 4,13 L3,13 C2.44771525,13 2,12.5522847 2,12 L2,7 C2,6.44771525 2.44771525,6 3,6 Z" id="Rectangle-52" fill="#89b"></path>
+    </g>
+</svg>

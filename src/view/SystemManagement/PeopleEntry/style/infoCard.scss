@@ -1,0 +1,38 @@
+@import 'src/assets/css/base.scss';
+
+.info-card{
+  display: flex;
+  width: 300px;
+  height: 122px;
+  padding: 16px;
+  cursor: pointer;
+  box-shadow: 0 1px 0 #ccc;
+  &.info-card-active{
+    background: #fff;
+    box-shadow: 0 1px 0 $all-active-orange ,  0 -1px 0 $all-active-orange;
+  }
+  .card-left{
+    width: 120px;
+    overflow: hidden;
+    .left-img{
+      display: block;
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+      background: #fff;
+    }
+  }
+  .card-right{
+    flex: 1;
+    padding-left: 16px;
+    .title{
+      font-size: 14px;
+      color: $c-main-orange;
+      margin-bottom: 4px;
+    }
+    .address{
+      font-size: 12px;
+      color: #333333;
+    }
+  }
+}

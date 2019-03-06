@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="136px" viewBox="0 0 56 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2_云烟监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.8">
+        <g id="Video_Now_1" transform="translate(-1854.000000, -934.000000)">
+            <g id="Time" transform="translate(1854.000000, 934.000000)">
+                <g id="BG">
+                    <path d="M10,0 L38,0 L49,12 L49,112 L32,129 L12,129 L0,119 L0,12 L10,0 Z M13,3 L3,13 L3,117 L13,127 L31,127 L47,111 L47,13 L37,3 L13,3 Z M52,69 L56,115 L35,136 L12,132 L34,132 L52,114 L52,69 Z" id="Path-4" fill="#36C6FF"></path>
+                    <polygon fill="#3594FF" points="3 63 3 13 13 3 37 3 47 13 47 63"></polygon>
+                    <polygon fill="#125BAD" points="3 117 3 63 47 63 47 111 31 127 13 127"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

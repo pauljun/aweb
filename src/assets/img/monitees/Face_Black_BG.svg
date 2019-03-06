@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="154px" viewBox="0 0 112 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Face_Black_BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Table/Card/Alarm_1" transform="translate(-12.000000, -12.000000)" fill="#FFFFFF" stroke="#D8DCE3">
+            <path d="M17,12.5 C14.5147186,12.5 12.5,14.5147186 12.5,17 L12.5,155 C12.5,157.485281 14.5147186,159.5 17,159.5 L32.3333333,159.5 C33.5233695,159.5 34.6813044,159.885978 35.6333333,160.6 L40.9666667,164.6 C41.7455994,165.1842 42.6930007,165.5 43.6666667,165.5 L92.3333333,165.5 C93.3069993,165.5 94.2544006,165.1842 95.0333333,164.6 L100.366667,160.6 C101.318696,159.885978 102.47663,159.5 103.666667,159.5 L119,159.5 C121.485281,159.5 123.5,157.485281 123.5,155 L123.5,17 C123.5,14.5147186 121.485281,12.5 119,12.5 L17,12.5 Z" id="Face_Black_BG"></path>
+        </g>
+    </g>
+</svg>

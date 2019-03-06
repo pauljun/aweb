@@ -1,0 +1,9 @@
+.custom-slider-container {
+  -webkit-user-drag: none;
+  &.ant-slider-vertical > div {
+    height: 100%;
+    .ant-slider-track {
+      bottom: 0;
+    }
+  }
+}

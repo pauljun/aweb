@@ -1,0 +1,15 @@
+.table-setting-title{
+  height:50px;
+  display:flex;
+  justify-content: space-between;
+  padding:0 16px;
+  border-bottom: 1px solid #B5BBC7;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom:16px;
+  color: #333333;
+  .titleName{
+    position: relative;
+    top:20px;
+  }
+}

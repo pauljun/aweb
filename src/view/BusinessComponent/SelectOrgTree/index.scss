@@ -1,0 +1,23 @@
+.tlzj-org-tree{
+  .title-part{
+    .search{
+      width: 188px;
+      height: 28px;
+      margin-top: 5px;
+    }
+  }
+  .ant-tree{
+    .ant-tree-switcher{
+      >i{
+        font-size: 16px !important;
+        color: #8899bb;
+      }
+    }
+    .ant-tree-iconEle{
+      >i{
+        font-size: 16px;
+        color: #8899bb;
+      }
+    }
+  }
+}

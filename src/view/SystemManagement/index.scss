@@ -1,0 +1,205 @@
+@import 'src/assets/css/base.scss';
+
+.setting-wrapper {
+  height: 100%;
+  position: relative;
+  .setting-title {
+    border-bottom: 1px solid #eee;
+    .anticon {
+      color: #fff;
+    }
+  }
+  h3{
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #B5BBC7;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: $c-333;
+  }
+  .setting-search {
+    display: flex;
+    .search-item {
+      margin-left: 10px;
+    }
+  }
+  .setting-container {
+    height: 100%;
+    @include setFlex(left, top);
+    background: #fff;
+    .s-left {
+      width: 280px;
+      height: 100%;
+      overflow: auto;
+      background: #eaedf1;
+      .title {
+        font-size: 18px;
+        color: #333333;
+        height: 48px;
+        line-height: 48px;
+        border-bottom: 1px solid #e1e1e1;
+        padding: 0 16px;
+        font-weight: 700;
+        background: #d8dce3;
+      }
+      .tree {
+        height: calc(100% - 48px);
+      }
+    }
+    .s-container {
+      @include flexNum(1);
+    }
+    .setting-breadcrumb-container {
+      height: 48px;
+      line-height: 48px;
+      padding: 0 20px;
+      border-bottom: 1px solid #d8dce3;
+      display: flex;
+      align-items: center;
+      background: #f3f6f9;
+      .anticon {
+        color: #8899bb;
+        padding-right: 5px;
+      }
+      .ant-breadcrumb {
+        line-height: 48px;
+        & > span {
+          // font-size: 12px;
+          color: #333;
+          &:last-child {
+            .ant-breadcrumb-link {
+              color: #ff8800;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ant-table-tbody {
+    tr {
+      &:nth-child(even) {
+        background: #f3f6f9;
+      }
+      &:hover {
+        td {
+          background: #fff9ee;
+          border-bottom: 1px solid #ff8800;
+        }
+      }
+      td {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .ant-table-wrapper,
+  .ant-spin-nested-loading,
+  .ant-spin-container,
+  .ant-table,
+  .ant-table-default,
+  .ant-table-content,
+  .ant-table-scroll {
+    height: 100%;
+    overflow: hidden;
+  }
+  .ant-table-selection-column {
+    width: 24px;
+    min-width: 24px;
+    padding: 10px 0 10px 10px !important;
+  }
+  .ant-table-header {
+    background: #d8dce3;
+    height: 37px;
+    margin: 0 !important;
+    overflow: hidden !important;
+    padding-right: 8px;
+    .ant-table-thead {
+      height: 37px;
+      overflow: hidden;
+      tr {
+        th {
+          background: #d8dce3;
+          font-weight: bold;
+          padding: 0 16px;
+          height: 37px;
+        }
+      }
+    }
+  }
+  .ant-table-body {
+    max-height: calc(100% - 37px) !important;
+    overflow: auto !important;
+  }
+  .table-tools {
+    color: #8899bb;
+    .anticon {
+      padding-right: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+  .user-container-search {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    & > * {
+      margin-left: 16px;
+    }
+  }
+  .sub-action-group {
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+  }
+  .setting-edit-btns {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-top: 1px solid #d8dce3;
+    .ant-btn {
+      margin: 0 4px;
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: $c-main-orange;
+      }
+    }
+    .ant-btn-primary {
+      background-color: $c-main-orange;
+      border-color: $c-main-orange;
+      &:hover,
+      &:active,
+      &:focus {
+        color: #fff;
+        border-color: $c-main-orange;
+      }
+    }
+  }
+  .noTreeTitle {
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #d8dce3;
+    background: #f3f6f9;
+    padding-left: calc(50% - 600px);
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+  }
+}
+
+.opt-center-group{
+  padding: 20px 0;
+  text-align: center;
+  button{
+    margin: 0 5px;
+  }
+}

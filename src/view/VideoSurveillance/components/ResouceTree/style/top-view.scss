@@ -1,0 +1,44 @@
+.resource-tree-top {
+  display: flex;
+  color: #fff;
+  height: 72px;
+  width: 100%;
+  padding: 16px 8px;
+  align-items: center;
+  justify-content: space-around;
+  & > div {
+    padding: 0 8px;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .device-count {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    p {
+      margin: 0;
+      &.count {
+        span {
+          color: #fff;
+          font-weight: 600;
+          font-size: 14px;
+        }
+      }
+      &.online-count {
+        span {
+          color: #44dba5;
+        }
+      }
+    }
+  }
+  .score {
+    .ant-progress-text {
+      color: #44dba5;
+    }
+    .ant-progress-circle-path {
+      stroke: #44dba5;
+    }
+  }
+}

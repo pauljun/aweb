@@ -1,0 +1,14 @@
+.face-test {
+  height: 100%;
+  .face-test-content {
+    display: flex;
+    height: calc(100% - 120px);
+    .face-tracking {
+      flex: 1;
+    }
+  }
+  .face-contrast-footer {
+    display: flex;
+    justify-content: center;
+  }
+}

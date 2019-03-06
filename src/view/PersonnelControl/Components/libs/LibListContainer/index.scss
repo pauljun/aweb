@@ -1,0 +1,107 @@
+@import 'src/assets/css/base.scss';
+// 布控库列表页
+.monitee-black-lib-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  @include setFlex(stretch, flex-start);
+  .monitee-black-content-wrapper{
+    margin:  0 auto 30px;
+    @include flexNum();
+    overflow-y: auto;
+  }
+  // 布控库详情样式
+  .monitee-black-lib-detail-wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    @include setWH();
+    @include setFlex(stretch, flex-start, column);
+    .monitee-lib-info-wrapper {
+      display: inline-block;
+    }
+    .monitee-lib-people-wrapper{
+      @include flexNum();
+      // overflow: hidden;
+    }
+  }
+
+  // 编辑布控库样式
+  .monitee-lib-edit-wrapper{
+    @include setWH();
+    // 布控库表单样式
+    .monitee-form-lib-info {
+      width: 100%;
+      height: calc(100% - 64px);
+      background: #F3F6F9;
+      border: 1px solid #D8DCE3;
+      border-radius: 3px;
+    }
+    // 本地添加人员
+    .monitee-people-wrapper{
+      width: 100%;
+      height: calc(100% - 64px);    
+      padding: 30px;  
+      background: #F3F6F9;
+      border: 1px solid #D8DCE3;
+      border-radius: 3px;
+    }
+  }
+} 
+
+.lib-btn.ant-btn{
+  height: 28px;
+  font-size: $fs-12;
+  color: $c-main;
+  border: 1px solid $c-main;
+  background: transparent;
+  .anticon{
+    font-size: $fs-12;        
+  }
+  &:hover{ 
+    color: $c-fff;
+    background: $c-main;
+  }
+}
+// 布控库弹窗样式
+.monitee-lib-modal{
+  width: 808px;
+  &.edit-people-model{
+    width: 600px !important;
+  }
+  &.edit-machine-model{
+    width: 600px !important;
+    .ant-modal-body{
+      padding: 10px;
+      .lib-info-container{
+        padding: 12px 30px 12px 20px;
+      }
+    }
+    .machine-desc {
+      .info-label{
+        margin-top: 5px;
+      }
+    }
+  }
+  .ant-modal-body{
+    height: auto;
+    background: #f3f6f9;
+    .monitee-form-lib-info{
+      padding-right: 10px;
+      padding-left: 0px;
+    }
+    .orgTree{
+      width: 100%;
+      background: #fff;
+    }
+    .lib-delete-content{
+      p{
+        @include setFont($fs-12, $c-333);
+        padding: 0 20px;
+        span{
+          color: $c-main;
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>16/Public/Back_Light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="16/Public/Back_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.5,5.5 C12.5,3.84314575 11.1568542,2.5 9.5,2.5 C7.84314575,2.5 6.5,3.84314575 6.5,5.5 L6.5,15.1666667 L9,13.5 L9.5,14 L6,17.5 L2.5,14 L3,13.5 L5.5,15.1666667 L5.5,5.5 C5.5,3.290861 7.290861,1.5 9.5,1.5 C11.709139,1.5 13.5,3.290861 13.5,5.5 L13.5,10.5 L12.5,10.5 L12.5,5.5 Z" id="Rectangle-12" fill="#FFFFFF" transform="translate(8.000000, 9.500000) scale(1, -1) rotate(-270.000000) translate(-8.000000, -9.500000) "></path>
+    </g>
+</svg>

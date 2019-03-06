@@ -1,0 +1,48 @@
+.s-container{
+  height:100%;
+}
+.user-content {
+  height: calc(100% - 48px);
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .childrenOrg{
+    margin-left:0px;
+  }
+  .user-container-search{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    padding: 40px 16px;
+  }
+  .user-listTitle{
+    .ant-col-18{
+      width:100%
+    }
+    .user-Search-Btns{
+      display:flex;
+      .ant-input-search{
+        height:32px;
+        margin-right:10px;
+      };
+      .form-btn-group{
+        display:flex;
+        .icon-span{
+          position: relative;
+          top:5px;
+          padding-right:3px;
+        }
+      }
+    }
+  }
+  .setting-table{
+    flex:1;
+    overflow-y: auto;
+    .disabled{color:grey};
+  }
+  .ant-pagination {
+    padding-top:20px;
+    height: 80px;
+  }
+}

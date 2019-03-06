@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="168px" viewBox="0 0 138 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Face_White_BG</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Table/Card_Community/Photo" transform="translate(-202.000000, -8.000000)" fill="#FFFFFF" stroke="#B5BBC7">
+            <g id="Capture" transform="translate(202.000000, 8.000000)">
+                <path d="M5,0.5 C2.51471863,0.5 0.5,2.51471863 0.5,5 L0.5,163 C0.5,165.485281 2.51471863,167.5 5,167.5 L133,167.5 C135.485281,167.5 137.5,165.485281 137.5,163 L137.5,5 C137.5,2.51471863 135.485281,0.5 133,0.5 L5,0.5 Z" id="Face_White_BG"></path>
+            </g>
+        </g>
+    </g>
+</svg>

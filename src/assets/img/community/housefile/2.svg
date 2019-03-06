@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>60/sdm/2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#15C09E" offset="0%"></stop>
+            <stop stop-color="#21B6CD" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="30" cy="30" r="30"></circle>
+        <filter x="-11.7%" y="-8.3%" width="123.3%" height="123.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.66395458   0 0 0 0 0.914301658   0 0 0 0 0.874067306  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M30.4614431,15.3212272 L18.2285043,31.3257411 C17.8931193,31.7645297 17.9769445,32.3921213 18.415733,32.7275062 C18.5901173,32.8607957 18.8035109,32.9330093 19.0230012,32.9330093 L28.25,32.9330093 L26.5978391,43.9966063 C26.5162692,44.5428341 26.8929489,45.0517647 27.4391767,45.1333345 C27.8064125,45.188175 28.1737998,45.0350235 28.3933439,44.735574 L40.3333441,28.4498883 C40.6598948,28.0044861 40.5635466,27.3786947 40.1181444,27.052144 C39.9466444,26.9264072 39.7395267,26.858616 39.5268721,26.858616 L30.25,26.858616 L32.2392409,16.1104826 C32.3397497,15.5674205 31.9809893,15.0457032 31.4379272,14.9451945 C31.0675916,14.8766536 30.6901554,15.0219999 30.4614431,15.3212272 Z" id="path-5"></path>
+        <filter x="-13.3%" y="-9.9%" width="126.7%" height="119.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.076002038 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="71.3509448%" y1="-16.5900511%" x2="38.1384954%" y2="39.4902302%" id="linearGradient-7">
+            <stop stop-color="#82EAE8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="60/sdm/2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2">
+            <g id="Path-4-+-Path-5-+-Path-6-Mask">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask" transform="translate(30.000000, 30.000000) scale(-1, 1) translate(-30.000000, -30.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+            <g id="Path-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <path d="M30.2597366,26.806008 L30.25,26.858616 L39.5268721,26.858616 C39.7395267,26.858616 39.9466444,26.9264072 40.1181444,27.052144 C40.5635466,27.3786947 40.6598948,28.0044861 40.3333441,28.4498883 L28.3933439,44.735574 C28.1737998,45.0350235 27.8064125,45.188175 27.4391767,45.1333345 C26.8929489,45.0517647 26.5162692,44.5428341 26.5978391,43.9966063 L28.25,32.9330093 L28.2200972,32.9330093 L30,27 C30.0876594,26.9342554 30.1742383,26.8695914 30.2597366,26.806008 Z" id="Combined-Shape" fill="url(#linearGradient-7)"></path>
+        </g>
+    </g>
+</svg>

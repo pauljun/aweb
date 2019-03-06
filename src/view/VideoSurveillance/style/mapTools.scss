@@ -1,0 +1,117 @@
+.video-surveillance {
+  .tools-resource-layer{
+    right:495px;
+    z-index: 3;
+    box-shadow: none;
+    top:20px;
+  }
+  .video-map-tools {
+    user-select: none;
+    position: absolute;
+    right: 145px;
+    top: 20px;
+    width: 450px;
+    height: 40px;
+    line-height: 38px;
+    box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    cursor: auto;
+    z-index: 2;
+    border-radius: 3px;
+    .tools-layout {
+      position: absolute;
+      right:0;
+      top:0;
+      width: 350px;
+      height: 100%;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      
+      & > .tools-screen,
+      & > .tools-resource {
+        cursor: pointer;
+        .anticon {
+          color: #8899bb;
+          position: relative;
+          top:1px;
+        }
+        &:hover {
+          color: #ffaa00;
+          .anticon {
+            color: #ffaa00;
+          }
+        }
+      }
+      .map-draw-layout {
+        width: 280px;
+        display: flex;
+        position: relative;
+        & > div {
+          cursor: pointer;
+          flex: 1;
+          font-size: 12px;
+          text-align: center;
+          align-self: center;
+          position: relative;
+          .anticon {
+            color: #8899bb;
+            padding-right: 5px;
+            font-size: 16px;
+            position: relative;
+            top: 1px;
+          }
+          &:hover {
+            .anticon {
+              color: #8899bb;
+            }
+            &:hover {
+              color: #ffaa00;
+              .anticon {
+                color: #ffaa00;
+              }
+            }
+          }
+        }
+        &:before,
+        &:after {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 90%;
+          top: 5%;
+          left: 0;
+          background-image: linear-gradient(
+            -179deg,
+            rgba(182, 65, 65, 0) 0%,
+            rgba(0, 0, 0, 0.2) 52%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+        &:after {
+          left: auto;
+          right: 0;
+        }
+      }
+      .tools-resource {
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+        .anticon {
+          padding-right: 5px;
+          font-size: 16px;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+  }
+
+  .map-select-dvice {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 400px;
+    height: 342px;
+  }
+}

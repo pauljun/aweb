@@ -1,0 +1,98 @@
+@import '../../../../assets/css/base.scss';
+
+.community_entry_card{
+  width: 100%;
+  padding: 12px 16px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #d8dce3;
+  cursor: pointer;
+  &.community_entry_card_active{
+    border-top-color: $all-active-orange;
+    border-bottom-color: $all-active-orange;
+    background: #fff;
+  }
+  .card_header{
+    display: flex;
+    .card_img_box{
+      width: 120px;
+      height: 90px;
+      overflow: hidden;
+      text-align: center;
+      border-radius: 3px;
+      margin-right: 8px;
+      border: 1px solid #dedede;
+      .card_img{
+        height: 100%;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+    .card_title_box{
+      flex: 1;
+      .card_title{
+        font-family: PingFang-SC-Bold;
+        font-size: 14px;
+        color: #FF8800;
+        margin-bottom: 0;
+      }
+      .card_adress{
+        font-family: PingFang-SC-Regular;
+        font-size: 12px;
+        color: #333333;
+      }
+    }
+  }
+  .card_content{
+    .content_people{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .content_people_left{
+        .anticon{
+          font-size: 16px;
+          color: #8899BB;
+          margin-right: 4px;
+          vertical-align: -3px;
+        }
+        .left_title{
+          font-family: PingFang-SC-Regular;
+          font-size: 12px;
+          color: #333333;
+        }
+      }
+      .content_people_right{
+        // font-family: DINEngschriftStd;
+        font-size: 20px;
+        color: #FF8800;
+        text-align: right;
+        .right_span{
+          font-family: PingFang-SC-Regular;
+          font-size: 12px;
+          color: #666666;
+        }
+      }
+    }
+  }
+  .card_footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    .anticon{
+      transition: all 0.3s;
+      color: #8899BB;
+      font-size: 16px;
+      vertical-align: -3px;
+    }
+    .ant-btn{
+      &:hover,&:focus{
+        color:#ffaa00;
+        .anticon{
+          color: #ffaa00;
+        }
+      }
+      &:first-child {
+        margin-right: 8px;
+      }
+    }
+  }
+}

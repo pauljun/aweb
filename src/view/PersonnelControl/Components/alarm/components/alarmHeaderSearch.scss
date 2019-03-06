@@ -1,0 +1,106 @@
+@import '../../../../../assets/css/base.scss';
+.alarm-container-header-search {
+	display: flex;
+	position: absolute;
+	right: 24px;
+	top: -40px;
+	justify-content: flex-end;
+	align-items: center;
+	width: 480px;
+	.header-text {
+		font-family: PingFang-SC-Regular;
+		font-size: 12px;
+		color: #000000;
+		text-align: center;
+		line-height: 17px;
+		.text-red {
+			font-family: PingFang-SC-Bold;
+			color: $c-main-orange;
+		}
+	}
+	.header-pagtion-top {
+		margin-left: 16px;
+	}
+	.header-input-people {
+		display: flex;
+		margin: 0 16px 0 8px;
+		.pagtion_Paging {
+			display: flex;
+			.paging_left {
+				width: 36px;
+				height: 32px;
+				padding: 5px 8px;
+				border: 1px solid #ccc;
+				border-radius: 3px;
+				background: #fff;
+				cursor: pointer;
+				&:hover {
+					color: #fff;
+					background-color: $all-active-orange;
+					border-color: $c-main-orange;
+					.anticon {
+						color: #fff;
+					}
+				}
+				&.paging_left_No {
+          cursor: not-allowed;
+          &:hover {
+            color: #fff;
+            background-color: transparent;
+            border-color: #ccc;
+            .anticon {
+              color: #ccc;
+            }
+          }
+				}
+				.anticon {
+					font-size: 16px;
+					color: $all-active-orange;
+				}
+			}
+			.paging_number {
+				width: auto;
+				margin-bottom: 0;
+				line-height: 32px;
+				text-align: center;
+				margin: 0 6px;
+			}
+		}
+		.pagtion_search {
+			.ant-btn:active,
+			.ant-btn:hover,
+			.ant-btn:focus {
+				color: $c-main-orange;
+				border-color: $c-main-orange;
+			}
+		}
+	}
+	.header-button {
+		width: 88px;
+		height: 32px;
+		.ant-btn-block.ant-btn-primary {
+			// background-image: linear-gradient(-180deg, #FFBB22 0%, #FFAA00 100%);
+			background: #fff;
+			// color: rgba(0,0,0,.65);
+			color: $all-active-orange;
+			border: 1px solid $all-active-orange;
+			&:hover,
+			&:active,
+			&:focus {
+				// color: $all-active-orange;
+				color: #fff;
+				background-color: $all-active-orange;
+				border-color: $c-main-orange;
+				// background-image: linear-gradient(-180deg, #FFAA00 0%, #FF8800 100%);
+			}
+			.anticon {
+				font-size: 16px;
+			}
+		}
+	}
+}
+.little-pagtion-down {
+	.ant-select-dropdown-menu .ant-select-dropdown-menu-item-active {
+		color: $all-active-orange;
+	}
+}

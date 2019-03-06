@@ -1,0 +1,35 @@
+.centerVillage-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .centerVillage-title{
+    height: 80px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .centerVillage-table-search {
+      display: flex;
+      align-items: center;
+      .ant-input-search {
+       width: 300px;
+      }
+    }
+  }
+  .setting-table{
+    height: calc(100% - 80px);
+    .center-tr{
+      display: inline-block;
+      max-width: 385px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .ant-pagination {
+    height:80px;
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>48/index/icon_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.26219292%" x2="50%" y2="97.3446532%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="48/index/icon_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-46">
+            <rect id="Rectangle-16" stroke-opacity="0.3" stroke="#FFFFFF" x="0.5" y="0.5" width="47" height="47" rx="5"></rect>
+            <g id="Group" transform="translate(7.000000, 8.000000)">
+                <g id="Group-22" transform="translate(1.000000, 8.000000)">
+                    <path d="M22,12 L11,12" id="Path" fill="url(#linearGradient-1)"></path>
+                    <path d="M29,12 C29,9.790861 27.209139,8 25,8 C22.790861,8 21,9.790861 21,12 L11,12 C11,9.790861 9.209139,8 7,8 C4.790861,8 3,9.790861 3,12 L0,12 L0,7.43315345 C0,6.31557124 0.86658258,5.40959185 1.93556637,5.40959185 L3.89948575,4.39781105 L7.53425357,1.23042467 C8.44469104,0.437057011 9.61150027,-4.03466003e-15 10.8191131,-5.32907052e-15 L18.3066662,-7.99360578e-15 C19.4967756,-9.2692548e-15 20.6250806,0.529940187 21.3850151,1.44583316 L23.8343294,4.39781105 L29.0966505,5.40959185 C30.8410645,6 32,6.76856094 32,8.44493426 L32,12 L29,12 Z M14,2 L14,5 L21,5 L19,2 L14,2 Z M10,2 L7,5 L13,5 L13,2 L10,2 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                    <circle id="Oval-4" fill-opacity="0.8" fill="#FFFFFF" cx="7" cy="12" r="3"></circle>
+                    <circle id="Oval-4" fill-opacity="0.8" fill="#FFFFFF" cx="25" cy="12" r="3"></circle>
+                </g>
+                <path d="M28.9907227,5.07788086 L28.9907227,2.47729492 C28.9907227,1.37272542 29.8861532,0.477294922 30.9907227,0.477294922 L33.4936523,0.477294922" id="Path-6" stroke="#D8D8D8" opacity="0.8" transform="translate(31.242188, 2.777588) scale(-1, 1) translate(-31.242188, -2.777588) "></path>
+                <path d="M0.49609375,5.05566406 L0.49609375,2.45507813 C0.49609375,1.35050863 1.39152425,0.455078125 2.49609375,0.455078125 L4.99902344,0.455078125" id="Path-6" stroke="#D8D8D8" opacity="0.8"></path>
+                <path d="M28.9907227,29.0778809 L28.9907227,26.4772949 C28.9907227,25.3727254 29.8861532,24.4772949 30.9907227,24.4772949 L33.4936523,24.4772949" id="Path-6" stroke="#D8D8D8" opacity="0.8" transform="translate(31.242188, 26.777588) scale(-1, -1) translate(-31.242188, -26.777588) "></path>
+                <path d="M0.49609375,29.0556641 L0.49609375,26.4550781 C0.49609375,25.3505086 1.39152425,24.4550781 2.49609375,24.4550781 L4.99902344,24.4550781" id="Path-6" stroke="#D8D8D8" opacity="0.8" transform="translate(2.747559, 26.755371) scale(1, -1) translate(-2.747559, -26.755371) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

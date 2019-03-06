@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+.cache/
+/node_modules/
+/build/
+/coverage/
+react-boilerplate-app-scripts
+src/libs/socket.io-1.4.5.js
+src/libs/react-virtualized/*
+src/libs/AntdIcon/*
+src/libs/ThreeJS/*

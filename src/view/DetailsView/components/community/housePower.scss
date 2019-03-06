@@ -1,0 +1,46 @@
+.house_power{
+  padding-top: 16px;
+  .house_power_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    .house_power_title{
+      font-size: 14px;
+      color: #FF8800;
+    }
+    .power_time{
+      width: 150px;
+      .ant-calendar-picker-input{
+        height: 28px;
+      }
+    }
+  }
+
+  .power_content{
+    padding-top: 12px;
+    position: relative;
+    height: 365px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+    .power_box{
+      text-align: center;
+      .power_text{
+        color: #FF8800;
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 500;
+      }
+
+    } 
+    .power_value{
+      position: absolute;
+      right: 50px;
+      font-size: 20px;
+      font-weight: 500;
+      top: 40px;
+      color: #FF8800;
+    }
+  }
+}

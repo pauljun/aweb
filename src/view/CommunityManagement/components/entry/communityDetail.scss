@@ -1,0 +1,47 @@
+.community_suspension{
+  display: flex;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.20);
+  border-radius: 4px;
+  overflow: hidden;
+  .suspension_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 120px;
+    transition: all .5s;
+    border-right: 1px solid #eaedf1;
+    .icon_box {
+      width: 40px;
+      height: 40px;
+      padding: 4px;
+      border-radius: 3px;
+      //border: 1px solid #ccc;
+      margin-right: 8px;
+      .anticon{
+        font-size: 32px;
+        color: #8899BB;
+      }
+    }
+    .box_type{
+      padding-top: 2px;
+      .box_type_p{
+        font-size: 12px;
+        color: #333333;
+        margin-bottom: 0;
+      }
+      .box_type_span{
+        font-size: 18px;
+        color: #FF8800;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1366px) {
+  .community_suspension{
+    .suspension_box{
+      width: 110px;
+    }
+  }
+}

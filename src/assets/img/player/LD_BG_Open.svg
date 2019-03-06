@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="233px" viewBox="0 0 233 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2_云烟监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.8">
+        <g id="Video_Now_1" transform="translate(-6.000000, -841.000000)">
+            <g id="LD" transform="translate(6.000000, 841.000000)">
+                <g id="BG">
+                    <path d="M4,219 L4,199 L14,189 L14,161.071068 C14,159.744985 13.4732158,158.473216 12.5355339,157.535534 L5.1159077e-13,145 L5.1159077e-13,15 L15,-6.31088724e-30 L30,15 L30,145 L17.4644661,157.535534 C16.5267842,158.473216 16,159.744985 16,161.071068 L16,189 L22,195 L27,195 L38,206 L38,211 L44,217 L71.9289322,217 C73.2550146,217 74.5267842,216.473216 75.4644661,215.535534 L88,203 L218,203 L233,218 L218,233 L88,233 L75.4644661,220.464466 C74.5267842,219.526784 73.2550146,219 71.9289322,219 L44,219 L34,229 L14,229 L4,219 Z M32,146 L44,146 L87,189 L87,201 L73,215 L45,215 L40,210 L40,204 L29,193 L23,193 L18,188 L18,160 L32,146 Z M6,200 L6,218 L15,227 L33,227 L42,218 L36,212 L36,207 L26,197 L21,197 L15,191 L6,200 Z M24,191 L30,191 L35,196 L63,168 L43,148 L33,148 L20,161 L20,187 L24,191 Z M64,169 L36,197 L42,203 L42,209 L46,213 L72,213 L85,200 L85,190 L64,169 Z M2,16 L2,144 L15,157 L28,144 L28,16 L15,3 L2,16 Z M89,205 L76,218 L89,231 L217,231 L230,218 L217,205 L89,205 Z" fill="#36C6FF"></path>
+                    <polygon id="Rectangle-5" fill="#3594FF" points="89 205 217 205 230 218 217 231 89 231 76 218"></polygon>
+                    <polygon id="Path" fill="#3594FF" points="24 191 20 187 20 161 33 148 43 148 63 168 35 196 30 191"></polygon>
+                    <polygon id="Path" fill="#3594FF" points="64 169 85 190 85 200 72 213 46 213 42 209 42 203 36 197"></polygon>
+                    <polygon id="Rectangle-7" fill="#3594FF" points="6 200 15 191 21 197 26 197 36 207 36 212 42 218 33 227 15 227 6 218"></polygon>
+                    <polygon id="Path" fill="#3594FF" points="2 16 15 3 28 16 28 144 15 157 2 144"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

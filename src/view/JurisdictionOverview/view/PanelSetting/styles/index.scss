@@ -1,0 +1,157 @@
+@import 'src/assets/css/base';
+
+.templete-wrapper{
+    position: absolute;
+    top: 0;
+    width: 100%;
+	transform-origin: top;
+    padding-top: 20px;
+    left: 50%;
+    overflow-y: hidden;
+    z-index: 15;
+    word-wrap: none;
+    background: #f3f6f9;
+    .templete-wrapper-content{
+        position: relative;
+        margin-bottom: 10px;
+        overflow-x: scroll;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    &::-webkit-scrollbar{
+        height:.1rem;
+    }
+    .container{
+        width: calc(295px * 9);
+        text-align: center;
+        .item{
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+            width: 285px;
+            margin: 0 5px ;
+            background: rgba(255,255,255,.9);
+            box-shadow: 1px 0px 30px rgba(0, 0, 0, .2);
+            border-radius: 6px;
+            text-align: left;
+        }
+    }
+}
+.upDown{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 16;
+    width: 90px;
+    height: 32px;
+    padding-top: 5px;
+    // opacity: 0.8;
+    background: transparent url('../../../../../assets/img/JurisdictionOver/Path_BG_Tree.svg') center center no-repeat;
+}
+.home-main{
+    .submit-container{
+        position: absolute;
+        left: 50%;
+        bottom: 320px;
+        z-index: 14;
+        transform: translate(-50%, 0);
+        .io,.ic{
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            border-radius: 50% 50%;
+            background: #0FC484;
+            display: inline-block;
+            color: #fff;
+            margin: 0 10px;
+            text-align: center;
+            font-size: 12px;
+            .anticon{
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+        .ic{
+            background: #eee;
+            color:#666;
+            .anticon{
+                color:#8899BB;
+            }
+        }
+    }
+}
+.home-mains{
+    .home-bg{
+        &::before{
+            width: 100%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 14;
+            background: rgba(0,0,0,.4);
+        }
+    }
+
+}
+.home-main-droping{
+    z-index: 13;
+    .no-drop{
+        .camera-numb-wrapper{
+            position: relative;
+            &:after{
+                content: ' ';
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.20);
+                z-index: 1;
+            }
+        }
+    }
+    .is-over{
+        .camera-numb{
+            border: 3px solid #FF5F57;
+            transform: scale(1.04);
+            // box-shadow: 0 0 3px #FF5F57;
+        }
+    }
+}
+.drop-loading{
+    opacity: 0.5;
+}
+
+.draping-container{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    color: #fff;
+    font-size: 50px;
+}
+
+.not-allow-drap{
+    opacity: 0.3;
+}
+
+.home-bottom-gray{
+    .reource-static{
+        position: relative;
+        &:after{
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.20);
+            z-index: 1;
+        }
+    }
+}

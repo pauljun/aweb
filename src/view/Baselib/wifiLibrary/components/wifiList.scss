@@ -1,0 +1,186 @@
+@import 'src/assets/css/base';
+  .wifi-list-wrapper{
+    flex:1;
+    overflow: auto;
+    height:100%;
+    .wifi-list-Container{
+      margin: 20px 165px;
+      overflow-y:auto;
+      display:flex;
+      flex-wrap:wrap;
+      .wifi-cards{
+        width:300px;
+        height:284px;
+        border: 1px solid #B5BBC7;
+        border-radius: 3px;
+        margin:6px;
+        overflow: hidden;
+        display:flex;
+        flex-direction: column;
+        .ant-card-body{
+          padding:16px;
+          height:100%;
+        }
+        .icon-span{
+          &:hover{
+            i{ color:#8899BB;}
+          }
+          position:relative;
+          top:3px;
+          font-size: 14px;
+        }
+        .wifi-cards-top{
+          display:flex;
+          height:64px;
+          .wificards-kalendar{
+            width:64px;
+            display:flex;
+            flex-direction: column;
+            .ant-btn{
+              padding:0px;
+            }
+            .wifi-kalendar-top{
+              background-image: linear-gradient(-180deg, #FFBB22 0%, #FFAA00 100%);
+              border-radius: 3px 3px 0px 0px;
+              color: #FFFFFF;
+              height:32px;
+              line-height: 30px;
+              p{
+                display: flex;
+                justify-content: center;
+                :nth-child(1){
+                  font-size: 24px;
+                  width:24px;
+                  position: relative;
+                  top: -1px;
+                }
+                :nth-child(2){
+                  margin-left:6px;
+                  width:12px;
+                  font-size: 12px;
+                  position: relative;
+                  top: 1px;
+                }
+              }
+
+            }
+            .wifi-kalendar-bottom{
+              @extend .wifi-kalendar-top;
+              border-radius: 0px 0px 3px 3px;
+              background-image: linear-gradient(-180deg, #FF9B00 0%, #FF8800 100%);
+            }
+          }
+          .wificards-device-name{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 16px;
+            font-size: 12px;
+            color: #999999;
+            :nth-child(2){
+              font-size: 16px;
+              color: #FF8800;
+            }
+          }
+        }
+        .wifi-cards-middle {
+          margin-top:9px;
+          font-size: 12px;
+          color: #8899BB;
+          .wifi-time-online{
+            transform: rotateY(180deg)
+          }
+          &>span{
+            display:flex;
+            margin: 2px 0px;
+            font-size: 12px;
+            height:17px;
+            :nth-child(2){
+              color: #999999;
+              margin-left:4px;
+              &>span{
+                color: #333333;
+                width:126px;
+              }
+            }
+          }
+        }
+        .wifi-cards-bottom{
+          @extend .wifi-cards-middle;
+          margin-top:15px;
+          margin-bottom: 16px;
+          .wifi-cards-device-address{
+            display:flex;
+            justify-content: space-between;
+            .ant-btn{
+              display:flex;
+              font-size:12px;
+              margin-left: 95px;
+              height: 24px;
+              line-height:22px;
+              width: 78px;
+              justify-content: center;
+              :nth-child(1){
+                color: #8899BB;
+              }
+              :nth-child(2){
+                margin-left:4px;
+                color: #333333;
+              }
+
+            }
+          }
+          .wifi-list-address{
+            overflow: hidden;        
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+    .wifi-pagination{
+      width:100%;
+      text-align: center;
+      height:80px;
+      padding-top:20px;
+      :nth-child(2){
+        margin:0 10px 0 10px;
+      }
+    }
+  }
+  .wifi-location-map{
+    width:952px !important;
+    .ant-modal-content{
+      width:1004px;
+      height:645px;
+      .ant-modal-body{
+        .mapShow{
+          width:952px;
+          height:540px;
+          margin-top: 50px;
+          .wifi-map-address{
+            &>b{
+              margin-left:10px;
+              margin-right:10px;
+            }
+            position: absolute;
+            top:60px;
+            display: flex;
+            font-size: 12px;
+            .icon-span{
+              &:hover{
+                i{ color:#8899BB;}
+              }
+              position: relative;
+              top:2px;
+              font-size: 14px;
+              color:#8899BB;
+            }
+          }
+        }
+      }
+      .ant-modal-footer{
+        display:none
+      }
+    }
+  }

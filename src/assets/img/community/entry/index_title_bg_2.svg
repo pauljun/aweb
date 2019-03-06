@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="36px" viewBox="0 0 232 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>index_title_bg_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.4433836%" y1="50%" x2="71.8220427%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#6B7BDF" offset="0%"></stop>
+            <stop stop-color="#5161B9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="index_title_bg_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-36" transform="translate(6.000000, 0.000000)">
+            <g id="Group-37">
+                <polygon id="Rectangle-38" fill="#4C51B0" opacity="0.599107143" points="195 0 205 0 193 36 183 36"></polygon>
+                <polygon id="Rectangle-38" fill="#4C51B0" opacity="0.2" points="212 0 222 0 210 36 200 36"></polygon>
+                <polygon id="Rectangle-38" fill="#4C51B0" opacity="0.599107143" transform="translate(26.000000, 18.000000) scale(-1, 1) translate(-26.000000, -18.000000) " points="27 0 37 0 25 36 15 36"></polygon>
+                <polygon id="Rectangle-38" fill="#4C51B0" opacity="0.2" transform="translate(11.000000, 18.000000) scale(-1, 1) translate(-11.000000, -18.000000) " points="12 0 22 0 10 36 0 36"></polygon>
+                <polygon id="Rectangle-37" fill="url(#linearGradient-1)" points="32 0 187 0 175 36 44 36"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

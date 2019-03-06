@@ -1,0 +1,21 @@
+.org-head-title {
+  .head-title-row{
+    h2 {
+      margin-bottom: 0;
+    }
+    .orgInfo .ant-row{
+      padding-bottom: 8px; 
+    }
+    .orgInfo div{
+      font-size: 12px;
+      color: #666666;
+    }
+    .orgInfo b{
+      font-size: 12px;
+      color: #333333;
+    }
+    .ant-row-flex {
+      padding: 0 16px;
+    }
+  }
+}

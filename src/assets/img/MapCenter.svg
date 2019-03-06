@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="40px" viewBox="0 0 28 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Img/Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="6.38826004%" y1="96.2639042%" x2="66.7998206%" y2="14.972142%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Img/Add" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M22,28 L28,28 L15.2872963,39.7348034 C15.102574,39.9053163 14.8604062,40 14.6090162,40 L14,40 C13.7238576,40 13.5,39.7761424 13.5,39.5 C13.5,39.3918149 13.5350889,39.2865481 13.6,39.2 L22,28 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+        <path d="M11,23 L17,23 L15.103901,39.1168412 C15.0446525,39.6204542 14.6178366,40 14.1107504,40 L13.8892496,40 C13.3821634,40 12.9553475,39.6204542 12.896099,39.1168412 L11,23 Z" id="Rectangle" fill="#FF8800"></path>
+        <circle id="Oval" stroke="#FF8800" fill="#FFAA00" cx="14" cy="12" r="11.5"></circle>
+        <circle id="Oval" fill="#FF8800" cx="15" cy="13" r="4"></circle>
+        <circle id="Oval" fill="#FFFFFF" cx="14" cy="12" r="4"></circle>
+    </g>
+</svg>

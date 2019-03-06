@@ -1,0 +1,16 @@
+.detail_header.data-repository-header{
+  flex-flow: row !important;
+  border: 1px solid #ccc;
+  margin-top: 24px !important;
+  margin-bottom: 8px;
+  height: 70px;
+  .item{
+    flex: 1;
+    padding-left: 32px;
+    font-size: 12px;
+    color: #666;
+    span{
+      color: #333;
+    }
+  }
+}

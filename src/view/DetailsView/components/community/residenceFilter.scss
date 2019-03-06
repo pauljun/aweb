@@ -1,0 +1,37 @@
+@import '../../../../assets/css/base.scss';
+.residence_filter{
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  transition: .5s;
+  transform: translateX(290px);
+  overflow: hidden;
+  &.residence_filter_active{
+    transform: translateX(0);
+  }
+  .residence_filter_range {
+    padding: 0;
+    height: 28px;
+    line-height: 28px;
+    transition: .5s;
+    opacity: 0;
+
+    &.residence_filter_range_active{
+      opacity: 1;
+    }
+    .ant-calendar-picker{
+      width: 120px!important;
+      min-width: 120px!important;
+    }
+    .ant-calendar-picker-input{
+      height: 28px;
+    }
+  }
+}
+.residence_filter_range_down{
+  .ant-calendar-footer.ant-calendar-footer-show-ok .ant-calendar-time-picker-btn{
+    display: none;
+  }
+}

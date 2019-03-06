@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="32px" viewBox="0 0 240 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>DataName_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="5_人员布控_1_实时警情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_警情列表_1_重点人员告警" transform="translate(-68.000000, -375.000000)">
+            <g id="Data" transform="translate(48.000000, 50.000000)">
+                <g id="2" transform="translate(20.000000, 325.000000)">
+                    <g id="DataName_2">
+                        <path d="M12.5730895,0.5 C11.1198095,0.5 9.75599068,1.20184558 8.91128886,2.38442813 L1.33819938,12.9867534 C0.793054104,13.7499568 0.5,14.6644219 0.5,15.6023253 L0.5,16.3976747 C0.5,17.3355781 0.793054104,18.2500432 1.33819938,19.0132466 L8.91128886,29.6155719 C9.75599068,30.7981544 11.1198095,31.5 12.5730895,31.5 L227.426911,31.5 C228.88019,31.5 230.244009,30.7981544 231.088711,29.6155719 L238.661801,19.0132466 C239.206946,18.2500432 239.5,17.3355781 239.5,16.3976747 L239.5,15.6023253 C239.5,14.6644219 239.206946,13.7499568 238.661801,12.9867534 L231.088711,2.38442813 C230.244009,1.20184558 228.88019,0.5 227.426911,0.5 L12.5730895,0.5 Z" id="BG" stroke="#D8DCE3" fill="#FFFFFF"></path>
+                        <text id="告警类型总数占比" font-family="PingFang-SC-Bold, PingFang SC" font-size="14" font-weight="bold" fill="#333333">
+                            <tspan x="74" y="21">告警类型总数占比</tspan>
+                        </text>
+                        <g id="16/Bar/PieChart_Dark" transform="translate(54.000000, 8.000000)" fill="#8899BB">
+                            <path d="M8,2 L8,8 L14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z M8.5,1.5 C11.8137085,1.5 14.5,4.1862915 14.5,7.5 L8.5,7.5 L8.5,1.5 Z" id="Oval-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

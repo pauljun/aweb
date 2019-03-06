@@ -1,0 +1,182 @@
+.left-community {
+  display: flex;
+  flex-direction: column;
+   max-height: 760px;
+  min-height: 230px;
+  //height: 220px;
+  width: 280px;
+  padding: 16px 0px;
+  //z-index: 20;
+  cursor: pointer;
+   border: 1px solid #EAEDF1;
+     &:hover{
+     //border-top: 1px solid  #ff8800;
+      //border-bottom: 1px solid #ff8800;
+      background: #ffffff;
+   }  
+  .left-community-top {
+    padding-left: 15px;
+    display: flex;
+    .community-img {
+      width: 120px;
+      height: 90px;
+      border-radius: 3px;
+      text-align: center;
+      border: 1px solid #dedede;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+      }
+    }
+    .flex-community {
+      padding: 5px 0 0 10px;
+      width: 140px;
+      span {
+        font-size: 16px;
+        color: #ff8800;
+      }
+      .community-word {
+        font-size: 12px;
+        color: #333333;
+      }
+    }
+  }
+  .card-mas-community {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 7px;
+    .community-content{
+      height: 0px;
+      width: 97%;
+      //padding: 5px 10px 10px 10px ;
+      background: #ffffff;
+      opacity: 0;
+      .content_people{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        .content_people_left{
+          .anticon{
+            font-size: 16px;
+            color: #8899BB;
+            margin-right: 4px;
+            vertical-align: -3px;
+          }
+          .left_title{
+            font-family: PingFang-SC-Regular;
+            font-size: 12px;
+            color: #333333;
+          }
+        }
+        .content_people_right{
+          font-family: DINEngschriftStd;
+          font-size: 14px;
+          color: #FF8800;
+          text-align: right;
+          .right_span{
+            font-family: PingFang-SC-Regular;
+            font-size: 12px;
+            color: #666666;
+          }
+        }
+      }
+
+    }
+    .showcam{
+      opacity: 1;
+      height: 150px;
+      padding: 5px 10px 10px 10px ;
+    }
+    .community-count {
+      height: 0;
+      width: 263px;
+      border: 0;
+      background: #ffffff;
+      opacity: 0;
+      transition:height 2s;
+    }
+    .show {
+      transition:height 2s;
+      height: 75px;
+      opacity: 1;
+    }
+    .community-face-count{
+      height: 0;
+      width: 263px;
+      border: 0;
+      background: #ffffff;
+      opacity: 0;
+    }
+    
+    .showface{
+      height:260px;
+      opacity: 1;
+      .chartAnother{
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+    .card-one {
+      width: 264px;
+      height: 30px;
+      margin-top: 1px;
+      background: #f3f6f9;
+      border: 1px solid #d8dce3;
+      cursor:pointer;
+      border-radius: 3px;
+      position: relative;
+     z-index: 50;
+      span {
+        display: inline-block;
+        height: 100%;
+        line-height: 28px;
+        font-size: 18px;
+        color: #8899BB;
+        span {
+          margin-left: 0px;
+          font-size: 12px;
+          color: #333333 !important; 
+        }
+      }
+      span:nth-child(1) {
+       
+        font-size: 16px;
+        padding-left: 5px;
+      }
+      span:nth-child(3) {
+        float: right;
+        font-size: 16px;
+        color: #ff8800;
+       //font-family: DINEngschriftStd;
+      }
+      span:nth-child(2) {
+        float: right;
+        margin-left: 5px;
+        margin-right: 28px;
+        font-size: 12px;
+        color: #666666;
+      }
+    }
+    .two{
+      cursor:pointer;
+      z-index: 50;
+    }
+    .three{
+      cursor:pointer;
+      z-index: 50;
+    }
+  }
+}
+.back{
+  background: #ffffff;
+  border-top: 1px solid  #ff8800;
+  border-bottom: 1px solid #ff8800;
+}
+
+.plus-community{
+  position: absolute;
+  right: 5px;
+}

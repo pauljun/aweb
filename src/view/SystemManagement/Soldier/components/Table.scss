@@ -1,0 +1,15 @@
+
+.soldier-table-container {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  .setting-table {
+    flex: 1;
+    overflow-y: auto;
+  }
+  .ant-pagination{
+    height:80px;
+    padding-top:20px;
+  }
+}

@@ -1,0 +1,60 @@
+.ant-form.monitee-form-lib-info{
+  width: 100%;
+  padding: 12px 30px 0;
+  .ant-form-item{
+    display: flex;
+    .ant-form-item-label{
+      width: 124px;
+      >label{
+        color: #999 !important;        
+      }
+    }
+    .ant-form-item-control-wrapper{
+      flex: 1;
+      color: #333;
+    }
+  }
+  .promission-container{
+    padding-top: 4px;
+    // .promission_management{
+    //   width: 618px;
+    //   margin-bottom: 3px;
+    //   &.has-error{
+    //     border: 1px solid #f5222d;
+    //   }
+    //   .orgTree{
+    //     // max-height: 200px;
+    //     overflow-y: auto;
+    //   }
+    // }
+    .ant-form-item-control-wrapper{
+      width: 816px;
+      overflow: hidden;
+    }
+    .org-select-user-wrapper{
+      >.cc-search{
+        left: 364px;
+      }
+      .tlzj-org-tree{
+        width: 298px;
+        >.ant-tree{
+          background-color: #fff;
+        }
+        .ant-checkbox-wrapper{
+          
+        }
+      }
+      .org-device-wrapper{
+        width: 262px;
+        background-color: #fff;
+      }
+      .select-device-wrapper{
+        width: 248px;
+        margin-left: 8px;
+      }
+    }
+    .ant-form-explain{
+      color: #f5222d;
+    }
+  }
+}

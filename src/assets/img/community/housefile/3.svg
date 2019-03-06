@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>60/sdm/3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.5097543%" id="linearGradient-1">
+            <stop stop-color="#FF8E59" offset="0%"></stop>
+            <stop stop-color="#FF7016" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="30" cy="30" r="30"></circle>
+        <filter x="-11.7%" y="-8.3%" width="123.3%" height="123.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.747811509   0 0 0 0 0.626065341  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFE5B7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M19.6644246,23.849349 C19.6644246,25.8183473 19.2526882,27.8758325 18.4292153,30.0218046 C17.7138565,33.2407627 17.8926962,35.9232278 18.9657344,38.0691999 C20.5752918,41.288158 24.3309258,44 29.0254682,44 C36.1343467,44 41.4995381,38.6056929 40.963019,30.5582976 C40.6053395,26.2663534 38.8431076,22.8360984 35.6763232,20.2675326 C35.6763232,21.9400861 35.3954127,23.3338808 34.8335917,24.4489165 C33.0627248,19.7713676 30.277195,16.6217288 26.4770023,15 C26.2536039,20.7225922 25.1063866,25.0661698 23.0353507,28.0307328 C22.1106703,26.1391559 20.9870283,24.7453612 19.6644246,23.849349 Z" id="path-6"></path>
+        <filter x="-13.0%" y="-10.3%" width="126.1%" height="120.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0495923913 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.1662753%" id="linearGradient-8">
+            <stop stop-color="#FFE5B7" offset="0%"></stop>
+            <stop stop-color="#FFC979" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFEBC9" offset="0%"></stop>
+            <stop stop-color="#FFCF9F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="60/sdm/3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3">
+            <g id="Path-4-+-Path-5-+-Path-6-Mask">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+            <g id="Path-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+            <path d="M34.9389112,24.2294303 C35.416813,23.182738 35.662426,21.905536 35.67575,20.3978242 C36.5585833,22.0891143 37,25.1046544 37,29.4444444 L35,24.4444444 C34.9793162,24.3720511 34.9589532,24.3003797 34.9389112,24.2294303 Z" id="Combined-Shape" fill="url(#linearGradient-8)"></path>
+            <path d="M23.2719527,27.6798817 C25.1939109,24.7274637 26.2622608,20.5008364 26.4770023,15 C26.6178702,15.0601152 26.7573439,15.12233 26.8954233,15.1866442 C27.6318078,17.4229039 28,20.0273558 28,23 C28,27 27,30 25,32 L23.2719527,27.6798817 Z" id="Combined-Shape" fill="url(#linearGradient-9)"></path>
+        </g>
+    </g>
+</svg>

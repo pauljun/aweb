@@ -1,0 +1,77 @@
+@import 'src/assets/css/base.scss';
+// 布控库公共样式
+.monitee-lib-wrapper, .monitee-lib-modal{
+  .watermask{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 8px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    user-select: none;
+  }
+
+  .ant-btn{
+    padding: 0 21px;
+    i{
+      font-size: 16px;
+      vertical-align: bottom;
+      margin-bottom: 2px;
+      margin-right: 4px;
+    }
+    span {
+      font-size: 14px;
+      margin-left: 0;
+    }
+  }
+
+  .icon-span.span-btn {
+    padding: 0;
+    vertical-align: bottom;
+    i{
+      margin-bottom: 0;
+      font-size: 16px;
+    }
+  }
+  
+  // 表单样式
+  .ant-form-item{
+    margin-bottom: 8px;
+    .ant-form-item-label{
+      overflow: visible;
+      padding: 0;
+      label {
+        font-size: $fs-12;
+        // color: #666;
+        &::after{
+          display: inherit;
+        }
+      }
+      .ant-form-item-required:before {
+        position: absolute;
+        left: -10px;
+        top: 0;
+      }
+    }
+    .ant-form-item-children{
+      input{
+        // height: 28px;
+        font-size: 12px;
+        &::placeholder{
+          font-size: 12px;
+        }
+      }
+      textarea{
+        font-size: 12px;
+        resize: none;
+        height: 80px;
+        overflow-y: auto;
+        &::placeholder{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.setting-center-header-wrapper {
+  height: 48px;
+  line-height: 48px;
+  background: #F3F6F9;
+  border-bottom: 1px solid #D8DCE3;
+  .header-container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    .header {
+      font-weight: bold;
+      font-size: 18px;
+      color: #333333;
+    }
+  }
+}

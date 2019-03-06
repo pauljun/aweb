@@ -1,0 +1,25 @@
+@import '../../../../../assets/css/base.scss';
+
+.alarm_header_pagtion {
+	width: 220px;
+  height: 32px;
+  transition: .5s;
+  .ant-input-affix-wrapper:hover, .ant-input-affix-wrapper:focus{
+    .ant-input{
+      border-color: $c-main-orange;
+      box-shadow: none;
+      border-radius: 2px;
+      border: 1px solid #D8DCE3;
+    }
+  }
+  .ant-input:focus{
+    border-color: $c-main-orange;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .alarm_header_pagtion {
+    width: 220px;
+  }
+}

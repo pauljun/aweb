@@ -1,0 +1,26 @@
+@import 'src/assets/css/base';
+.sw-upload-wrapper{
+  text-align: center;
+  width: 100px;
+  .upload-content-wrapper{
+    .upload-btn-wrapper{
+      @include setWH(84px,84px);
+      @include setFlex(center,center,column);
+      cursor: pointer;
+      border: 1px solid $c-ddd;
+      .ant-upload-icon{
+        color: $c-main;
+      }
+      .ant-upload-text{
+        margin-top: 16px;
+        color: $c-444;
+        font-size: $fs-12;
+      }
+    }
+  }
+  // 上传提示信息样式
+  .uploader-tip{
+    @include setFont($fs-12, $c-aaa);
+    margin-top: 6px;
+  }
+}

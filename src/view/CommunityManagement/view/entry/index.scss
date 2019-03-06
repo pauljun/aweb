@@ -1,0 +1,19 @@
+@import '../../../../assets/css/base.scss';
+.community_entry {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 280px;
+  .community_list {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .community_suspension {
+    position: absolute;
+    top: 8px;
+    right: calc((100% - 280px) / 2);
+    transform: translateX(50%);
+  }
+}

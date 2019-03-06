@@ -1,0 +1,87 @@
+.modal-map-point-lable {
+  width: 900px;
+  height: 700px;
+  .ant-modal-content {
+    width: 100%;
+    height: 100%;
+  }
+  .ant-modal-header {
+    padding: 10px 24px;
+  }
+  .ant-modal-body {
+    width: 100%;
+    height: calc(100% - 43px);
+    padding: 0;
+  }
+  .ibs-amap-wrapper {
+    height: calc(100% - 48px);
+  }
+  .ant-modal-close-x {
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+  }
+}
+.set-point {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #fff;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  z-index: 5;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  &.open,
+  &:hover {
+    color: #ff8800;
+  }
+}
+
+.map-point-label-layout {
+  .searchLayer {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 300px;
+    z-index: 2;
+    
+    .poisList {
+      border-radius: 4px;
+      background: #fff;
+      max-height: 300px;
+      overflow: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .poiItem {
+      padding: 0 10px;
+      height: 32px;
+      font-size: 12px;
+      line-height: 32px;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      &:last-child {
+        border-bottom: none;
+      }
+      &:hover {
+        background: #f4f4f4;
+        cursor: pointer;
+      }
+      .name {
+        padding-left: 5px;
+      }
+      .selectPoi {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '../default.scss';
+@import '../lingyang.scss';
+
+.video-surveillance {
+  .type-popup-layout {
+    .type-item {
+      .lable-text {
+        color: $A-c-gray-6;
+      }
+      .icon {
+        color: $A-c-gray-6;
+        border-color: #b5bbc7;
+      }
+      .anticon{
+        color: $A-c-gray-6;
+      }
+    }
+    .type-item.active {
+      .icon {
+        color: $A-c-fff;
+        background: $A-c-orange-2;
+        border-color: $A-c-orange-1;
+      }
+      .lable-text {
+        color: $A-c-orange-1;
+      }
+      .anticon{
+        color: $A-c-fff;
+      }
+    }
+  }
+}

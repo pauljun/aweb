@@ -1,0 +1,12 @@
+.container-box-tlzj{
+  overflow: auto;
+  flex: 1;
+  // 返回顶部
+  .baselib-back-top{
+    right: 24px;
+    bottom: 24px;
+    .ant-back-top-content{
+      background-image: linear-gradient(-180deg, #FFAA00 0%, #FF8800 100%);
+    }
+  }
+}

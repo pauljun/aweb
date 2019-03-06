@@ -1,0 +1,68 @@
+@import 'src/assets/css/base';
+.monitee-multi-people-wrapper {
+  @include setFlex(stretch, flex-start, column);
+  .upload-btn-wrapper {
+    margin-bottom: 20px;
+    .upload-tip{
+      margin-left: 20px;
+      span{
+        color: red;
+      }
+    }
+  }
+  // 图片列表样式
+  .img-list-wrapper {
+    @include flexNum();
+    overflow-y: auto;
+    overflow-x: hidden;
+    // 文件上传样式
+    .item-uploading {
+      @include flexNum();      
+      @include setFlex(center,center,column);
+      @keyframes rotation {
+        from { -webkit-transform: rotate(0deg); } 
+        to { -webkit-transform: rotate(360deg); }
+      }
+      .rotation {
+        transform: rotate(360deg);
+        animation: rotation 1s linear infinite;
+        -moz-animation: rotation 1s linear infinite;
+        -webkit-animation: rotation 1s linear infinite;
+        -o-animation: rotation 1s linear infinite;
+      }
+    }
+    .item-fail {
+      @include flexNum();  
+      overflow: hidden;    
+      margin-left: 10px;
+      margin-right: 7px;    
+      .fail-tip {
+        line-height: 36px;
+        text-align: left;
+        font-size: 12px;
+        color: #FF4466;
+        font-weight: bold;
+      }
+      .fail-opera{
+        margin-top: 6px;        
+        @include setFlex();
+        &>div{
+          width: 60px;
+          margin: 0 10px;
+          text-align: center;
+          img{
+            @include setWH(32px, 32px);
+            cursor: pointer;
+            display: block;
+            margin:0 auto 8px;
+          } 
+        }
+      }
+    }
+  }
+}
+.monitee-multi-people-edit-modal{
+  width: 1200px;
+}
+
+

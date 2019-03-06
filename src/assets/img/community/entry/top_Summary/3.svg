@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>32/sq/top_menu/3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.3285766%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="32/sq/top_menu/3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-26">
+            <path d="M20,32 L20,25 C20,24.4477153 19.5522847,24 19,24 L12,24 C11.4477153,24 11,24.4477153 11,25 L11,32 L4.01489258,32 C3.46260783,32 3.01489258,31.5522847 3.01489258,31 L3.01489258,17.8257724 L15.7523717,5 L29,17.8257724 L29,31 C29,31.5522847 28.5522847,32 28,32 L20,32 Z M11,13 L11,16 L14,16 L14,13 L11,13 Z M17,13 L17,16 L20,16 L20,13 L17,13 Z M11,19 L11,22 L14,22 L14,19 L11,19 Z M17,19 L17,22 L20,22 L20,19 L17,19 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M2.17773438,16.7102085 C1.77417504,17.0872474 1.14137517,17.0657483 0.764336298,16.662189 C0.387297426,16.2586296 0.408796507,15.6258298 0.812355838,15.2487909 L15.8646545,0.356066619 L31.1962891,15.2961467 C31.5924918,15.6809088 31.6017662,16.3140058 31.2170041,16.7102085 C30.832242,17.1064112 30.199145,17.1156856 29.8029423,16.7309235 L15.8379822,3.11805447 L2.17773438,16.7102085 Z" id="Path-9" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

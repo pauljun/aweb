@@ -1,0 +1,135 @@
+.menu-tab {
+  // height: 100%;
+  & > .ant-tabs-content {
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    margin-left: 0 !important;
+    & > .ant-tabs-tabpane {
+      height: 100%;
+      display: none;
+      &.ant-tabs-tabpane-active {
+        display: block;
+      }
+    }
+  }
+  &.hide-menu-tab > .ant-tabs-bar > .ant-tabs-nav-container {
+    // opacity: 0;
+    // visibility: hidden;
+    & > .ant-tabs-nav-wrap > .ant-tabs-nav-scroll > .ant-tabs-nav {
+      .ant-tabs-tab:first-child {
+        cursor: auto;
+        .anticon-close {
+          display: none;
+        }
+      }
+    }
+  }
+  & > .ant-tabs-bar {
+    margin: 0;
+    border: none;
+    padding-left: 0;
+    position: absolute;
+    height: 50px;
+    left: 296px;
+    top: 0;
+    width: calc(100% - 296px - 410px);
+    .ant-tabs-nav-container {
+      height: 100%;
+      font-size: 12px;
+      margin-bottom: 0;
+      // opacity: 1;
+      // visibility: inherit;
+      transition: all 0.3s;
+      user-select: none;
+      & > .ant-tabs-tab-prev,
+      & > .ant-tabs-tab-next {
+        height: 32px;
+        margin-top: 18px;
+      }
+      .ant-tabs-nav-wrap {
+        padding: 0;
+        margin-top: 18px;
+      }
+      .ant-tabs-tab {
+        width: 140px;
+        height: 32px;
+        background: transparent;
+        border: none;
+        line-height: 28px;
+
+        text-align: left;
+        position: relative;
+        border-radius: 3px 3px 0 0;
+        padding: 0 16px;
+        padding-left: 4px;
+        margin-right: 0;
+        transition: color 0.3s;
+        margin: 0 20px;
+        &:first-child {
+          margin-left: 30px;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          left: -20px;
+          top: 0;
+          transform: skewX(-20deg);
+          width: 100%;
+          height: 100%;
+          border-top-left-radius: 4px;
+          z-index: 1;
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          right: -20px;
+          top: 0;
+          transform: skewX(20deg);
+          width: 100%;
+          height: 100%;
+          border-top-right-radius: 4px;
+          z-index: 2;
+        }
+        & > div {
+          position: relative;
+          z-index: 3;
+          opacity: 0.6;
+          span {
+            display: inline-block;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            .anticon {
+              font-size: 18px;
+              position: relative;
+              top: 2px;
+            }
+          }
+        }
+
+        .anticon-close {
+          font-size: 12px;
+          width: 24px;
+          height: 14px;
+          position: absolute;
+          margin: 0;
+          right: -30px;
+          height: 32px;
+          padding-top: 9px;
+        }
+        &.ant-tabs-tab-active {
+          &:before {
+            z-index: 2;
+          }
+          &:after {
+            z-index: 2;
+          }
+          > div {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

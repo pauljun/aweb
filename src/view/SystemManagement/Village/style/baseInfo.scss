@@ -1,0 +1,83 @@
+@import 'src/assets/css/base.scss';
+
+.village-Edit-Form{
+  &>div{
+    &>i{
+      width: 120px;
+      line-height: 2em;
+      display: inline-block;
+      text-align: right;
+      color:$c-999;
+      font-size: 12px;
+      font-style: normal;
+      margin-right: 10px;
+    }
+    &>span{
+      color:$c-333;
+      font-size: 12px;
+      text-align: left;
+    }
+    .villageImg{
+      max-width: 120px;
+      max-height: 90px;
+      display: inline-block;
+      vertical-align: top;
+      overflow: hidden;
+      padding-top: 6px;
+      img{
+        width: 100%;
+        display: block;
+        border: 1px solid $all-bdcolor;
+        border-radius: 3px;
+      }
+    }
+  }
+  .villageName,.address,.uploadForm{
+    margin-bottom: 10px;
+    label{
+      width: 120px;
+      line-height: 2em;
+      display: inline-block;
+      text-align: right;
+      color:$c-999;
+      font-size: 12px;
+      font-style: normal;
+    }
+  }
+}
+.edit-village-map{
+  .ibs-amap-wrapper {
+    width: 920px!important;
+    height: 640px!important;
+    z-index: 0;
+    float: left;
+    margin-top: 8px;
+    position: relative;
+  }
+  .map-label{
+    width: 120px;
+    float: left;
+    line-height: 2em;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    color:$c-999;
+    font-size: 12px;
+    font-style: normal;
+  }
+  .tools-draws{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+    line-height: 2em;
+    &>div{
+      display: inline-block;
+      padding: 2px 10px;
+      margin: 10px;
+      color: $c-fff;
+      border-radius: 6px;
+      background-color: $all-active-orange;
+    }
+  }
+}

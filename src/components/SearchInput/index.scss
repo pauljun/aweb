@@ -1,0 +1,45 @@
+@import 'src/assets/css/base.scss';
+.c-search {
+  color: #999999;
+  input.ant-input {
+    border-radius: 3px;
+    border: 1px solid #D8DCE3;
+    padding-left: 30px !important;
+    &:not(:disabled):hover {
+      border: 1px solid $c-main;
+    }
+  }
+  .ant-input-suffix {
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    background: url(./Search_Dark.svg);
+    i {
+      display: none;
+    }
+    button.ant-input-search-button{
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      padding: 0;
+      &:after {
+        border: none;
+      }
+    }
+  }
+  &.c-search-12 {
+    input {
+      height: 28px;
+      font-size: 12px;
+      padding: 7px 11px;
+    }
+  }
+  &.c-search-14 {
+    input {
+      height: 32px;
+      font-size: 14px;
+      padding: 8px 13px;
+    }
+  }
+}

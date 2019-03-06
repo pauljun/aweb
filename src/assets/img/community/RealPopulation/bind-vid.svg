@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>24/search_icon/5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="24/search_icon/5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Combined-Shape" fill="#FFFFFF" cx="12" cy="12" r="12"></circle>
+            <path d="M10.3,14.9 L9.6,14.9 C7.99837423,14.9 6.7,13.6016258 6.7,12 C6.7,10.3983742 7.99837423,9.1 9.6,9.1 L10.3,9.1 L10.3,7.7 L9.6,7.7 C7.22517558,7.7 5.3,9.62517558 5.3,12 C5.3,14.3748244 7.22517558,16.3 9.6,16.3 L10.3,16.3 L10.3,14.9 Z M13.7,14.9 L13.7,16.3 L14.4,16.3 C16.7748244,16.3 18.7,14.3748244 18.7,12 C18.7,9.62517558 16.7748244,7.7 14.4,7.7 L13.7,7.7 L13.7,9.1 L14.4,9.1 C16.0016258,9.1 17.3,10.3983742 17.3,12 C17.3,13.6016258 16.0016258,14.9 14.4,14.9 L13.7,14.9 Z" id="Combined-Shape" stroke="#44aaff" fill="#44aaff"></path>
+            <rect id="Rectangle-54" fill="#44aaff" x="9.6" y="11" width="4.8" height="2" rx="1"></rect>
+        </g>
+    </g>
+</svg>

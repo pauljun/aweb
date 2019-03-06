@@ -1,0 +1,36 @@
+.alarm-line-real{
+  position: absolute;
+  left: 20%;
+  bottom: -15px;
+    .alarm-line-word-real{
+    display:flex;
+    font-size: 12px;
+    color:#333333;
+    align-items: center;
+    padding-top: 1px;
+    div:nth-child(1){
+      width:20px;
+      height: 4px;
+      background: #8899BB;
+    }
+    .alarm-get-pic{
+     span{
+       display: inline-block;
+       padding: 0;
+     } 
+     .second-span{
+       width:50px;
+     }
+    }
+  }
+  .one{
+    div:nth-child(1){
+      background: #A3B8DC;
+    }
+  }
+  .two{
+    div:nth-child(1){
+      background: #FFAA00;
+    }
+  }
+  }

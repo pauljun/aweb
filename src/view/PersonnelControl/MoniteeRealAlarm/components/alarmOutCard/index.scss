@@ -1,0 +1,160 @@
+@import '../../../../../assets/css/base.scss';
+
+.alarm-out-card {
+	width: 188px;
+	height: 330px;
+	margin-left: 24px;
+	margin-bottom: 24px;
+	cursor: pointer;
+	position: relative;
+	padding: 12px;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	transition: .3s;
+	&:hover {
+		border: 1px solid $all-active-orange;
+	}
+	.alarm-card-image {
+		height: 200px;
+		width: 164px;
+		margin: 0 auto;
+		border-radius: 4px;
+		border: 1px solid  #B5BBC7;
+		padding: 4px;
+		border-radius: 3px;
+		// overflow: hidden;
+		.alarm-card-image-box {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			border-radius: 3px;
+			.watermask {
+				position: absolute;
+				top: 90px;
+				left: 40px;
+				display: block;
+				color: rgba(255, 255, 255, 0.2);
+				text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+				font-size: 8px;
+				transform: rotate(45deg);
+				z-index: 1;
+			}
+			img {
+				display: block;
+				border-radius: 3px;
+				height: 100%;
+				width: auto;
+				margin: 0 auto;
+			}
+		}
+	}
+	.alarm-peo-mes {
+		width: 100%;
+		height: auto;
+		padding: 6px 0;
+		.alarm-progress {
+			display: flex;
+			align-items: center;
+			margin-bottom: 6px;
+			.peo-mes-span {
+				margin-left: 4px;
+				font-family: PingFang-SC-Regular;
+				font-size: 14px;
+				color: #333333;
+				.peo-mes-value{
+					color: $all-active-orange;
+				}
+			}
+			.another{
+				font-size: 12px;
+			}
+		}
+		.peo-mes-text {
+			display: flex;
+			align-items: center;
+			margin-bottom: 6px;
+			.peo-mes-img {
+				opacity: 0.6;
+			}
+			.peo-mes-span {
+				margin-left: 4px;
+				font-family: PingFang-SC-Regular;
+				font-size: 14px;
+				color: #333333;
+			}
+			.another{
+				font-size: 12px;
+			}
+		}
+		.alarm-Handle {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: absolute;
+			bottom: 10px;
+			right: 3px;
+			.handle {
+        // width: 60px;
+        width: 75px;
+				height: 24px;
+				border: 1px solid #ccc;
+				border-radius: 3px;
+				text-align: center;
+				font-size: 12px;
+				line-height: 22px;
+				font-family: PingFang-SC-Regular;
+				cursor: pointer;
+				.anticon {
+					font-size: 16px;
+					vertical-align: -3px;
+					color: #8899bb;
+					margin-right: 2px;
+				}
+			}
+			.handle-yes {
+				margin-right: 10px;
+				&:hover {
+					color: #fff;
+					background-image: linear-gradient(-180deg, #ffbb22 0%, #ffaa00 100%);
+					border-color: transparent;
+					.anticon {
+						color: #fff;
+					}
+				}
+			}
+			.handle-no {
+				margin-right: 10px;
+				&:hover {
+					color: #fff;
+					background-image: linear-gradient(-180deg, #25dc9b 0%, #0fc484 95%);
+					border-color: transparent;
+					.anticon {
+						color: #fff;
+					}
+				}
+			}
+		}
+		.alam-rotate {
+			position: absolute;
+			bottom: 4px;
+			right: -16px;
+			width: 140px;
+			height: 100px;
+			z-index: 2;
+			transform: rotate(-30deg);
+		}
+		.alarm-rotate-yes {
+			background: url('../../../../../assets/img/monitees/alarmHistory/Big_Yes.svg') no-repeat;
+		}
+		.alarm-rotate-no {
+			background: url('../../../../../assets/img/monitees/alarmHistory/Big_No.svg') no-repeat;
+		}
+	}
+}
+.third {
+	height: 330px;
+}
+.twice{
+height:300px;
+}
